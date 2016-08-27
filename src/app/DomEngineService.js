@@ -4,7 +4,7 @@ export class DomEngineService {
     this.$http = $http;
   }
   getCards() {
-    return this.$http.get('/data/cards.json')
+    return this.$http.get('data/cards.json')
       .then(getCardsComplete)
       .catch(getCardsFailed);
 
@@ -19,7 +19,7 @@ export class DomEngineService {
   }
 
   getSets() {
-    return this.$http.get('/data/sets.json')
+    return this.$http.get('data/sets.json')
       .then(getSetsComplete)
       .catch(getSetsFailed);
 
