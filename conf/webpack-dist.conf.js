@@ -43,7 +43,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new HtmlWebpackPlugin({
       template: conf.path.src('index.html'),
-      baseUrl: '/DomEngine',
+      baseUrl: '/DomEngine/',
       inject: true
     }),
     new webpack.optimize.UglifyJsPlugin({
