@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row" style="margin-top:2rem;">
+        <div class="col-xs-12">
+            <h2>Choose your sets</h2>
+            <label ng-repeat="set in $ctrl.sets" for="{{ set.name }}" class="form-check-inline">
+                <input type="checkbox" id="{{ set.name }}" ng-model="set.use" class="form-check-input">
+                {{ set.name }}
+            </label>
+        </div>
+        <button class="btn btn-warning pull-xs-right" ng-click="$ctrl.buildPlayset()">Build</button>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Result</h2>
+        </div>
+    </div>
+    <card-list cards="$ctrl.playSet.cards"></card-list>
+</div>

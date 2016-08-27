@@ -1,0 +1,7 @@
+<div class="card">
+    <img class="card-image" ng-src="{{ $ctrl.card.image }}" alt="{{ $ctrl.card.name }}" check-loaded>
+    <div class="card-desc" style="display:none;">
+        <h4 class="card-title">{{ $ctrl.card.name }}</h4>
+        <p class="card-text" ng-repeat="text in $ctrl.card.text track by $index">{{ text }}</p>
+    </div>
+</div>

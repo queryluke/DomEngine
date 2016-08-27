@@ -1,0 +1,38 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "_variables.scss";
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, h1, h2, h3 {
+  font-weight: 300
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 10rem; 
+  height: 15.85rem;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.card.enlarge {
+  width: 15rem;
+  height: 23.775rem;
+}
+
+.card-image{
+  width:100%;
+  height: auto;
+}

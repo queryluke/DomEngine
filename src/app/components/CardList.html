@@ -1,0 +1,7 @@
+<div class="row" style="margin-top:20px;">
+    <div class="col-xs-12">
+        <div class="flex-container">
+            <dominion-card ng-repeat="card in $ctrl.cards | filter:{show: true} track by $index" card="card"></dominion-card>
+        </div>
+    </div>
+</div>
