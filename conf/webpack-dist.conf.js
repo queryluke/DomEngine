@@ -43,6 +43,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new HtmlWebpackPlugin({
       template: conf.path.src('index.html'),
+      baseUrl: '/DomEngine',
       inject: true
     }),
     new webpack.optimize.UglifyJsPlugin({
@@ -52,12 +53,12 @@ module.exports = {
       name: 'vendor',
       path: path.join(__dirname, '../node_modules')
     }]),
-    new ExtractTextPlugin('/index-[contenthash].css')
+    new ExtractTextPlugin('index-[contenthash].css')
   ],
   postcss: () => [autoprefixer],
   output: {
     path: path.join(process.cwd(), conf.paths.dist),
-    publicPath: "/DomEngine/",
+    publicPath: '/DomEngine/',
     filename: '[name]-[hash].js'
   },
   entry: {

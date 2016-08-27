@@ -38,6 +38,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new HtmlWebpackPlugin({
       template: conf.path.src('index.html'),
+      baseUrl: '/',
       inject: true
     })
   ],
