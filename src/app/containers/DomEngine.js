@@ -9,8 +9,8 @@ class DomEngineController {
     this.config = {
       attackLimit: 2,
       reactRatio: 2,
-      lowerBound: 35,
-      upperBound: 42
+      lowerBound: 25,
+      upperBound: 49
     };
     this._ds.getSets().then(response => {
       this.sets = response;
@@ -74,6 +74,10 @@ class DomEngineController {
 
     playSet = this.getSet(useCards, config, playSet, 5);
     playSet = this.getSet(useCards, config, playSet);
+    if (playSet.cards.length < 10){
+      config.upperBound = 100;
+      playSet = this.getSet(useCards, config, playSet)
+    }
 
     return playSet;
   }
@@ -84,20 +88,25 @@ class DomEngineController {
     const bound = remaining >= 5 ? config.upperBound : config.lowerBound;
     const limit = remaining < groupLimit ? remaining : groupLimit;
     let i = 0;
+    let attempts = 0;
 
     while (i < limit) {
       const num = this.randomNumber(max);
       // console.log('rand is '+num);
       const card = useCards[num];
       // console.log('testing '+card.name);
-      // const testCard = playSet.cards.indexOf(card);
+      const testCard = playSet.cards.indexOf(card);
       // console.log('card exists? '+testCard);
       const cost = card.cost.coin ? parseInt(card.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
       // console.log('it costs '+ cost);
-      // console.log('total cost is '+playSet.totalCost + cost);
+      // console.log('total cost is '+(playSet.totalCost + cost));
       const attack = parseInt(card.types.indexOf('Attack'), 10) > -1 ? 1 : 0;
       // console.log('it\'s attack is '+attack);
-      // console.log('total attack is '+playSet.totalAttacks + attack);
+      // console.log('total attack is '+(playSet.totalAttacks + attack));
+      attempts++;
+      if (attempts > useCards.length){
+        break;
+      }
       if (playSet.cards.indexOf(card) === -1 &&
         playSet.totalAttacks + attack <= config.attackLimit &&
         playSet.totalCost + cost <= bound) {

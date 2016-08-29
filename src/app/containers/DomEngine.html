@@ -2,5 +2,10 @@
     <welcome show="{{ $ctrl.show }}"></welcome>
     <advanced-options config="$ctrl.config" show="{{ $ctrl.show }}"></advanced-options>
     <playset cards="$ctrl.playSet.cards" on-change-shown="$ctrl.onChangeShown($event)" show="{{ $ctrl.show }}"></playset>
-    <build-form sets="$ctrl.sets" on-build="$ctrl.onBuild()" on-change-shown="$ctrl.onChangeShown($event)" show="{{ $ctrl.show }}"></build-form>
+    <build-form
+            sets="$ctrl.sets"
+            on-build="$ctrl.onBuild()"
+            on-change-shown="$ctrl.onChangeShown($event)"
+            show="{{ $ctrl.show }}">
+    </build-form>
 </div>
