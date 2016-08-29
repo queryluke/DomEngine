@@ -56,13 +56,17 @@ class InventoryController {
         matches = stringMatches > 0;
       }
 
+      const filterByMatches = [];
+      for (const type in searchParams.types) {
+        if (searchParams.types[type]) {
+          filterByMatches.push(type);
+        }
+      }
       // Filter by types
-      if (matches) {
+      if (matches && filterByMatches.length > 0) {
         let typeMatches = 0;
-        for (const type in searchParams.types) {
-          if (searchParams.types[type]) {
-            typeMatches = card.types.indexOf(type) > -1 ? typeMatches + 1 : typeMatches;
-          }
+        for (const type of filterByMatches) {
+          typeMatches = card.types.indexOf(type) > -1 ? typeMatches + 1 : typeMatches;
         }
         matches = typeMatches > 0;
       }

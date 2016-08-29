@@ -12,19 +12,24 @@ import {Card} from './app/components/Card';
 import {CardList} from './app/components/CardList';
 import {Nav} from './app/components/Nav';
 import {SearchForm} from './app/components/SearchForm';
+import {Welcome} from './app/components/Welcome';
+import {BuildForm} from './app/components/BuildForm';
+import {AdvancedOptions} from './app/components/AdvancedOptions';
+import {Playset} from './app/components/Playset';
 
 // Directives
 import CheckLoaded from './app/directives/CheckLoaded';
 
 // Routing
 import 'angular-ui-router';
+import 'angular-animate';
 import routesConfig from './routes';
 
 // Styles
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router'])
+  .module('app', ['ui.router', 'ngAnimate'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('domengine', DomEngine)
@@ -33,4 +38,8 @@ angular
   .component('cardList', CardList)
   .component('dominionCard', Card)
   .component('searchForm', SearchForm)
+  .component('buildForm', BuildForm)
+  .component('advancedOptions', AdvancedOptions)
+  .component('welcome', Welcome)
+  .component('playset', Playset)
   .directive('checkLoaded', CheckLoaded);

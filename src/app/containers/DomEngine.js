@@ -8,16 +8,21 @@ class DomEngineController {
     this.sets = [];
     this.config = {
       attackLimit: 2,
-      // reactRatio: '3:1',
+      reactRatio: 2,
       lowerBound: 35,
       upperBound: 42
     };
     this._ds.getSets().then(response => {
       this.sets = response;
     });
+
+    this.cards = [];
+    this.show = 'welcome';
+    this.showPrevious = 'welcome';
   }
 
-  buildPlayset() {
+  onBuild() {
+    this.showPrevious = 'playset';
     const useSets = [];
 
     for (const set of this.sets) {
@@ -30,8 +35,9 @@ class DomEngineController {
 
     this._ds.getCards().then(response => {
       const useCards = [];
+      this.cards = response;
 
-      for (const card of response) {
+      for (const card of this.cards) {
         if (useSets.indexOf(card.set) !== -1) {
           useCards.push(card);
         }
@@ -62,7 +68,8 @@ class DomEngineController {
     let playSet = {
       cards: [],
       totalAttacks: 0,
-      totalCost: 0
+      totalCost: 0,
+      requiredCards: []
     };
 
     playSet = this.getSet(useCards, config, playSet, 5);
@@ -97,14 +104,36 @@ class DomEngineController {
         playSet.cards.push(card);
         playSet.totalAttacks += attack;
         playSet.totalCost += cost;
+        for (const rCard of card.requires) {
+          const requiredCard = this.getCard(rCard);
+          if (requiredCard) {
+            if (playSet.requiredCards.indexOf(requiredCard) === -1) {
+              playSet.requiredCards.push(requiredCard);
+            }
+          } else {
+            console.log('Cannot find required card ${rCard}');
+          }
+        }
         i++;
       }
     }
     return playSet;
   }
 
+  getCard(cardName) {
+    for (const card of this.cards) {
+      if (card.name === cardName) {
+        return card;
+      }
+    }
+  }
+
   randomNumber(max) {
     return Math.floor(Math.random() * max);
+  }
+
+  onChangeShown({show}) {
+    this.show = show === 'previous' ? this.showPrevious : show;
   }
 }
 

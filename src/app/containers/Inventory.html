@@ -1,4 +1,19 @@
+<a href="/" id="return"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
 <div class="container">
-    <search-form search-params="$ctrl.searchParams" on-search="$ctrl.search($event)"></search-form>
-    <card-list cards="$ctrl.cards"></card-list>
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>DomEngine Database</h1>
+            <p>Search the through the database of Dominion Cards</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <search-form search-params="$ctrl.searchParams" on-search="$ctrl.search($event)"></search-form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <card-list cards="$ctrl.cards"></card-list>
+        </div>
+    </div>
 </div>
