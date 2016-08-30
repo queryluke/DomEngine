@@ -1,7 +1,7 @@
 <div id="pt-main" class="pt-perspective">
     <welcome show="{{ $ctrl.show }}"></welcome>
     <advanced-options config="$ctrl.config" show="{{ $ctrl.show }}"></advanced-options>
-    <playset cards="$ctrl.playSet.cards" on-change-shown="$ctrl.onChangeShown($event)" show="{{ $ctrl.show }}"></playset>
+    <playset playset="$ctrl.playSet" on-change-shown="$ctrl.onChangeShown($event)" show="{{ $ctrl.show }}"></playset>
     <build-form
             sets="$ctrl.sets"
             on-build="$ctrl.onBuild()"

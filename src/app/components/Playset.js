@@ -12,7 +12,7 @@ export const Playset = {
   templateUrl: 'app/components/Playset.html',
   controller: PlaysetController,
   bindings: {
-    cards: '<',
+    playset: '<',
     onChangeShown: '&',
     show: '@'
   }

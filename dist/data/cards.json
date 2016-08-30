@@ -2142,7 +2142,11 @@
       "Action"
     ],
     "requires": [
-      "Prize-type"
+      "Bag of Gold",
+      "Diadem",
+      "Followers",
+      "Princess",
+      "Trusty Steed"
     ],
     "set": "Cornucopia",
     "show": true
@@ -2939,7 +2943,11 @@
       "Looter"
     ],
     "requires": [
-      "Ruins-type"
+      "Abandoned Mine",
+      "Ruined Library",
+      "Ruined Market",
+      "Ruined Village",
+      "Survivors"
     ],
     "set": "Dark Ages",
     "show": true
@@ -3018,7 +3026,11 @@
     ],
     "requires": [
       "Spoils",
-      "Ruins-type"
+      "Abandoned Mine",
+      "Ruined Library",
+      "Ruined Market",
+      "Ruined Village",
+      "Survivors"
     ],
     "set": "Dark Ages",
     "show": true
@@ -3199,7 +3211,11 @@
       "Looter"
     ],
     "requires": [
-      "Ruins-type"
+      "Abandoned Mine",
+      "Ruined Library",
+      "Ruined Market",
+      "Ruined Village",
+      "Survivors"
     ],
     "set": "Dark Ages",
     "show": true

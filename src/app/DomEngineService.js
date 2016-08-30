@@ -32,4 +32,19 @@ export class DomEngineService {
       console.log(error.data);
     }
   }
+
+  getSupplyCards() {
+    return this.$http.get('data/supplyCards.json')
+      .then(getSupplyCardsComplete)
+      .catch(getSupplyCardsFailed);
+
+    function getSupplyCardsComplete(response) {
+      return response.data;
+    }
+
+    function getSupplyCardsFailed(error) {
+      console.log('XHR Failed for getSets.');
+      console.log(error.data);
+    }
+  }
 }
