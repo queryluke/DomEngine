@@ -3,6 +3,7 @@ export class DomEngineService {
   constructor($http) {
     this.$http = $http;
   }
+
   getCards() {
     return this.$http.get('data/cards.json')
       .then(getCardsComplete)

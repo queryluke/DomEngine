@@ -1,8 +1,8 @@
 <div class="build-form">
-    <button class="btn btn-sm btn-outline-secondary" id="advancedOptionsButton" ng-click="$ctrl.handleShowAdvancedOptions()" disabled>
+    <a ng-href="advanced-options" class="btn btn-sm btn-outline-secondary">
         <i class="fa fa-cogs" aria-hidden="true"></i>
         <span class="sr-only">Advanced Options</span>
-    </button>
+    </a>
     <h2>Expansions</h2>
     <div class="row set-seletction-row">
         <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="set in $ctrl.sets">

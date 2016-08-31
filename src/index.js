@@ -23,13 +23,14 @@ import CheckLoaded from './app/directives/CheckLoaded';
 // Routing
 import 'angular-ui-router';
 import 'angular-animate';
+import 'ngstorage'
 import routesConfig from './routes';
 
 // Styles
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router', 'ngAnimate'])
+  .module('app', ['ui.router', 'ngAnimate', 'ngStorage'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('domengine', DomEngine)
@@ -42,4 +43,10 @@ angular
   .component('advancedOptions', AdvancedOptions)
   .component('welcome', Welcome)
   .component('playset', Playset)
-  .directive('checkLoaded', CheckLoaded);
+  .directive('checkLoaded', CheckLoaded)
+  .run( [ '$rootScope', function ($rootScope) {
+    $rootScope.$on('$stateChangeSuccess', function(event, to, toParams, from, fromParams) {
+      $rootScope.$state = to.name;
+      $rootScope.$previousState = from.name;
+    });
+  }]);

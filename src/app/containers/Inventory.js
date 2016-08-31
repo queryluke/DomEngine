@@ -15,6 +15,7 @@ class InventoryController {
       this.searchParams.types = this.setTypes(response);
       this.cards = response;
     });
+
   }
 
   setTypes(cards) {

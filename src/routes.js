@@ -6,12 +6,17 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
-    .state('domengine', {
+    .state('welcome', {
       url: '/',
-      template: '<domengine></domengine>'
+      template: '<welcome></welcome>'
     })
     .state('inventory', {
       url: '/inventory',
       template: '<inventory></inventory>'
+    })
+    .state('advancedOptions', {
+      url: '/advanced-options',
+      template: '<advanced-options></advanced-options>'
     });
+
 }

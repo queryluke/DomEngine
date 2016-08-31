@@ -1,7 +1,8 @@
 class DomEngineController {
   /** @ngInject */
-  constructor(DomEngineService) {
+  constructor(DomEngineService, $localStorage) {
     this._ds = DomEngineService;
+    this.$storage = $localStorage;
   }
 
   $onInit() {
@@ -12,6 +13,7 @@ class DomEngineController {
       lowerBound: 25,
       upperBound: 42
     };
+    this.$storage.domengineConfig = this.config;
     this._ds.getSets().then(response => {
       this.sets = response;
     });
@@ -48,10 +50,10 @@ class DomEngineController {
         }
       }
 
-      this.playSet = this.getPlayset(useCards, this.config);
+      this.$storage.playSet = this.getPlayset(useCards, this.config);
 
       // Sort the cards
-      this.playSet.cards.sort((a, b) => {
+      this.$storage.playSet.cards.sort((a, b) => {
         const aCost = a.cost.coin ? parseInt(a.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
         const bCost = b.cost.coin ? parseInt(b.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
 
@@ -64,7 +66,7 @@ class DomEngineController {
         return 0;
       });
 
-      console.log(this.playSet);
+      console.log(this.$storage.playSet);
     });
   }
 
