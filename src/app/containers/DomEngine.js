@@ -1,5 +1,3 @@
-import expansions from '../constants/expansions';
-
 class DomEngineController {
   /** @ngInject */
   constructor(DomEngineService, $localStorage, $state) {
@@ -13,9 +11,13 @@ class DomEngineController {
       attackLimit: 2,
       reactRatio: 2,
       lowerBound: 25,
-      upperBound: 42,
-      expansions
+      upperBound: 42
     };
+
+    this._ds.getSets().then(response => {
+      this.baseConfig.expansions = response;
+    });
+
 
     if (this.$storage.config.length === 0) {
       this.$storage.config = this.baseConfig;
@@ -28,9 +30,9 @@ class DomEngineController {
   onBuild() {
     const useSets = [];
 
-    for (const set in this.$storage.config.expansions) {
-      if (this.$storage.config.expansions[set].use) {
-        useSets.push(set);
+    for (const set of this.$storage.config.expansions) {
+      if (set.use) {
+        useSets.push(set.name);
       }
     }
 
