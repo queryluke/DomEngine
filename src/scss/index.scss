@@ -202,3 +202,10 @@ ui-view.ng-enter, ui-view.ng-leave {
   -webkit-animation: moveToRight .6s ease both;
   animation: moveToRight .6s ease both;
 }
+
+#playset.ng-enter {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: rotateInNewspaper .5s both ease-out;
+  animation: rotateInNewspaper .5s both ease-out;
+}

@@ -1,9 +1,7 @@
-<div ng-class="{'pt-page-current': $ctrl.show == 'playset'}" id="playsetPage" class="pt-page pt-page-scaleDown pt-page-scaleUp pt-page-ontop">
-    <button class="btn btn-outline-secondary close-button" ng-click="$ctrl.handleChangeShown()">
-        <i class="fa fa-times" aria-hidden="true"></i>
-        <span class="sr-only">Back</span>
-    </button>
-    <div id="playset" style="margin-top: 20px;">
-        <card-list cards="$ctrl.playset.cards"></card-list>
-    </div>
+<button class="btn btn-outline-secondary close-button" ng-click="$ctrl.handleChangeShown()">
+    <i class="fa fa-times" aria-hidden="true"></i>
+    <span class="sr-only">Back</span>
+</button>
+<div id="playset" style="margin-top: 20px;">
+    <card-list cards="$ctrl.$storage.playSet.cards"></card-list>
 </div>

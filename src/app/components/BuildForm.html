@@ -4,14 +4,14 @@
         <span class="sr-only">Advanced Options</span>
     </a>
     <h2>Expansions</h2>
-    <div class="row set-seletction-row">
-        <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="set in $ctrl.sets">
+    <div class="row set-selection-row">
+        <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="(k, set) in $ctrl.expansions track by $index">
             <input type="checkbox" class="custom-control-input" id="{{ set.name }}" ng-model="set.use">
             <span class="custom-control-indicator"></span>
             <span class="custom-control-description">{{ set.name }}</span>
         </label>
     </div>
     <div class="row">
-        <button class="btn btn-primary" id="build" ng-click="$ctrl.handleBuild()">Build</button>
+        <a href="playset" class="btn btn-primary" id="build">Build</a>
     </div>
 </div>

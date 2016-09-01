@@ -16,7 +16,11 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('advancedOptions', {
       url: '/advanced-options',
-      template: '<advanced-options></advanced-options>'
+      template: '<advanced-options config="$ctrl.$storage.config"></advanced-options>'
+    })
+    .state('playset', {
+      url: '/playset',
+      template: '<playset config="$ctrl.$storage.config"></playset>'
     });
 
 }

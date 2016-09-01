@@ -30,7 +30,6 @@ export const AdvancedOptions = {
   templateUrl: 'app/components/AdvancedOptions.html',
   controller: AdvancedOptionsController,
   bindings: {
-    config: '<',
-    show: '@'
+    config: '<'
   }
 };
