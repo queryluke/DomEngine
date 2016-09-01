@@ -1,7 +1,9 @@
-<button class="btn btn-outline-secondary close-button" ng-click="$ctrl.handleChangeShown()">
-    <i class="fa fa-times" aria-hidden="true"></i>
-    <span class="sr-only">Back</span>
-</button>
-<div id="playset" style="margin-top: 20px;">
-    <card-list cards="$ctrl.$storage.playSet.cards"></card-list>
+<div class="container">
+    <a class="btn btn-outline-secondary close-button" href="{{ $root.previousState }}">
+        <i class="fa fa-times" aria-hidden="true"></i>
+        <span class="sr-only">Back</span>
+    </a>
+    <div id="playset" style="margin-top: 20px;">
+        <card-list cards="$ctrl.playset.cards"></card-list>
+    </div>
 </div>

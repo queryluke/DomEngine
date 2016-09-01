@@ -20,7 +20,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('playset', {
       url: '/playset',
-      template: '<playset config="$ctrl.$storage.config"></playset>'
+      template: '<playset playset="$ctrl.$storage.playset"></playset>'
     });
 
 }
