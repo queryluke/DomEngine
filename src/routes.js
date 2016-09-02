@@ -22,5 +22,4 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       url: '/playset',
       template: '<playset playset="$ctrl.$storage.playset" reset-options="$ctrl.resetOptions()"></playset>'
     });
-
 }

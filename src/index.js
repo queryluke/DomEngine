@@ -23,7 +23,7 @@ import CheckLoaded from './app/directives/CheckLoaded';
 // Routing
 import 'angular-ui-router';
 import 'angular-animate';
-import 'ngstorage'
+import 'ngstorage';
 import routesConfig from './routes';
 
 // Styles
@@ -44,9 +44,9 @@ angular
   .component('welcome', Welcome)
   .component('playset', Playset)
   .directive('checkLoaded', CheckLoaded)
-  .run( [ '$rootScope', function ($rootScope) {
-    $rootScope.$on('$stateChangeSuccess', function(event, to, toParams, from, fromParams) {
+  .run($rootScope => {
+    $rootScope.$on('$stateChangeSuccess', (event, to, toParams, from) => {
       $rootScope.$state = to.name;
       $rootScope.$previousState = from.name;
     });
-  }]);
+  });

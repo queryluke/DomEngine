@@ -28,10 +28,9 @@ class DomEngineController {
       this.cardTypes = this.getTypes(this.inventory);
     });
 
-    if (angular.isUndefined(this.$storage.config)) {
+    if (this.$storage.config.length === 0) {
       this.$storage.config = this.baseConfig;
     }
-
   }
 
   getTypes(cards) {
@@ -193,7 +192,7 @@ class DomEngineController {
 
   resetOptions() {
     console.log('resetting');
-    this.$storage.config = $this.baseConfig;
+    this.$storage.config = this.baseConfig;
   }
 }
 

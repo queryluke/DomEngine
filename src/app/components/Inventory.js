@@ -48,11 +48,11 @@ class InventoryController {
     // Filter by types
     const filterByTypes = [];
     for (const type in searchParams.types) {
-     if (searchParams.types[type]) {
-       filterByTypes.push(type);
-     }
+      if (searchParams.types[type]) {
+        filterByTypes.push(type);
+      }
     }
-    if(filterByTypes.length > 0) {
+    if (filterByTypes.length > 0) {
       results = results.filter(card => {
         let match = 0;
         for (const type of filterByTypes) {
@@ -65,8 +65,8 @@ class InventoryController {
     // Filter by expansions
     const filterByExpansions = [];
     for (const expac of searchParams.expansions) {
-      if(expac.use) {
-        filterByExpansions.push(expac.name)
+      if (expac.use) {
+        filterByExpansions.push(expac.name);
       }
     }
     if (filterByExpansions.length > 0) {
