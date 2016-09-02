@@ -10,21 +10,42 @@ class DomEngineController {
     this.baseConfig = {
       attackLimit: 2,
       reactRatio: 2,
-      lowerBound: 25,
-      upperBound: 42
+      lowerBound: 21,
+      upperBound: 42,
+      expansions: {}
     };
+    this.supplyCards = [];
+    this.expansions = [];
+    this.cardTypes = {};
+    this.inventory = [];
 
-    this._ds.getSets().then(response => {
-      this.baseConfig.expansions = response;
+    this._ds.bootstrapDomEngine().then(response => {
+      this.baseConfig.expansions = response[0];
+      this.expansions = response[0];
+      this.cards = response[1];
+      this.supplyCards = response[2];
+      this.inventory = response[1].concat(response[2]);
+      this.cardTypes = this.getTypes(this.inventory);
     });
 
-
-    if (this.$storage.config.length === 0) {
+    if (angular.isUndefined(this.$storage.config)) {
       this.$storage.config = this.baseConfig;
     }
 
-    this.cards = [];
-    this.allSupplyCards = [];
+  }
+
+  getTypes(cards) {
+    const types = {};
+
+    for (const card of cards) {
+      for (const type of card.types) {
+        if (!(type in types)) {
+          types[type] = false;
+        }
+      }
+    }
+
+    return types;
   }
 
   onBuild() {
@@ -38,40 +59,33 @@ class DomEngineController {
 
     console.log(useSets);
 
-    this._ds.getCards().then(response1 => {
-      this.cards = response1;
+    const useCards = [];
 
-      return this._ds.getSupplyCards();
-    }).then(response2 => {
-      const useCards = [];
-      this.allSupplyCards = response2;
-
-      for (const card of this.cards) {
-        if (useSets.indexOf(card.set) !== -1) {
-          useCards.push(card);
-        }
+    for (const card of this.cards) {
+      if (useSets.indexOf(card.set) !== -1) {
+        useCards.push(card);
       }
+    }
 
-      this.$storage.playset = this.getPlayset(useCards, this.$storage.config);
+    this.$storage.playset = this.getPlayset(useCards, this.$storage.config);
 
-      // Sort the cards
-      this.$storage.playset.cards.sort((a, b) => {
-        const aCost = a.cost.coin ? parseInt(a.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
-        const bCost = b.cost.coin ? parseInt(b.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
+    // Sort the cards
+    this.$storage.playset.cards.sort((a, b) => {
+      const aCost = a.cost.coin ? parseInt(a.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
+      const bCost = b.cost.coin ? parseInt(b.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
 
-        if (aCost < bCost) {
-          return -1;
-        }
-        if (aCost > bCost) {
-          return 1;
-        }
-        return 0;
-      });
-
-      console.log(this.$storage.playset);
-
-      this.$state.transitionTo('playset');
+      if (aCost < bCost) {
+        return -1;
+      }
+      if (aCost > bCost) {
+        return 1;
+      }
+      return 0;
     });
+
+    console.log(this.$storage.playset);
+
+    this.$state.transitionTo('playset');
   }
 
   getPlayset(useCards, config) {
@@ -134,16 +148,16 @@ class DomEngineController {
     const supply = new Set();
     const other = new Set();
 
-    supply.add(this.getCard('Copper', this.allSupplyCards));
-    supply.add(this.getCard('Silver', this.allSupplyCards));
-    supply.add(this.getCard('Gold', this.allSupplyCards));
-    supply.add(this.getCard('Estate', this.allSupplyCards));
-    supply.add(this.getCard('Duchy', this.allSupplyCards));
-    supply.add(this.getCard('Province', this.allSupplyCards));
+    supply.add(this.getCard('Copper', this.supplyCards));
+    supply.add(this.getCard('Silver', this.supplyCards));
+    supply.add(this.getCard('Gold', this.supplyCards));
+    supply.add(this.getCard('Estate', this.supplyCards));
+    supply.add(this.getCard('Duchy', this.supplyCards));
+    supply.add(this.getCard('Province', this.supplyCards));
 
     for (const card of playset.cards) {
       for (const rCard of card.requires) {
-        const requiredCard = this.getCard(rCard, this.allSupplyCards);
+        const requiredCard = this.getCard(rCard, this.supplyCards);
         if (requiredCard) {
           if (requiredCard.types.indexOf('Supply') === -1) {
             other.add(requiredCard);
@@ -178,6 +192,7 @@ class DomEngineController {
   }
 
   resetOptions() {
+    console.log('resetting');
     this.$storage.config = $this.baseConfig;
   }
 }

@@ -1,5 +1,5 @@
 <div id="pt-main" class="pt-perspective">
-    <ui-view id="{{$root.$state}}" class="{{$root.$previousState}}"></ui-view>
+    <ui-view id="{{$root.$state}}" class="{{$root.$previousState}} pt-page"></ui-view>
 </div>
 <build-form expansions="$ctrl.$storage.config.expansions" on-build="$ctrl.onBuild()"></build-form>
 

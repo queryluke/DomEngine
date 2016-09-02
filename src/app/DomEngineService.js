@@ -48,4 +48,19 @@ export class DomEngineService {
       console.log(error.data);
     }
   }
+
+  bootstrapDomEngine() {
+    return Promise.all([this.getSets(), this.getCards(), this.getSupplyCards()])
+      .then(bootstrapDomEngineComplete)
+      .catch(bootstrapDomEngineFail);
+
+    function bootstrapDomEngineComplete(response) {
+      return response;
+    }
+
+    function bootstrapDomEngineFail(error) {
+      console.log('XHR Failed for bootstrapDomEngine.');
+      console.log(error);
+    }
+  }
 }

@@ -1,4 +1,9 @@
 class SearchFormController {
+
+  $onInit() {
+    this.onSubmit();
+  }
+
   onSubmit() {
     this.onSearch({
       $event: {

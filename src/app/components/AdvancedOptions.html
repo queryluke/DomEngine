@@ -3,28 +3,53 @@
         <div class="col-xs-12 text-xs-center">
             <h1>Advanced Options</h1>
         </div>
+        <div class="col-xs-12 text-xs-center">
+            <button class="btn btn-outline-warning" ng-click="$ctrl.handleResetOptions()">Reset Options</button>
+        </div>
     </div>
     <div class="row">
 
         <!-- Attacks -->
-        <div class="form-group col-xs-12 col-sm-6 col-md-4">
+        <div class="form-group col-xs-12 col-sm-4 col-md-3">
             <label for="maxAttacks">Max Attacks
                 <span class="text-info">
                     <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.onShowHelpText('maxAttacks')"></i>
                 </span>
             </label>
-            <input class="form-control" type="number" id="maxAttacks" ng-model="$ctrl.config.attackLimit" aria-labelledby="maxAttacksHelpBlock">
+            <input class="form-control" type="number" id="maxAttacks" ng-model="$ctrl.config.attackLimit">
         </div>
 
         <!-- Attack / Reaction Ratio -->
-        <div class="form-group col-xs-12 col-sm-6 col-md-4">
+        <div class="form-group col-xs-12 col-sm-4 col-md-3">
             <label for="reactRatio">
                 Attack / Reaction Ratio
                 <span class="text-info">
                     <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.onShowHelpText('reactRatio')"></i>
                 </span>
             </label>
-            <input class="form-control" type="text" id="reactRatio" ng-model="$ctrl.config.reactRatio" aria-labelledby="reactRatioHelpBlock">
+            <input class="form-control" type="text" id="reactRatio" ng-model="$ctrl.config.reactRatio">
+        </div>
+
+        <!-- Lower Bound -->
+        <div class="form-group col-xs-12 col-sm-4 col-md-3">
+            <label for="lowerBound">
+                Lower Bound
+                <span class="text-info">
+                    <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.onShowHelpText('lowerBound')"></i>
+                </span>
+            </label>
+            <input class="form-control" type="text" id="lowerBound" ng-model="$ctrl.config.lowerBound">
+        </div>
+
+        <!-- Upper Bound -->
+        <div class="form-group col-xs-12 col-sm-4 col-md-3">
+            <label for="upperBound">
+                Upper Bound
+                <span class="text-info">
+                    <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.onShowHelpText('upperBound')"></i>
+                </span>
+            </label>
+            <input class="form-control" type="text" id="upperBound" ng-model="$ctrl.config.upperBound">
         </div>
     </div>
 </div>

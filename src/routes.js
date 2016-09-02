@@ -12,7 +12,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('inventory', {
       url: '/inventory',
-      template: '<inventory></inventory>'
+      template: '<inventory expansions="$ctrl.expansions" inventory="$ctrl.inventory" card-types="$ctrl.cardTypes"></inventory>'
     })
     .state('advancedOptions', {
       url: '/advanced-options',
@@ -20,7 +20,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('playset', {
       url: '/playset',
-      template: '<playset playset="$ctrl.$storage.playset"></playset>'
+      template: '<playset playset="$ctrl.$storage.playset" reset-options="$ctrl.resetOptions()"></playset>'
     });
 
 }

@@ -15,6 +15,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -31,6 +37,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -49,6 +61,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -66,6 +84,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -83,6 +107,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -100,6 +130,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -116,6 +152,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -133,6 +175,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -150,6 +198,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -166,6 +220,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -184,6 +244,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -200,6 +266,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 3,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -216,6 +288,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -232,6 +310,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -251,6 +335,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -268,6 +358,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -284,6 +380,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -302,6 +404,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 4,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -320,6 +428,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 2,
+      "coin": 2,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -337,6 +451,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 2,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -353,6 +473,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -372,6 +498,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -388,6 +520,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -408,6 +546,12 @@
       "Curse"
     ],
     "set": "Base",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -424,6 +568,12 @@
     ],
     "requires": [],
     "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -441,6 +591,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -458,6 +614,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -477,6 +639,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -496,6 +664,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -513,6 +687,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -530,6 +710,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -546,6 +732,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -564,6 +756,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -582,6 +780,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -599,6 +803,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 4,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -617,6 +827,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -634,6 +850,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -650,6 +872,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -670,6 +898,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -688,6 +922,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -705,6 +945,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -721,6 +967,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -739,6 +991,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 1,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -756,6 +1014,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -776,6 +1040,12 @@
       "Curse"
     ],
     "set": "Intrigue",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -792,6 +1062,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -811,6 +1087,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -829,6 +1111,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -847,6 +1135,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -865,6 +1159,12 @@
     ],
     "requires": [],
     "set": "Intrigue",
+    "adds": {
+      "draw": 3,
+      "action": 3,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -885,6 +1185,12 @@
       "Curse"
     ],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -904,6 +1210,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -924,6 +1236,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -942,6 +1260,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -960,6 +1284,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -977,6 +1307,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -998,6 +1334,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 3,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1015,6 +1357,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1031,6 +1379,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1049,6 +1403,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 3,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1068,6 +1428,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 2,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1086,6 +1452,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1104,6 +1476,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1121,6 +1499,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1138,6 +1522,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1155,6 +1545,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1174,6 +1570,12 @@
       "Curse"
     ],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1190,6 +1592,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1208,6 +1616,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1224,6 +1638,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1242,6 +1662,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1260,6 +1686,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1277,6 +1709,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1295,6 +1733,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 5,
+      "action": 5,
+      "coin": 0,
+      "buy": 5
+    },
     "show": true
   },
   {
@@ -1314,6 +1758,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1333,6 +1783,12 @@
     ],
     "requires": [],
     "set": "Seaside",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1351,6 +1807,12 @@
     ],
     "requires": [],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1370,6 +1832,12 @@
     ],
     "requires": [],
     "set": "Alchemy",
+    "adds": {
+      "draw": 3,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1393,6 +1861,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1411,6 +1885,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1432,6 +1912,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1453,6 +1939,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1473,6 +1965,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1494,6 +1992,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 2,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1517,6 +2021,12 @@
       "Curse"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1536,6 +2046,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1555,6 +2071,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1574,6 +2096,12 @@
       "Potion"
     ],
     "set": "Alchemy",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1591,6 +2119,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1610,6 +2144,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1629,6 +2169,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1646,6 +2192,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1663,6 +2215,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1680,6 +2238,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1698,6 +2262,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1716,6 +2286,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1734,6 +2310,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1752,6 +2334,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1768,6 +2356,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1786,6 +2380,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1806,6 +2406,12 @@
       "Curse"
     ],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1824,6 +2430,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1842,6 +2454,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1859,6 +2477,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1876,6 +2500,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1896,6 +2526,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1916,6 +2552,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 2,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -1934,6 +2576,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1950,6 +2598,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1966,6 +2620,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1982,6 +2642,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -1998,6 +2664,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2017,6 +2689,12 @@
     ],
     "requires": [],
     "set": "Prosperity",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2036,6 +2714,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2056,6 +2740,12 @@
       "Curse"
     ],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2073,6 +2763,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 3,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2090,6 +2786,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2110,6 +2812,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 1,
+      "action": 0,
+      "coin": 3,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2126,6 +2834,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2149,6 +2863,12 @@
       "Trusty Steed"
     ],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2170,6 +2890,12 @@
       "Curse"
     ],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 2,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2186,6 +2912,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2203,6 +2935,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2221,6 +2959,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2241,6 +2985,12 @@
       "Curse"
     ],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2255,6 +3005,12 @@
     ],
     "requires": [],
     "set": "Cornucopia",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2271,6 +3027,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2289,6 +3051,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2307,6 +3075,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2323,6 +3097,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2342,6 +3122,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2360,6 +3146,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2378,6 +3170,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2396,6 +3194,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2415,6 +3219,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2433,6 +3243,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2451,6 +3267,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2467,6 +3289,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2483,6 +3311,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 2,
+      "buy": 2
+    },
     "show": true
   },
   {
@@ -2501,6 +3335,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2518,6 +3358,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2536,6 +3382,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2555,6 +3407,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 5,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2573,6 +3431,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2592,6 +3456,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2613,6 +3483,12 @@
       "Curse"
     ],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2633,6 +3509,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2651,6 +3533,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 3,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2670,6 +3558,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2686,6 +3580,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 3,
+      "action": 3,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2705,6 +3605,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2721,6 +3627,12 @@
     ],
     "requires": [],
     "set": "Hinterlands",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2738,6 +3650,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 4,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2756,6 +3674,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2774,6 +3698,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 2,
+      "coin": 1,
+      "buy": 2
+    },
     "show": true
   },
   {
@@ -2794,6 +3724,12 @@
       "Curse"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2812,6 +3748,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2832,6 +3774,12 @@
       "Madman"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2852,6 +3800,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2869,6 +3823,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2887,6 +3847,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 0,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -2909,6 +3875,12 @@
       "Mercenary"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2925,6 +3897,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2950,6 +3928,12 @@
       "Survivors"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 5,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2967,6 +3951,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -2985,6 +3975,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3007,6 +4003,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 2,
+      "action": 2,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3025,7 +4027,6 @@
       "Looter"
     ],
     "requires": [
-      "Spoils",
       "Abandoned Mine",
       "Ruined Library",
       "Ruined Market",
@@ -3033,6 +4034,12 @@
       "Survivors"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3049,6 +4056,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3068,6 +4081,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 2,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3085,6 +4104,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3103,6 +4128,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3120,6 +4151,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3140,6 +4177,12 @@
       "Spoils"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3157,6 +4200,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 3,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3174,6 +4223,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 3,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3192,6 +4247,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -3218,6 +4279,12 @@
       "Survivors"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 5,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3234,6 +4301,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3253,6 +4326,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3270,6 +4349,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3288,6 +4373,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3308,6 +4399,12 @@
       "Spoils"
     ],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3325,6 +4422,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3343,6 +4446,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 2,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3360,6 +4469,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3377,6 +4492,12 @@
     ],
     "requires": [],
     "set": "Dark Ages",
+    "adds": {
+      "draw": 4,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3395,6 +4516,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -3412,6 +4539,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3429,6 +4562,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3446,6 +4585,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3463,6 +4608,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3481,6 +4632,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 1,
+      "action": 2,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3498,6 +4655,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3517,6 +4680,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3536,6 +4705,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3552,6 +4727,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3568,6 +4749,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   },
   {
@@ -3586,6 +4773,12 @@
     ],
     "requires": [],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 1,
+      "buy": 1
+    },
     "show": true
   },
   {
@@ -3605,6 +4798,12 @@
       "Curse"
     ],
     "set": "Guilds",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
     "show": true
   }
 ]

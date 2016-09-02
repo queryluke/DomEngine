@@ -2,7 +2,6 @@ import angular from 'angular';
 
 // Containers
 import {DomEngine} from './app/containers/DomEngine';
-import {Inventory} from './app/containers/Inventory';
 
 // Services
 import {DomEngineService} from './app/DomEngineService';
@@ -10,6 +9,7 @@ import {DomEngineService} from './app/DomEngineService';
 // Components
 import {Card} from './app/components/Card';
 import {CardList} from './app/components/CardList';
+import {Inventory} from './app/components/Inventory';
 import {Nav} from './app/components/Nav';
 import {SearchForm} from './app/components/SearchForm';
 import {Welcome} from './app/components/Welcome';
