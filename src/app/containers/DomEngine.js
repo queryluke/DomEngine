@@ -7,6 +7,7 @@ class DomEngineController {
   }
 
   $onInit() {
+    this.showMenu = false;
     this.baseConfig = {
       attackLimit: 2,
       reactRatio: 2,

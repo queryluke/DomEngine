@@ -1,5 +1,6 @@
 @import "_variables.scss";
 @import "_page_transitions.scss";
+@import "_nav.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 html, body, #root {
@@ -105,7 +106,7 @@ h1, h2, h3 {
   color: $gray-dark;
 }
 
-#playset {
+#playset-wrapper {
   max-width: 940px;
   margin: 0 auto;
   overflow: auto;
@@ -144,6 +145,7 @@ h1, h2, h3 {
   perspective: 1200px;
   transform-style: preserve-3d;
   background-color: $gray-dark;
+  overflow: hidden;
 }
 
 
@@ -169,21 +171,26 @@ h1, h2, h3 {
 }
 
 
-#welcome.inventory.ng-enter {
+/*#welcome.inventory.ng-enter {
   -webkit-animation: moveFromLeft .6s ease both;
   animation: moveFromLeft .6s ease both;
 }
 #welcome.advancedOptions.ng-enter {
   -webkit-animation: moveFromTop .6s ease both;
   animation: moveFromTop .6s ease both;
-}
+}*/
 
+#welcome.ng-enter {
+  -webkit-animation: scaleUp .6s both ease;
+  animation: scaleUp .6s both ease;
+}
 #welcome.ng-leave {
   -webkit-animation: scaleDown .6s both ease;
   animation: scaleDown .6s both ease;
 }
 
 #advancedOptions.ng-enter {
+  z-index: 999;
   -webkit-animation: moveFromBottom .6s ease both;
   animation: moveFromBottom .6s ease both;
 }
@@ -203,8 +210,12 @@ h1, h2, h3 {
 }
 
 #playset.ng-enter {
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-animation: rotateInNewspaper .5s both ease-out;
-  animation: rotateInNewspaper .5s both ease-out;
+  z-index: 999;
+  -webkit-animation: moveFromTop .6s both ease;
+  animation: moveFromTop .6s both ease;
+}
+
+#playset.ng-leave {
+  -webkit-animation: moveTopTop .6s both ease;
+  animation: moveToTop .6s both ease;
 }

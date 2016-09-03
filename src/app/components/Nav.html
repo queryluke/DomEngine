@@ -1,12 +1,41 @@
-<nav class="navbar navbar-light bg-faded">
-    <a class="navbar-brand" href="/">DomEngine</a>
-    <ul class="nav navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" ng-href="inventory">Card Database</a>
+<nav class="stretchy-nav" ng-class="{'nav-open': $ctrl.showMenu}">
+    <a class="nav-trigger" ng-click="$ctrl.showMenu = !$ctrl.showMenu">
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true"></span>
+    </a>
+
+    <ul class="list-unstyled">
+        <li><a href="#" >
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-gamepad fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">Build</span></a>
+        </li>
+        <li><a ng-href="advanced-options">
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">Options</span></a>
+        </li>
+        <li><a ng-href="inventory">
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-cubes fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">Inventory</span></a>
+        </li>
+        <li><a href="#">
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-info-circle fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">About</span></a>
+        </li>
+        <li><a href="#" >
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">Github</span></a>
         </li>
     </ul>
-    <!--<form class="form-inline pull-xs-right">
-        <input class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>-->
+
+    <span aria-hidden="true" class="stretchy-nav-bg"></span>
 </nav>

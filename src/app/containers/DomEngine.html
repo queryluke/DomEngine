@@ -1,5 +1,6 @@
+<domengine-nav on-build="$ctrl.onBuild()"></domengine-nav>
 <div id="pt-main" class="pt-perspective">
     <ui-view id="{{$root.$state}}" class="{{$root.$previousState}} pt-page"></ui-view>
+    <build-form expansions="$ctrl.$storage.config.expansions" on-build="$ctrl.onBuild()"></build-form>
 </div>
-<build-form expansions="$ctrl.$storage.config.expansions" on-build="$ctrl.onBuild()"></build-form>
 

@@ -100,3 +100,9 @@
   from { }
   to { opacity: 0; -webkit-transform: scale(.8); transform: scale(.8); }
 }
+-webkit-keyframes scaleUp {
+  from { opacity: 0; -webkit-transform: scale(.8); }
+}
+@keyframes scaleUp {
+  from { opacity: 0; -webkit-transform: scale(.8); transform: scale(.8); }
+}
