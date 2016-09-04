@@ -9,8 +9,7 @@
       "coin": "0"
     },
     "types": [
-      "Curse",
-      "Supply"
+      "Curse"
     ],
     "show": true
   },
@@ -76,7 +75,7 @@
   },
   {
     "name": "Gold",
-    "image": "http://wiki.dominionstrategy.com/images/thumb/1/1c/Gold.jpg/200px-Gold.jpg",
+    "image": "http://wiki.dominionstrategy.com/images/thumb/5/50/Gold.jpg/200px-Gold.jpg",
     "text": [
       "-1 VP"
     ],

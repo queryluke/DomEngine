@@ -15,7 +15,7 @@ class PlaysetController {
     this.victory = this.filterByType(this.playset.requiredCards.supply, 'Victory');
     this.ruins = this.filterByType(this.playset.requiredCards.supply, 'Ruins');
   }
-  filterByType(cards,type) {
+  filterByType(cards, type) {
     return cards.filter(card => card.types.includes(type));
   }
 }

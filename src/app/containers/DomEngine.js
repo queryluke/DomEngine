@@ -96,7 +96,7 @@ class DomEngineController {
     this.getPlayset(useCards, this.$storage.config);
     console.log(this.playset);
 
-    if(this.errors.length) {
+    if (this.errors.length) {
       this.playset = {};
     } else {
       this.$storage.playset = this.playset;
@@ -144,8 +144,7 @@ class DomEngineController {
     while (this.playset.cards.length < 10) {
       this.getPlaysetCard(useCards, config);
       attempts += 1;
-      console.log('attempt'+attempts);
-      if (attempts == 11 && this.playset.cards.length < 10) {
+      if (attempts === 11 && this.playset.cards.length < 10) {
         this.getPlaysetCard(useCards, config, true);
       }
     }
@@ -222,12 +221,12 @@ class DomEngineController {
   }
 
   getMinimumNeededCards(cards, config) {
-    for(const req in config.adds) {
+    for (const req in config.adds) {
       if (config.adds[req].min > 0) {
-        let subset = cards.filter(card => card.adds[req] > 0);
+        const subset = cards.filter(card => card.adds[req] > 0);
 
         while (this.playset[req] < config.adds[req].min) {
-          let random = this.randomNumber(subset.length);
+          const random = this.randomNumber(subset.length);
           let neededCard = subset.splice(random, 1);
 
           if (neededCard.length === 0 || this.playset.cards.length === 10) {
@@ -244,7 +243,6 @@ class DomEngineController {
       }
     }
   }
-
 
   setRequiredCards() {
     const supply = new Set();

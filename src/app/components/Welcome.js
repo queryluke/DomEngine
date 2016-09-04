@@ -1,6 +1,4 @@
 class WelcomeController {
-  constructor() {}
-
   handleBuild() {
     console.log('build');
     this.onBuild();
