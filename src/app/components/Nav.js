@@ -1,17 +1,6 @@
 class NavController {
-  /** @ngInject */
-  constructor($localStorage) {
-    this.$storage = $localStorage;
-  }
-
   $onInit() {
-    this.$storage.useImages = false;
     this.showNav = false;
-  }
-
-  handleBuild() {
-    console.log('build');
-    this.onBuild();
   }
 }
 

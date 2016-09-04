@@ -1,4 +1,8 @@
 class PlaysetController {
+  /** @ngInject */
+  constructor($localStorage) {
+    this.$storage = $localStorage;
+  }
 
   $onInit() {
     this.setSupplyCards();

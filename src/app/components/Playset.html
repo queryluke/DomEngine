@@ -25,6 +25,12 @@
                     </ul>
                 </div>
                 <div class="well text-xs-center">
+                    <a ng-click="$ctrl.$storage.useImages = !$ctrl.$storage.useImages"
+                       class="btn btn-sm btn-info" style="position: absolute; right: 2rem;">
+                        <i class="fa fa-picture-o"></i>
+                        <span id="imageStrikeThrough" ng-if="$ctrl.$storage.useImages"></span>
+                        Card Images
+                    </a>
                     <h2>Kingdom Cards</h2>
                     <card-list cards="$ctrl.playset.cards"></card-list>
                     <h2>Supply Cards</h2>
