@@ -17,26 +17,18 @@ h1, h2, h3 {
   font-family: 'Yatra One', cursive;
 }
 
-#return {
-  position: absolute;
-  top: 17px;
-  left: 17px;
-  color: $gray-dark;
-}
-
-#return:hover, #return:focus {
-  color: $brand-primary;
-}
-
 .flex-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.card {
+.dom-card {
   width: 10rem; 
   height: 15.85rem;
+  position: relative;
+  display: block;
+  margin-bottom: 0.75rem;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -ms-transition: all .5s ease-out;
@@ -61,6 +53,7 @@ h1, h2, h3 {
   height: 350px;
   text-align: center;
 }
+
 @media(min-width: 768px){
   .welcome-tron h1 {
     font-size: 6rem;
@@ -72,28 +65,12 @@ h1, h2, h3 {
 }
 
 .build-form {
-  position: fixed;
-  left: 0; right: 0;
-  text-align: center;
-  bottom: 0px;
-  padding: 10px 0;
-  -webkit-transition: bottom .6s ease;
-  -moz-transition: bottom .6s ease;
-  -ms-transition: bottom .6s ease;
-  -o-transition: bottom .6s ease;
-  transition: bottom .6s ease;
+  margin-top: 50px;
 }
-/*.build-form.expanded {
-  bottom: 0px;
-  padding: 10px 0px;
-}*/
+
 #build {
   margin-top: 1rem;
   width: 30%;
-}
-#advancedOptionsButton {
-  position: absolute;
-  right: 10px;
 }
 
 .btn-outline-secondary {
@@ -106,36 +83,60 @@ h1, h2, h3 {
   color: $gray-dark;
 }
 
-#playset-wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  overflow: auto;
-}
-.close-button {
-  position: absolute;
-  right: 10px;
-  top: 10px;
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: $gray-light;
+  border: 1px solid darken($gray-light, 10%);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 #helpText {
   width: 100%;
+  height: 400px;
   position: absolute;
-  bottom: -401px;
   background-color: $gray-lighter;
   border-top: 1px $gray-dark solid;
-  height: 400px;
-  -webkit-transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  -ms-transition: all .6s ease;
-  -o-transition: all .6s ease;
-  transition: all .6s ease;
-  z-index: 999;
-}
-
-#helpText.show.ng-animate, #helpText.show {
   bottom: 0;
+  transform: scale(0);
 }
 
+#helpText.show {
+  -webkit-animation: miniSlideUp 0.15s ease;
+  -moz-animation: miniSlideUp 0.15s ease;
+  animation: miniSlideUp 0.15s ease;
+  transform: scale(1);
+}
+
+@-webkit-keyframes miniSlideUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(-400px);
+  }
+}
+@keyframes miniSlideUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(-400);
+  }
+}
+
+.welcome-footer {
+  position:fixed;
+  bottom: 0;
+  left:0; right: 0;
+}
 
 /*** Page Transitions **/
 .pt-perspective {
@@ -156,19 +157,32 @@ h1, h2, h3 {
   top: 0;
   left: 0;
   background-color: #fff;
-  overflow: auto;
-  //backface-visibility: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   transform: translate3d(0, 0, 0);
 }
 
+.pt-page-content {
+  max-width: 940px;
+  margin: 30px auto 0 auto;
+}
+
+
 .pt-page.ng-enter, .pt-page.ng-leave {
   opacity:1;
-  overflow: hidden;
 }
 
 .pt-page.ng-enter card-list {
   display:none;
 }
+
+/*.card-desc {
+  display: none;
+}
+
+.card-desc.show-card {
+  display: inline-block;
+}*/
 
 
 /*#welcome.inventory.ng-enter {

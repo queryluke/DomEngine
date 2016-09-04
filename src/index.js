@@ -13,7 +13,6 @@ import {Inventory} from './app/components/Inventory';
 import {Nav} from './app/components/Nav';
 import {SearchForm} from './app/components/SearchForm';
 import {Welcome} from './app/components/Welcome';
-import {BuildForm} from './app/components/BuildForm';
 import {AdvancedOptions} from './app/components/AdvancedOptions';
 import {Playset} from './app/components/Playset';
 
@@ -39,7 +38,6 @@ angular
   .component('cardList', CardList)
   .component('dominionCard', Card)
   .component('searchForm', SearchForm)
-  .component('buildForm', BuildForm)
   .component('advancedOptions', AdvancedOptions)
   .component('welcome', Welcome)
   .component('playset', Playset)

@@ -1,9 +1,40 @@
-<div class="container">
-    <a class="btn btn-outline-secondary close-button" href="{{ $root.previousState }}">
-        <i class="fa fa-times" aria-hidden="true"></i>
-        <span class="sr-only">Back</span>
-    </a>
-    <div id="playset-wrapper" style="margin-top: 20px;">
-        <card-list cards="$ctrl.playset.cards"></card-list>
+<div class="pt-page-content">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-xs-12 hidden-sm-up text-xs-center">
+                <h1>Playset</h1>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <button class="btn btn-outline-primary" ng-click="$ctrl.onBuild()"><i class="fa fa-refresh"></i> Re-build</button>
+            </div>
+            <div class="col-xs-12 hidden-xs-down col-sm-4 text-xs-center">
+                <h1>Playset</h1>
+            </div>
+            <div class="col-xs-12 col-sm-4 text-sm-right">
+                <a ng-href="advanced-options" class="btn btn-outline-secondary"><i class="fa fa-cogs"></i> Build Options</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 m-t-1">
+                <div class="alert alert-danger" ng-if="$ctrl.errors.length">
+                    <h3>Oops, something went wrong</h3>
+                    <ul>
+                        <li ng-repeat="error in $ctrl.errors track by $index">{{ error }}</li>
+                    </ul>
+                </div>
+                <div class="well text-xs-center">
+                    <h2>Kingdom Cards</h2>
+                    <card-list cards="$ctrl.playset.cards"></card-list>
+                    <h2>Supply Cards</h2>
+                    <card-list cards="$ctrl.treasure"></card-list>
+                    <card-list cards="$ctrl.victory"></card-list>
+                    <card-list cards="$ctrl.ruins"></card-list>
+                    <h2 ng-if="$ctrl.playset.requiredCards.other.length">Additional Required Cards</h2>
+                    <card-list cards="$ctrl.playset.requiredCards.other"></card-list>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

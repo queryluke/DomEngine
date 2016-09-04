@@ -1,25 +1,26 @@
-<a href="/" id="return"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1>DomEngine Database</h1>
-            <p>Search the through the database of Dominion Cards</p>
+<div class="pt-page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>DomEngine Database</h1>
+                <p>Search the through the database of Dominion Cards</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <h2 ng-if="$ctrl.results.length">{{ $ctrl.results.length }} card<span ng-if="$ctrl.results.length > 1">s</span> found</h2>
-            <h2 ng-if="!$ctrl.results.length">No results found!</h2>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 ng-if="$ctrl.results.length">{{ $ctrl.results.length }} card<span ng-if="$ctrl.results.length > 1">s</span> found</h2>
+                <h2 ng-if="!$ctrl.results.length">No results found!</h2>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <search-form search-params="$ctrl.searchParams" on-search="$ctrl.search($event)"></search-form>
+        <div class="row">
+            <div class="col-xs-12">
+                <search-form search-params="$ctrl.searchParams" on-search="$ctrl.search($event)"></search-form>
+            </div>
         </div>
-    </div>
-    <div class="row" style="margin-top: 20px;">
-        <div class="col-xs-12">
-            <card-list cards="$ctrl.results"></card-list>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-xs-12">
+                <card-list cards="$ctrl.results"></card-list>
+            </div>
         </div>
     </div>
 </div>

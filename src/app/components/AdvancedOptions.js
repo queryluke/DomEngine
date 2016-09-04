@@ -38,7 +38,6 @@ class AdvancedOptionsController {
   }
 
   handleResetOptions() {
-    console.log('reset');
     this.resetOptions();
   }
 }

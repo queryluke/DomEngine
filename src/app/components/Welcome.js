@@ -1,6 +1,17 @@
+class WelcomeController {
+  constructor() {}
+
+  handleBuild() {
+    console.log('build');
+    this.onBuild();
+  }
+}
+
 export const Welcome = {
   templateUrl: 'app/components/Welcome.html',
+  controller: WelcomeController,
   bindings: {
-    show: '@'
+    onBuild: '&',
+    expansions: '<'
   }
 };

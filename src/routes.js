@@ -8,7 +8,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
     .state('welcome', {
       url: '/',
-      template: '<welcome></welcome>'
+      template: '<welcome on-build="$ctrl.onBuild()" expansions="$ctrl.$storage.config.expansions"></welcome>'
     })
     .state('inventory', {
       url: '/inventory',
@@ -16,10 +16,10 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('advancedOptions', {
       url: '/advanced-options',
-      template: '<advanced-options config="$ctrl.$storage.config"></advanced-options>'
+      template: '<advanced-options config="$ctrl.$storage.config" reset-options="$ctrl.resetOptions()"></advanced-options>'
     })
     .state('playset', {
       url: '/playset',
-      template: '<playset playset="$ctrl.$storage.playset" reset-options="$ctrl.resetOptions()"></playset>'
+      template: '<playset playset="$ctrl.$storage.playset" on-build="$ctrl.onBuild()" errors="$ctrl.errors"></playset>'
     });
 }

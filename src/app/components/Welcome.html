@@ -1,21 +1,33 @@
-<div class="welcome-tron">
-    <h1>DomEngine</h1>
-    <p class="text">An attempt to make randomizing Dominion playsets easy</p>
-    <p class="text">
-        <small style="line-height: .5rem;">
-            All images served from the
-            <a href="http://wiki.dominionstrategy.com/index.php/Main_Page" target="blank">Dominion Strategy Wiki</a>,
-            and are available under
-            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
-                Creative Commons Attribution Non-Commercial Share Alike
-            </a>
-        </small>
-    </p>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12" style="margin-top: 20px;">
-                <a href="inventory" class="btn btn-outline-success">Card Database</a>
+<div class="pt-page-content">
+    <div class="welcome-tron">
+        <h1>DomEngine</h1>
+        <p class="text">An attempt to make randomizing Dominion playsets easy</p>
+
+        <div class="build-form">
+            <h2>Choose Your Expansions</h2>
+            <div class="row set-selection-row">
+                <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="(k, set) in $ctrl.expansions track by $index">
+                    <input type="checkbox" class="custom-control-input" id="{{ set.name }}" ng-model="set.use">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">{{ set.name }}</span>
+                </label>
+            </div>
+            <div class="row">
+                <button class="btn btn-primary" id="build" ng-click="$ctrl.handleBuild()">Build a Playset</button>
+                <p style="margin-top:10px;"><a ng-href="advanced-options"><small>Advanced Options</small></a></p>
             </div>
         </div>
+    </div>
+    <div class="welcome-footer text-xs-center">
+        <p class="text">
+            <small style="line-height: .5rem;">
+                All images served from the
+                <a href="http://wiki.dominionstrategy.com/index.php/Main_Page" target="blank">Dominion Strategy Wiki</a>,
+                and are available under
+                <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
+                    Creative Commons Attribution Non-Commercial Share Alike
+                </a>
+            </small>
+        </p>
     </div>
 </div>

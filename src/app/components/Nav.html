@@ -5,11 +5,11 @@
     </a>
 
     <ul class="list-unstyled">
-        <li><a href="#" >
+        <li><a href="playset">
             <span class="text-xs-center icon-wrapper">
                 <i class="fa fa-gamepad fa-lg" aria-hidden="true"></i>
             </span>
-            <span class="menu-text">Build</span></a>
+            <span class="menu-text">Playset</span></a>
         </li>
         <li><a ng-href="advanced-options">
             <span class="text-xs-center icon-wrapper">
@@ -34,6 +34,12 @@
                 <i class="fa fa-github fa-lg" aria-hidden="true"></i>
             </span>
             <span class="menu-text">Github</span></a>
+        </li>
+        <li><a href="#" ng-click="$ctrl.$storage.useImages = !$ctrl.$storage.useImages">
+            <span class="text-xs-center icon-wrapper">
+                <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+            </span>
+            <span class="menu-text">Use Card Images</span></a>
         </li>
     </ul>
 
