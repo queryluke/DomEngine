@@ -227,6 +227,11 @@
   -moz-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
+.stretchy-nav.nav-open ul li:nth-of-type(6) a i, .stretchy-nav.nav-open ul li:nth-of-type(6) .menu-text {
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
 
 .stretchy-nav.nav-open ul a:hover .icon-wrapper {
   opacity: 1;

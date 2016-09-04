@@ -21,5 +21,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('playset', {
       url: '/playset',
       template: '<playset playset="$ctrl.$storage.playset" on-build="$ctrl.onBuild()" errors="$ctrl.errors"></playset>'
+    })
+    .state('about', {
+      url: '/about',
+      template: '<about></about>'
     });
 }

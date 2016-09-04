@@ -16,6 +16,7 @@ import {Welcome} from './app/components/Welcome';
 import {AdvancedOptions} from './app/components/AdvancedOptions';
 import {Playset} from './app/components/Playset';
 import {ExpansionList} from './app/components/ExpansionList';
+import {About} from './app/components/About';
 
 // Directives
 import CheckLoaded from './app/directives/CheckLoaded';
@@ -43,6 +44,7 @@ angular
   .component('welcome', Welcome)
   .component('playset', Playset)
   .component('expansionList', ExpansionList)
+  .component('about', About)
   .directive('checkLoaded', CheckLoaded)
   .run($rootScope => {
     $rootScope.$on('$stateChangeSuccess', (event, to, toParams, from) => {

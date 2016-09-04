@@ -249,10 +249,10 @@ h1, h2, h3 {
 }
 .dominion-icon-select {
   padding-top: 10px;
-  margin: 0 7px;
+  margin: 0 5px;
   position: relative;
   height: 84px;
-  width: 100px;
+  width: 84px;
   display: inline-block;
   cursor: pointer;
 }
@@ -302,23 +302,6 @@ h1, h2, h3 {
 .dominion-icon-select.selected svg{
   fill: $brand-success;
 }
-/*.card-desc {
-  display: none;
-}
-
-.card-desc.show-card {
-  display: inline-block;
-}*/
-
-
-/*#welcome.inventory.ng-enter {
-  -webkit-animation: moveFromLeft .6s ease both;
-  animation: moveFromLeft .6s ease both;
-}
-#welcome.advancedOptions.ng-enter {
-  -webkit-animation: moveFromTop .6s ease both;
-  animation: moveFromTop .6s ease both;
-}*/
 
 #welcome.ng-enter {
   -webkit-animation: scaleUp .6s both ease;
@@ -356,6 +339,19 @@ h1, h2, h3 {
 }
 
 #playset.ng-leave {
-  -webkit-animation: moveTopTop .6s both ease;
+  -webkit-animation: moveToTop .6s both ease;
   animation: moveToTop .6s both ease;
+}
+
+#about.ng-enter {
+  z-index: 999;
+  -webkit-animation: moveFromLeft .6s both ease;
+  animation: moveFromLeft .6s both ease;
+}
+
+#about.ng-leave {
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-animation: rotateFall .8s both ease;
+  animation: rotateFall .8s both ease;
 }
