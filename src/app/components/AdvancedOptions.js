@@ -4,26 +4,22 @@ class AdvancedOptionsController {
     this.showHelpText = false;
     this.selectedHelp = {};
     this.helpBlocks = {
-      maxAttacks: {
-        title: 'Max Attack Cards',
-        text: 'Set the max number of Action-Attack cards.'
+      typeLimits: {
+        title: 'Limit Number of Card Types',
+        text: `For each slider, set the max number of that type you want in your playset.
+         For a 100% random playset, (without any balancing) set all values to 10`
       },
-      reactRatio: {
-        title: 'Action-Reaction Ratio',
-        text: `The number of attack cards that, if drawn, will require a Reaction card to negate attack cards. e.g.,
-        If set to 2, if 2 Action-Attack cards are drawn, 1 Reaction card will be included in the playset.`
+      maxCost: {
+        title: 'Max Playset Cost',
+        text: `The total cost of all Kingdom Cards. 39, 42, and 49 are great starting points.
+        <br><strong>Note:</strong> For Prosperity, it's recommended to use the max setting of 73.
+        <br><strong>Caveat:</strong> Occasionally, DomEngine cannot find a card below the required cost. For example, if the max
+        cost is 39, and the first 9 Kingdom Cards total 38 (there are no 1 cost cards). In this instance, the last card
+        in will be fetched without a max limit. Something that will be remedied in later versions.`
       },
-      lowerBound: {
-        title: 'Lower Bound',
-        text: `DomEngine builds a playset by running the build phase twice. During the first build phase, the total cost
-        of cards cannot exceed the lower bound. Based on the recommended playsets of the Dominion Strategy Wiki, 42 is the
-        average upper bound. So a lower bound of 1/2 that is the default.`
-      },
-      upperBound: {
-        title: 'Upper Bound',
-        text: `DomEngine builds a playset by running the build phase twice. During the second build phase, the total cost
-        of cards cannot exceed the upper bound. Based on the recommended playsets of the Dominion Strategy Wiki, 42 is the
-        average upper bound.`
+      cardAbilities: {
+        title: 'Card Abilities',
+        text: ``
       }
     };
   }
@@ -37,8 +33,16 @@ class AdvancedOptionsController {
     this.showHelpText = false;
   }
 
+  change() {
+    //this.resetOptions();
+  }
+
   handleResetOptions() {
     this.resetOptions();
+  }
+
+  handleBuild() {
+    this.onBuild();
   }
 }
 
@@ -47,6 +51,7 @@ export const AdvancedOptions = {
   controller: AdvancedOptionsController,
   bindings: {
     config: '<',
-    resetOptions: '&'
+    resetOptions: '&',
+    onBuild: '&'
   }
 };

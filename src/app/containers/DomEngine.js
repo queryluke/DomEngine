@@ -1,3 +1,5 @@
+import buildConfig from '../constants/buildConfig';
+
 class DomEngineController {
   /** @ngInject */
   constructor($localStorage, $state, DomEngineService) {
@@ -7,46 +9,17 @@ class DomEngineController {
   }
 
   $onInit() {
+    this.baseConfig = JSON.parse(JSON.stringify(buildConfig));
     this.errors = [];
-    this.baseConfig = {
-      lowerBound: 21,
-      upperBound: 42,
-      adds: {
-        action: {
-          min: 3,
-          max: 6
-        },
-        coin: {
-          min: 1,
-          max: 6
-        },
-        buy: {
-          min: 1,
-          max: 3
-        },
-        draw: {
-          min: 2,
-          max: 4
-        }
-      },
-      limits: {
-        attack: 2,
-        treasure: 1,
-        victory: 1,
-        duration: 1,
-        reaction: 1,
-        curse: 1
-      },
-      requireAttackCounter: true,
-      expansions: {}
-    };
     this.supplyCards = [];
     this.expansions = [];
     this.cardTypes = {};
     this.inventory = [];
 
+
     this._ds.bootstrapDomEngine().then(response => {
       this.baseConfig.expansions = response[0];
+      this.$storage.expansions = response[0];
       this.expansions = response[0];
       this.cards = response[1];
       this.supplyCards = response[2];
@@ -54,7 +27,7 @@ class DomEngineController {
       this.cardTypes = this.getTypes(this.inventory);
     });
 
-    if (this.$storage.config.length === 0) {
+    if (this.$storage.config === undefined) {
       this.$storage.config = this.baseConfig;
     }
   }
@@ -139,7 +112,7 @@ class DomEngineController {
       action: 0,
       draw: 0,
       coin: 0,
-      totalCost: 0
+      cost: 0
     };
 
     this.getMinimumNeededCards(useCards, config);
@@ -157,7 +130,6 @@ class DomEngineController {
 
   getPlaysetCard(useCards, config, infUpperBound = false) {
     const max = useCards.length;
-    let bound = this.playset.cards.length >= 5 ? config.upperBound : config.lowerBound;
     if (infUpperBound) {
       bound = 100;
     }
@@ -201,7 +173,7 @@ class DomEngineController {
           this.playset.coin + coins <= config.adds.coin.max &&
           this.playset.action + actions <= config.adds.action.max &&
           // Check Cost
-          this.playset.totalCost + cost <= bound) {
+          this.playset.cost + cost <= config.cost) {
           // Push card
           this.playset.cards.push(card);
           // Inc Types
@@ -217,7 +189,7 @@ class DomEngineController {
           this.playset.coin += coins;
           this.playset.action += actions;
           // Inc Cost
-          this.playset.totalCost += cost;
+          this.playset.cost += cost;
           i++;
         }
       }
@@ -294,8 +266,7 @@ class DomEngineController {
   }
 
   resetOptions() {
-    console.log('resetting');
-    this.$storage.config = this.baseConfig;
+    this.$storage.config = JSON.parse(JSON.stringify(buildConfig));
   }
 }
 

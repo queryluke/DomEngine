@@ -16,7 +16,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('advancedOptions', {
       url: '/advanced-options',
-      template: '<advanced-options config="$ctrl.$storage.config" reset-options="$ctrl.resetOptions()"></advanced-options>'
+      template: '<advanced-options config="$ctrl.$storage.config" on-build="$ctrl.onBuild()" reset-options="$ctrl.resetOptions()"></advanced-options>'
     })
     .state('playset', {
       url: '/playset',

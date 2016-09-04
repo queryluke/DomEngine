@@ -21,17 +21,18 @@ import {About} from './app/components/About';
 // Directives
 import CheckLoaded from './app/directives/CheckLoaded';
 
-// Routing
+// Other
 import 'angular-ui-router';
 import 'angular-animate';
 import 'ngstorage';
+import 'angularjs-slider';
 import routesConfig from './routes';
 
 // Styles
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router', 'ngAnimate', 'ngStorage'])
+  .module('app', ['ui.router', 'ngAnimate', 'ngStorage', 'rzModule'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('domengine', DomEngine)

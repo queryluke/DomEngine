@@ -8,13 +8,6 @@
             <div class="row">
                 <expansion-list expansions="$ctrl.expansions"></expansion-list>
             </div>
-            <!--<div class="row set-selection-row">
-                <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="(k, set) in $ctrl.expansions track by $index">
-                    <input type="checkbox" class="custom-control-input" id="{{ set.name }}" ng-model="set.use">
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">{{ set.name }}</span>
-                </label>
-            </div>-->
             <div class="row">
                 <button class="btn btn-primary" id="build" ng-click="$ctrl.handleBuild()">Build a Playset</button>
                 <p style="margin-top:10px;"><a ng-href="advanced-options"><small>Advanced Options</small></a></p>
