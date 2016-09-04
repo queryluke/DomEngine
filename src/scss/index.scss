@@ -50,7 +50,7 @@ h1, h2, h3 {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  height: 350px;
+  height: 450px;
   text-align: center;
 }
 
@@ -175,7 +175,61 @@ h1, h2, h3 {
 .pt-page.ng-enter card-list {
   display:none;
 }
+.dominion-icon-select {
+  padding-top: 10px;
+  margin: 0 7px;
+  position: relative;
+  height: 84px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
 
+.dominion-icon-select .icon-text {
+  font-size: .84rem;
+  position: absolute;
+  left:0; right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -ms-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease;
+}
+.dominion-icon-select svg{
+  padding-bottom: 14px;
+  height: 60px;
+  width: 60px;
+  fill: $gray-dark;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -ms-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+.dominion-icon-select:hover .icon-text {
+  opacity: 1;
+}
+.dominion-icon-select:hover svg {
+  -webkit-transform: scale(1.18);
+  -ms-transform: scale(1.18);
+  transform: scale(1.18);
+  fill: #000000;
+}
+
+.dominion-icon-select.selected {
+  padding-top: 9px;
+  border: 1px solid $brand-success;
+}
+.dominion-icon-select.selected .icon-text {
+  color: $brand-success;
+  opacity: 1;
+}
+.dominion-icon-select.selected svg{
+  fill: $brand-success;
+}
 /*.card-desc {
   display: none;
 }

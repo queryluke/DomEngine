@@ -5,13 +5,16 @@
 
         <div class="build-form">
             <h2>Choose Your Expansions</h2>
-            <div class="row set-selection-row">
+            <div class="row">
+                <expansion-list expansions="$ctrl.expansions"></expansion-list>
+            </div>
+            <!--<div class="row set-selection-row">
                 <label for="{{ set.name }}" class="custom-control custom-checkbox form-check-inline" ng-repeat="(k, set) in $ctrl.expansions track by $index">
                     <input type="checkbox" class="custom-control-input" id="{{ set.name }}" ng-model="set.use">
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">{{ set.name }}</span>
                 </label>
-            </div>
+            </div>-->
             <div class="row">
                 <button class="btn btn-primary" id="build" ng-click="$ctrl.handleBuild()">Build a Playset</button>
                 <p style="margin-top:10px;"><a ng-href="advanced-options"><small>Advanced Options</small></a></p>
@@ -21,12 +24,18 @@
     <div class="welcome-footer text-xs-center">
         <p class="text">
             <small style="line-height: .5rem;">
-                All images served from the
+                Images served from the
                 <a href="http://wiki.dominionstrategy.com/index.php/Main_Page" target="blank">Dominion Strategy Wiki</a>,
                 and are available under
                 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
                     Creative Commons Attribution Non-Commercial Share Alike
                 </a>
+            </small>
+            <br>
+            <small style="line-height: .5rem;">
+                <a href="http://boardgamegeek.com/filepage/73273/dominion-card-icons-vector-images">SVG Icons</a>
+                created by <a href="http://boardgamegeek.com" target="_blank">BoardGameGeek</a> user
+                <a href="http://boardgamegeek.com/user/m_knox" target="_blank">m_knox</a>.
             </small>
         </p>
     </div>

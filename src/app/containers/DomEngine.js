@@ -85,6 +85,10 @@ class DomEngineController {
 
     console.log(useSets);
 
+    if (useSets.length === 0) {
+      return;
+    }
+
     const useCards = [];
 
     for (const card of this.cards) {

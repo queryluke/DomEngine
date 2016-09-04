@@ -6,7 +6,6 @@ class NavController {
 
   $onInit() {
     this.$storage.useImages = false;
-    console.log(this.$storage.useImages);
     this.showNav = false;
   }
 
