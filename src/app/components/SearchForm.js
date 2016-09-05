@@ -1,22 +1,24 @@
 class SearchFormController {
-
-  $onInit() {
-    this.onSubmit();
+  /** @ngInject */
+  constructor($timeout) {
+    this.$timeout = $timeout;
+    this.delay = 0;
+  }
+  onSubmit() {
+    this.onSearch();
+  }
+  $onChanges(changes){
+    console.log(changes);
   }
 
-  onSubmit() {
-    this.onSearch({
-      $event: {
-        searchParams: this.searchParams
-      }
-    });
+  costSubmit(low,high) {
+    console.log(low);
   }
 }
 
 export const SearchForm = {
   bindings: {
     searchParams: '<',
-    searchTypes: '<',
     onSearch: '&'
   },
   templateUrl: 'app/components/SearchForm.html',

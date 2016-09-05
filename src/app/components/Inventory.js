@@ -5,14 +5,21 @@ class InventoryController {
       name: '',
       types: this.cardTypes,
       costL: 0,
-      costG: 100,
-      expansions: this.expansions
+      costG: 8,
+      expansions: this.expansions,
+      adds: {
+        buy: false,
+        action: false,
+        coin: false,
+        draw: false
+      }
     };
     this.results = [];
   }
 
   $onInit() {
-    this.search(this.searchParams);
+    //console.log(this.searchParams);
+    this.search();
   }
 
   $onChanges(changes) {
@@ -29,26 +36,21 @@ class InventoryController {
     }
   }
 
-  search({searchParams}) {
-    if (!searchParams) {
-      return;
-    }
-
-    this.searchParams = searchParams;
-    console.log(searchParams);
+  search() {
+    console.log('searching');
 
     let results = this.inventory;
 
     // Filter by string
-    if (searchParams.name) {
-      const REGEX = new RegExp(searchParams.name, "gi");
+    if (this.searchParams.name) {
+      const REGEX = new RegExp(this.searchParams.name, "gi");
       results = results.filter(card => REGEX.test(card.name.concat(card.text.join())) === true);
     }
 
     // Filter by types
     const filterByTypes = [];
-    for (const type in searchParams.types) {
-      if (searchParams.types[type]) {
+    for (const type in this.searchParams.types) {
+      if (this.searchParams.types[type]) {
         filterByTypes.push(type);
       }
     }
@@ -62,9 +64,28 @@ class InventoryController {
       });
     }
 
+    // Filter by adds
+    const filterByAdds = [];
+    for (const type in this.searchParams.adds) {
+      if (this.searchParams.adds[type]) {
+        filterByAdds.push(type);
+      }
+    }
+    if (filterByAdds.length > 0) {
+      results = results.filter(card => {
+        let match = 0;
+        for (const type of filterByAdds) {
+          if (card.adds) {
+            match = card.adds[type] > 0 ? match + 1 : match;
+          }
+        }
+        return match > 0;
+      });
+    }
+
     // Filter by expansions
     const filterByExpansions = [];
-    for (const expac of searchParams.expansions) {
+    for (const expac of this.searchParams.expansions) {
       if (expac.use) {
         filterByExpansions.push(expac.name);
       }
@@ -80,8 +101,8 @@ class InventoryController {
     }
 
     // Filter by cost
-    results = results.filter(card => parseInt(card.cost.coin, 10) >= searchParams.costL);
-    results = results.filter(card => parseInt(card.cost.coin, 10) <= searchParams.costG);
+    results = results.filter(card => parseInt(card.cost.coin, 10) >= this.searchParams.costL);
+    results = results.filter(card => parseInt(card.cost.coin, 10) <= this.searchParams.costG);
 
     this.results = results;
   }

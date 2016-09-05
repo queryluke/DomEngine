@@ -9,6 +9,7 @@ export const ExpansionList = {
   templateUrl: 'app/components/ExpansionList.html',
   controller: ExpansionListController,
   bindings: {
-    expansions: '<'
+    expansions: '<',
+    onClickAction: '&'
   }
 };
