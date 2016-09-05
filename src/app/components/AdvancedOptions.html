@@ -28,9 +28,11 @@
                         <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.toggleHelpText('cardTypes')"></i>
                     </span>
                 </h3>
-                <div class="help-block" ng-show="$ctrl.showHelpText === 'cardTypes'">
-                    For each slider, set the max number of that type you want in your playset.
-                    For a 100% random playset, (without any balancing) set all values to 10
+                <div class="help-block well" ng-show="$ctrl.showHelpText === 'cardTypes'">
+                    <p>
+                        For each slider, set the max number of that type you want in your playset.
+                        For a 100% random playset, (without any balancing) set all values to 10
+                    </p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="(type, value) in $ctrl.config.limits track by $index">
                     <label class="text-capitalize">{{ type }}</label>
@@ -46,12 +48,18 @@
                         <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.toggleHelpText('maxCost')"></i>
                     </span>
                 </h3>
-                <div class="help-block" ng-show="$ctrl.showHelpText === 'maxCost'">
-                    The total cost of all Kingdom Cards. 39, 42, and 49 are great starting points.
-                    <br><strong>Note:</strong> For Prosperity, it's recommended to use the max setting of 73.
-                    <br><strong>Caveat:</strong> Occasionally, DomEngine cannot find a card below the required cost. For example, if the max
-                    cost is 39, and the first 9 Kingdom Cards total 38 (there are no 1 cost cards). In this instance, the last card
-                    in will be fetched without a max limit. Something that will be remedied in later versions.
+                <div class="help-block well" ng-show="$ctrl.showHelpText === 'maxCost'">
+                    <p>
+                        The total cost of all Kingdom Cards. 39, 42, and 49 are great starting points.
+                    </p>
+                    <p>
+                        <strong>Note:</strong> For Prosperity, it's recommended to use the max setting of 73.
+                    </p>
+                    <p>
+                        <strong>Caveat:</strong> Occasionally, DomEngine cannot find a card below the required cost. For example, if the max
+                        cost is 39, and the first 9 Kingdom Cards total 38 (there are no 1 cost cards). In this instance, the last card
+                        in will be fetched without a max limit. Something that will be remedied in later versions.
+                    </p>
                 </div>
                 <div class="col-xs-12">
                     <rzslider rz-slider-model="$ctrl.config.cost" rz-slider-options="{floor: 20, ceil: 73, onChange: $ctrl.change()}"></rzslider>
@@ -66,15 +74,19 @@
                         <i class="fa fa-question-circle-o" aria-hidden="true" ng-click="$ctrl.toggleHelpText('cardAbilities')"></i>
                     </span>
                 </h3>
-                <div class="help-block" ng-show="$ctrl.showHelpText === 'cardAbilities'">
-                    Cards can add additional attacks, buys, coin, and draws to your turn. You can set the min & max value for each ability.
-                    This setting is based on the ability amount, not the card count. For example: "Festival" counts for
-                    2 coins, 2 actions, and 1 buy. Cards that potentially add abilities count for 1 (e.g. Library).
-                    <br>
-                    <strong>Note:</strong> Disable the ability check by setting both values to 0.
-                    <h4 class="text-xs-center text-warning">Warning</h4>
-                    To prevent playset build errors, it's recommended to leave the lower bound < 4, and the upper bound > 5.
-                    This feature will be improved in later releases.
+                <div class="help-block well" ng-show="$ctrl.showHelpText === 'cardAbilities'">
+                    <p>
+                        Cards can add additional attacks, buys, coin, and draws to your turn. You can set the min & max value for each ability.
+                        This setting is based on the ability amount, not the card count. For example: "Festival" counts for
+                        2 coins, 2 actions, and 1 buy. Cards that potentially add abilities count for 1 (e.g. Library).
+                    </p>
+                    <p>
+                        <strong>Note:</strong> Disable the ability check by setting both values to 0.
+                    </p>
+                    <p>
+                        <strong class="text-warning">Warning</strong>: To prevent playset build errors, it's recommended to leave the lower bound < 4, and the upper bound > 5.
+                        This feature will be improved in later releases.
+                    </p>
                 </div>
                 <div class="col-sm-12 col-md-6" ng-repeat="(type, value) in $ctrl.config.adds track by $index">
                     <label class="text-capitalize">{{ type }}</label>
