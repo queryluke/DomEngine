@@ -11,7 +11,8 @@
     "types": [
       "Curse"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Copper",
@@ -26,7 +27,8 @@
       "Treasure",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Estate",
@@ -41,7 +43,8 @@
       "Victory",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Silver",
@@ -56,7 +59,8 @@
       "Treasure",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Duchy",
@@ -71,22 +75,24 @@
       "Victory",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Gold",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/50/Gold.jpg/200px-Gold.jpg",
     "text": [
-      "-1 VP"
+      "+3 Coin"
     ],
     "cost": {
-      "coin": "0"
+      "coin": "6"
     },
     "types": [
       "Treasure",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Province",
@@ -101,7 +107,8 @@
       "Victory",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Base"
   },
   {
     "name": "Potion",
@@ -116,7 +123,8 @@
       "Treasure",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Alchemy"
   },
   {
     "name": "Colony",
@@ -131,7 +139,8 @@
       "Victory",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Prosperity"
   },
   {
     "name": "Platinum",
@@ -146,7 +155,8 @@
       "Treasure",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Prosperity"
   },
   {
   "name": "Bag of Gold",
@@ -163,7 +173,8 @@
     "Action",
     "Prize"
   ],
-  "show": true
+  "show": true,
+    "set": "Cornucopia"
   },
   {
     "name": "Diadem",
@@ -180,7 +191,8 @@
       "Treasure",
       "Prize"
     ],
-    "show": true
+    "show": true,
+    "set": "Cornucopia"
   },
   {
     "name": "Followers",
@@ -198,7 +210,8 @@
       "Attack",
       "Prize"
     ],
-    "show": true
+    "show": true,
+    "set": "Cornucopia"
   },
   {
     "name": "Princess",
@@ -215,7 +228,8 @@
       "Action",
       "Prize"
     ],
-    "show": true
+    "show": true,
+    "set": "Cornucopia"
   },
   {
     "name": "Trusty Steed",
@@ -231,7 +245,8 @@
       "Action",
       "Prize"
     ],
-    "show": true
+    "show": true,
+    "set": "Cornucopia"
   },
   {
     "name": "Hovel",
@@ -247,7 +262,8 @@
       "Shelter",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Necropolis",
@@ -263,7 +279,8 @@
       "Shelter",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Overgrown Estate",
@@ -280,7 +297,8 @@
       "Shelter",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Madman",
@@ -296,7 +314,8 @@
     "types": [
       "Action"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Mercenary",
@@ -313,7 +332,8 @@
       "Action",
       "Attack"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Spoils",
@@ -329,7 +349,8 @@
     "types": [
       "Treasure"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Abandoned Mine",
@@ -345,7 +366,8 @@
       "Ruins",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Ruined Library",
@@ -361,7 +383,8 @@
       "Ruins",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Ruined Market",
@@ -377,7 +400,8 @@
       "Ruins",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Ruined Village",
@@ -393,7 +417,8 @@
       "Ruins",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   },
   {
     "name": "Survivors",
@@ -409,7 +434,8 @@
       "Ruins",
       "Supply"
     ],
-    "show": true
+    "show": true,
+    "set": "Dark Ages"
   }
 ]
 

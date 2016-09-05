@@ -5,7 +5,7 @@ class CardController {
   }
 
   getCardCost() {
-    return this.card.cost.coin.replace('plus','*');
+    return this.card.cost.coin.replace('plus', '*');
   }
 
   getCardTypes() {
@@ -15,7 +15,7 @@ class CardController {
 
   getCardExpansion(set) {
     if (set) {
-      const expac = set.toLowerCase().replace(' ','');
+      const expac = set.toLowerCase().replace(' ', '');
       return `icons.svg#icon-${expac}`;
     }
   }

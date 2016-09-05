@@ -18,7 +18,7 @@ class InventoryController {
   }
 
   $onInit() {
-    //console.log(this.searchParams);
+    // console.log(this.searchParams);
     this.search();
   }
 
@@ -37,8 +37,6 @@ class InventoryController {
   }
 
   search() {
-    console.log('searching');
-
     let results = this.inventory;
 
     // Filter by string

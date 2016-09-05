@@ -474,7 +474,7 @@
     "requires": [],
     "set": "Base",
     "adds": {
-      "draw": 0,
+      "draw": 1,
       "action": 0,
       "coin": 0,
       "buy": 0
@@ -2170,7 +2170,7 @@
     "requires": [],
     "set": "Prosperity",
     "adds": {
-      "draw": 0,
+      "draw": 1,
       "action": 0,
       "coin": 0,
       "buy": 0
@@ -2682,7 +2682,7 @@
       "During your Buy phase, this costs 2 Coins less per Action card you have in play, but not less than 0 Coins."
     ],
     "cost": {
-      "coin": "8star"
+      "coin": "8plus"
     },
     "types": [
       "Action"
@@ -3220,7 +3220,7 @@
     "requires": [],
     "set": "Hinterlands",
     "adds": {
-      "draw": 0,
+      "draw": 1,
       "action": 0,
       "coin": 0,
       "buy": 0

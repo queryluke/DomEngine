@@ -1,6 +1,6 @@
 class ExpansionListController {
   getIcon(expac) {
-    const name = expac.name.toLowerCase().replace(' ','');
+    const name = expac.name.toLowerCase().replace(' ', '');
     return `icons.svg#icon-${name}`;
   }
 }
