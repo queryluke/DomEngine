@@ -24,6 +24,8 @@ class PlaysetController {
   }
 }
 
+PlaysetController.$inject =['$localStorage'];
+
 export const Playset = {
   templateUrl: 'app/components/Playset.html',
   controller: PlaysetController,

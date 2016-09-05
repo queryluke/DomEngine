@@ -496,6 +496,8 @@ class DomEngineController {
   }
 }
 
+DomEngineController.$inject =['$localStorage', '$state', 'DomEngineService'];
+
 export const DomEngine = {
   templateUrl: 'app/containers/DomEngine.html',
   controller: DomEngineController

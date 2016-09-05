@@ -21,6 +21,8 @@ class CardController {
   }
 }
 
+CardController.$inject =['$localStorage'];
+
 export const Card = {
   templateUrl: 'app/components/Card.html',
   controller: CardController,

@@ -1,6 +1,7 @@
 class InventoryController {
   /** @ngInject */
-  constructor() {
+  constructor($localStorage) {
+    this.$storage = $localStorage;
     this.searchParams = {
       name: '',
       types: this.cardTypes,
@@ -105,6 +106,8 @@ class InventoryController {
     this.results = results;
   }
 }
+
+InventoryController.$inject =['$localStorage'];
 
 export const Inventory = {
   templateUrl: 'app/components/Inventory.html',
