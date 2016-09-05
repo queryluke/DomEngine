@@ -298,55 +298,58 @@ h1, h2, h3 {
   fill: $brand-success;
 }
 
+.pt-page.ng-leave {
+  -webkit-animation: scaleDown .6s both ease;
+  animation: scaleDown .6s both ease;
+}
+
 #welcome.ng-enter {
   -webkit-animation: scaleUp .6s both ease;
   animation: scaleUp .6s both ease;
 }
-#welcome.ng-leave {
+/*#welcome.ng-leave {
   -webkit-animation: scaleDown .6s both ease;
   animation: scaleDown .6s both ease;
-}
+}*/
 
 #advancedOptions.ng-enter {
   z-index: 999;
   -webkit-animation: moveFromBottom .6s ease both;
   animation: moveFromBottom .6s ease both;
 }
-#advancedOptions.ng-leave {
+/*#advancedOptions.ng-leave {
   -webkit-animation: moveToBottom .6s ease both;
   animation: moveToBottom .6s ease both;
-}
+}*/
 
 #inventory.ng-enter {
   z-index: 999;
   -webkit-animation: moveFromRight .6s ease both;
   animation: moveFromRight .6s ease both;
 }
-#inventory.ng-leave {
+/*#inventory.ng-leave {
   -webkit-animation: moveToRight .6s ease both;
   animation: moveToRight .6s ease both;
-}
+}*/
 
 #playset.ng-enter {
   z-index: 999;
   -webkit-animation: moveFromTop .6s both ease;
   animation: moveFromTop .6s both ease;
 }
-
-#playset.ng-leave {
+/*#playset.ng-leave {
   -webkit-animation: moveToTop .6s both ease;
   animation: moveToTop .6s both ease;
-}
+}*/
 
 #about.ng-enter {
   z-index: 999;
   -webkit-animation: moveFromLeft .6s both ease;
   animation: moveFromLeft .6s both ease;
 }
-
-#about.ng-leave {
+/*#about.ng-leave {
   -webkit-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
   -webkit-animation: rotateFall .8s both ease;
   animation: rotateFall .8s both ease;
-}
+}*/
