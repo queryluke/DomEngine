@@ -107,7 +107,7 @@ class InventoryController {
   }
 }
 
-InventoryController.$inject =['$localStorage'];
+InventoryController.$inject = ['$localStorage'];
 
 export const Inventory = {
   templateUrl: 'app/components/Inventory.html',
