@@ -30,6 +30,7 @@ export const Playset = {
   bindings: {
     playset: '<',
     onBuild: '&',
-    errors: '<'
+    errors: '<',
+    warning: '<'
   }
 };

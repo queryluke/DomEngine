@@ -10,12 +10,12 @@ export default {
       max: 6
     },
     buy: {
-      min: 1,
-      max: 3
+      min: 2,
+      max: 6
     },
     draw: {
-      min: 2,
-      max: 4
+      min: 1,
+      max: 6
     }
   },
   limits: {

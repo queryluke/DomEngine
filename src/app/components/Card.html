@@ -6,7 +6,7 @@
             <p class="card-text" ng-repeat="text in $ctrl.card.text track by $index">{{ text }}</p>
         </div>
         <div class="card-cost-wrapper">
-            <div class="card-cost">{{ $ctrl.getCardCost() }}</div>
+            <div class="card-cost" ng-if="$ctrl.card.cost.coin">{{ $ctrl.getCardCost() }}</div>
             <div ng-if="$ctrl.card.cost.potion" class="card-icon add-cost-icon">
                 <svg>
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="icons.svg#icon-alchemy"></use>

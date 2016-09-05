@@ -13,10 +13,18 @@
         </div>
         <div class="row">
             <div class="col-xs-12 m-t-1">
+                <!-- errors -->
                 <div class="alert alert-danger" ng-if="$ctrl.errors.length">
                     <h3>Oops, something went wrong</h3>
                     <ul>
                         <li ng-repeat="error in $ctrl.errors track by $index">{{ error }}</li>
+                    </ul>
+                </div>
+                <!-- warnings -->
+                <div class="alert alert-warning" ng-if="$ctrl.warning.length">
+                    <h3>Notice</h3>
+                    <ul>
+                        <li ng-repeat="warn in $ctrl.warning track by $index">{{ warn }}</li>
                     </ul>
                 </div>
                 <div class="well text-xs-center">
