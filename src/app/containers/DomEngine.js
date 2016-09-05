@@ -436,6 +436,7 @@ class DomEngineController {
   setRequiredCards() {
     const supply = new Set();
     const other = new Set();
+    let prosperityCount = 0;
 
     supply.add(this.getCard('Copper', this.supplyCards));
     supply.add(this.getCard('Silver', this.supplyCards));
@@ -445,6 +446,9 @@ class DomEngineController {
     supply.add(this.getCard('Province', this.supplyCards));
 
     for (const card of this.playset.cards) {
+      if (card.set === 'Prosperity') {
+        prosperityCount++;
+      }
       for (const rCard of card.requires) {
         const requiredCard = this.getCard(rCard, this.supplyCards);
         if (requiredCard) {
@@ -458,6 +462,11 @@ class DomEngineController {
           this.errors.push(`Cannot find required card ${rCard.name}`);
         }
       }
+    }
+
+    if (prosperityCount > 5) {
+      supply.add(this.getCard('Colony', this.supplyCards));
+      supply.add(this.getCard('Platinum', this.supplyCards));
     }
 
     this.playset.requiredCards = {
