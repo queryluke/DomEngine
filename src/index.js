@@ -27,12 +27,13 @@ import 'angular-animate';
 import 'ngstorage';
 import 'angularjs-slider';
 import routesConfig from './routes';
+import runConfig from './run';
 
 // Styles
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router', 'ngAnimate'])
+  .module('app', ['ui.router', 'ngAnimate', 'ngStorage', 'rzModule'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('about', About)
@@ -47,9 +48,4 @@ angular
   .component('searchForm', SearchForm)
   .component('welcome', Welcome)
   .directive('checkLoaded', CheckLoaded)
-  .run($rootScope => {
-    $rootScope.$on('$stateChangeSuccess', (event, to, toParams, from) => {
-      $rootScope.$state = to.name;
-      $rootScope.$previousState = from.name;
-    });
-  });
+  .run(runConfig);
