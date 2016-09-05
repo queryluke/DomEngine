@@ -32,7 +32,7 @@ import routesConfig from './routes';
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router', 'ngAnimate', 'ngStorage', 'rzModule'])
+  .module('app', ['ui.router', 'ngAnimate'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('about', About)
