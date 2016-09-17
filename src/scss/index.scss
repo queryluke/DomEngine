@@ -1,9 +1,11 @@
-@import "_variables.scss";
-@import "_page_transitions.scss";
-@import "_nav.scss";
+@import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/angularjs-slider/dist/rzslider.css";
-@import "_slider_override.scss";
+@import "page_transitions";
+@import "nav";
+@import "domcard";
+@import "dom_icons";
+@import "slider_override.scss";
 
 html, body, #root {
   margin: 0;
@@ -25,75 +27,6 @@ h1, h2, h3 {
   justify-content: space-around;
 }
 
-.dom-card {
-  width: 10rem; 
-  height: 15.85rem;
-  position: relative;
-  display: block;
-  margin-bottom: 0.75rem;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -ms-transition: all .5s ease-out;
-  -o-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-  overflow: hidden;
-}
-
-.card-desc {
-  height: 100%;
-  width: 100%;
-  border: 1px solid $gray-dark;
-  border-radius: .2rem;
-}
-.card-text-wrapper {
-  padding: .3rem;
-  height: 12rem;
-  overflow-y: auto;
-}
-.card-text {
-  font-size: .65rem;
-  margin-bottom: .1rem;
-}
-.card-cost-wrapper {
-  position: absolute;
-  left: .3rem;
-  bottom: .3rem;
-}
-.card-cost-wrapper div {
-  display: inline-block;
-  height: 1.2rem;
-  width: 1.2rem;
-}
-.card-cost {
-  font-size: .7rem;
-  border-radius: 50%;
-  border: 1px solid $gray-dark;
-}
-
-.add-cost-icon {
-  position: absolute;
-  bottom: 0;
-  left: 1.1rem;
-}
-.add-cost-icon svg {
-  height: 1.2rem;
-  width: 1.2rem;
-  fill: $gray-dark;
-}
-.card-expansion-icon {
-  position: absolute;
-  bottom: 0rem;
-  right: .15rem;
-}
-.card-expansion-icon svg {
-  height: .9rem;
-  width: .9rem;
-  fill: $gray-dark;
-}
-
-.card-types {
-  font-size: .6em;
-}
 
 #imageStrikeThrough {
   content: '';
@@ -109,16 +42,6 @@ h1, h2, h3 {
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-}
-
-.card.enlarge {
-  width: 15rem;
-  height: 23.775rem;
-}
-
-.card-image{
-  width:100%;
-  height: auto;
 }
 
 .section-divider {
@@ -152,18 +75,16 @@ h1, h2, h3 {
   transition: all .5s ease;
 }
 
+/*
+ * WELCOME
+ */
 .welcome-tron {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   height: 450px;
   text-align: center;
-}
-
-@media(min-width: 768px){
-  .welcome-tron h1 {
-    font-size: 6rem;
-  }
+  padding: 0 20px;
 }
 .welcome-tron .text {
   max-width: 468px;
@@ -175,8 +96,21 @@ h1, h2, h3 {
 }
 
 #build {
-  margin-top: 1rem;
-  width: 30%;
+  width: 100%;
+}
+@include media-breakpoint-up(sm) {
+  .welcome-tron h1 {
+    font-size: 6rem;
+  }
+  #build {
+    width: 50%;
+  }
+}
+@include media-breakpoint-up(md) {
+  #build {
+    margin-top: 1rem;
+    width: 30%;
+  }
 }
 
 .btn-outline-secondary {
@@ -204,152 +138,3 @@ h1, h2, h3 {
   bottom: 0;
   left:0; right: 0;
 }
-
-/*** Page Transitions **/
-.pt-perspective {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  perspective: 1200px;
-  transform-style: preserve-3d;
-  background-color: $gray-dark;
-  overflow: hidden;
-}
-
-
-.pt-page {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  transform: translate3d(0, 0, 0);
-}
-
-.pt-page-content {
-  max-width: 940px;
-  margin: 30px auto 0 auto;
-}
-
-
-.pt-page.ng-enter, .pt-page.ng-leave {
-  opacity:1;
-}
-
-.pt-page.ng-enter card-list {
-  display:none;
-}
-.dominion-icon-select {
-  padding-top: 10px;
-  margin: 0 5px;
-  position: relative;
-  height: 84px;
-  width: 84px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dominion-icon-select .icon-text {
-  font-size: .84rem;
-  position: absolute;
-  left:0; right: 0;
-  bottom: 0;
-  opacity: 0;
-  -webkit-transition: all .15s ease;
-  -moz-transition: all .15s ease;
-  -ms-transition: all .15s ease;
-  -o-transition: all .15s ease;
-  transition: all .15s ease;
-}
-.dominion-icon-select svg{
-  padding-bottom: 14px;
-  height: 60px;
-  width: 60px;
-  fill: $gray-dark;
-  -webkit-transition: all .15s ease;
-  -moz-transition: all .15s ease;
-  -ms-transition: all .15s ease;
-  -o-transition: all .15s ease;
-  transition: all .15s ease;
-}
-
-.dominion-icon-select:hover .icon-text {
-  opacity: 1;
-}
-.dominion-icon-select:hover svg {
-  -webkit-transform: scale(1.18);
-  -ms-transform: scale(1.18);
-  transform: scale(1.18);
-  fill: #000000;
-}
-
-.dominion-icon-select.selected {
-  padding-top: 9px;
-  border: 1px solid $brand-success;
-}
-.dominion-icon-select.selected .icon-text {
-  color: $brand-success;
-  opacity: 1;
-}
-.dominion-icon-select.selected svg{
-  fill: $brand-success;
-}
-
-.pt-page.ng-leave {
-  -webkit-animation: scaleDown .6s both ease;
-  animation: scaleDown .6s both ease;
-}
-
-#welcome.ng-enter {
-  -webkit-animation: scaleUp .6s both ease;
-  animation: scaleUp .6s both ease;
-}
-/*#welcome.ng-leave {
-  -webkit-animation: scaleDown .6s both ease;
-  animation: scaleDown .6s both ease;
-}*/
-
-#advancedOptions.ng-enter {
-  z-index: 999;
-  -webkit-animation: moveFromBottom .6s ease both;
-  animation: moveFromBottom .6s ease both;
-}
-/*#advancedOptions.ng-leave {
-  -webkit-animation: moveToBottom .6s ease both;
-  animation: moveToBottom .6s ease both;
-}*/
-
-#inventory.ng-enter {
-  z-index: 999;
-  -webkit-animation: moveFromRight .6s ease both;
-  animation: moveFromRight .6s ease both;
-}
-/*#inventory.ng-leave {
-  -webkit-animation: moveToRight .6s ease both;
-  animation: moveToRight .6s ease both;
-}*/
-
-#playset.ng-enter {
-  z-index: 999;
-  -webkit-animation: moveFromTop .6s both ease;
-  animation: moveFromTop .6s both ease;
-}
-/*#playset.ng-leave {
-  -webkit-animation: moveToTop .6s both ease;
-  animation: moveToTop .6s both ease;
-}*/
-
-#about.ng-enter {
-  z-index: 999;
-  -webkit-animation: moveFromLeft .6s both ease;
-  animation: moveFromLeft .6s both ease;
-}
-/*#about.ng-leave {
-  -webkit-transform-origin: 0% 0%;
-  transform-origin: 0% 0%;
-  -webkit-animation: rotateFall .8s both ease;
-  animation: rotateFall .8s both ease;
-}*/

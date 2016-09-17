@@ -48,11 +48,11 @@ $gray-light:                #D4C8BC !default;
 $gray-lighter:              #F2E5D8 !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #669BC2 !default;
+$brand-primary:             #6E8AB5 !default;
 $brand-success:             #82b58c !default;
 $brand-info:                #B3D8F4 !default;
-$brand-warning:             #cca845 !default;
-$brand-danger:              #d46d5d !default;
+$brand-warning:             #AC9D70 !default;
+$brand-danger:              #C95D51 !default;
 $brand-inverse:             $gray-dark !default;
 
 
@@ -114,7 +114,7 @@ $body-color: $gray-dark !default;
 
 $link-color:            $brand-primary !default;
 $link-decoration:       none !default;
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      #4C6BA3 !default;
 $link-hover-decoration: underline !default;
 
 
@@ -230,9 +230,9 @@ $list-inline-padding: 5px !default;
 $line-height-lg:         (4 / 3) !default;
 $line-height-sm:         1.5 !default;
 
-$border-radius:          0 !default;
-$border-radius-lg:       0 !default;
-$border-radius-sm:       0 !default;
+$border-radius:          .25rem !default;
+$border-radius-lg:       .3rem !default;
+$border-radius-sm:       .2rem !default;
 
 $component-active-color: #fff !default;
 $component-active-bg:    $brand-primary !default;
@@ -356,7 +356,7 @@ $custom-control-spacer-x: 1rem !default;
 $custom-control-spacer-y: .25rem !default;
 
 $custom-control-indicator-size:       1rem !default;
-$custom-control-indicator-bg:         $gray-light !default;
+$custom-control-indicator-bg:         #ddd !default;
 $custom-control-indicator-bg-size:    50% 50% !default;
 $custom-control-indicator-box-shadow: inset 0 .25rem .25rem rgba(0,0,0,.1) !default;
 
@@ -365,18 +365,18 @@ $custom-control-disabled-indicator-bg:       #eee !default;
 $custom-control-disabled-description-color:  #767676 !default;
 
 $custom-control-checked-indicator-color:      #fff !default;
-$custom-control-checked-indicator-bg:         $brand-primary !default;
+$custom-control-checked-indicator-bg:         #0074d9 !default;
 $custom-control-checked-indicator-box-shadow: none !default;
 
-$custom-control-focus-indicator-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem $brand-primary !default;
+$custom-control-focus-indicator-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9 !default;
 
 $custom-control-active-indicator-color:      #fff !default;
-$custom-control-active-indicator-bg:         $brand-info !default;
+$custom-control-active-indicator-bg:         #84c6ff !default;
 $custom-control-active-indicator-box-shadow: none !default;
 
 $custom-checkbox-radius: $border-radius !default;
 $custom-checkbox-checked-icon: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E") !default;
-$custom-checkbox-indeterminate-bg: $brand-primary !default;
+$custom-checkbox-indeterminate-bg: #0074d9 !default;
 $custom-checkbox-indeterminate-icon: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E") !default;
 $custom-checkbox-indeterminate-box-shadow: none !default;
 
@@ -685,7 +685,7 @@ $modal-sm:                    300px !default;
 //
 // Define alert colors, border radius, and padding.
 
-$alert-padding:               15px !default;
+$alert-padding:               1rem !default;
 $alert-border-radius:         $border-radius !default;
 $alert-link-font-weight:      bold !default;
 $alert-border-width:          $border-width !default;

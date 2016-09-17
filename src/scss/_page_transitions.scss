@@ -1,3 +1,108 @@
+/*** Page Transitions **/
+.pt-perspective {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+  background-color: $gray-dark;
+  overflow: hidden;
+}
+
+
+.pt-page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.pt-page-content {
+  margin: 30px auto 0 auto;
+}
+
+@include media-breakpoint-up(md) {
+  .pt-page-content {
+    max-width: 640px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .pt-page-content {
+    max-width: 875px;
+  }
+}
+
+
+.pt-page.ng-enter, .pt-page.ng-leave {
+  opacity:1;
+}
+
+.pt-page.ng-enter card-list {
+  display:none;
+}
+
+.pt-page.ng-leave {
+  -webkit-animation: scaleDown .6s both ease;
+  animation: scaleDown .6s both ease;
+}
+
+#welcome.ng-enter {
+  -webkit-animation: scaleUp .6s both ease;
+  animation: scaleUp .6s both ease;
+}
+/*#welcome.ng-leave {
+  -webkit-animation: scaleDown .6s both ease;
+  animation: scaleDown .6s both ease;
+}*/
+
+#advancedOptions.ng-enter {
+  z-index: 999;
+  -webkit-animation: moveFromBottom .6s ease both;
+  animation: moveFromBottom .6s ease both;
+}
+/*#advancedOptions.ng-leave {
+  -webkit-animation: moveToBottom .6s ease both;
+  animation: moveToBottom .6s ease both;
+}*/
+
+#inventory.ng-enter {
+  z-index: 999;
+  -webkit-animation: moveFromRight .6s ease both;
+  animation: moveFromRight .6s ease both;
+}
+/*#inventory.ng-leave {
+  -webkit-animation: moveToRight .6s ease both;
+  animation: moveToRight .6s ease both;
+}*/
+
+#playset.ng-enter {
+  z-index: 999;
+  -webkit-animation: moveFromTop .6s both ease;
+  animation: moveFromTop .6s both ease;
+}
+/*#playset.ng-leave {
+  -webkit-animation: moveToTop .6s both ease;
+  animation: moveToTop .6s both ease;
+}*/
+
+#about.ng-enter {
+  z-index: 999;
+  -webkit-animation: moveFromLeft .6s both ease;
+  animation: moveFromLeft .6s both ease;
+}
+/*#about.ng-leave {
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-animation: rotateFall .8s both ease;
+  animation: rotateFall .8s both ease;
+}*/
+
 /* Transitions */
 
 @-webkit-keyframes moveToLeft {
