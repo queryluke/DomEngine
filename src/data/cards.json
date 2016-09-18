@@ -21,7 +21,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A0"
   },
   {
     "name": "Chapel",
@@ -43,7 +43,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A1"
   },
   {
     "name": "Moat",
@@ -67,7 +67,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A2"
   },
   {
     "name": "Chancellor",
@@ -90,7 +90,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "A3"
   },
   {
     "name": "Village",
@@ -113,7 +113,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A4"
   },
   {
     "name": "Woodcutter",
@@ -136,7 +136,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "A5"
   },
   {
     "name": "Workshop",
@@ -158,7 +158,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A6"
   },
   {
     "name": "Bureaucrat",
@@ -181,7 +181,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A7"
   },
   {
     "name": "Feast",
@@ -204,7 +204,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A8"
   },
   {
     "name": "Gardens",
@@ -226,7 +226,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A9"
   },
   {
     "name": "Militia",
@@ -250,7 +250,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Aa"
   },
   {
     "name": "Moneylender",
@@ -272,7 +272,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "Ab"
   },
   {
     "name": "Remodel",
@@ -294,7 +294,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ac"
   },
   {
     "name": "Smithy",
@@ -316,7 +316,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ad"
   },
   {
     "name": "Spy",
@@ -341,7 +341,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ae"
   },
   {
     "name": "Thief",
@@ -364,7 +364,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Af"
   },
   {
     "name": "Throne Room",
@@ -386,7 +386,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ag"
   },
   {
     "name": "Council Room",
@@ -410,7 +410,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ah"
   },
   {
     "name": "Festival",
@@ -434,7 +434,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Ai"
   },
   {
     "name": "Laboratory",
@@ -457,7 +457,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Aj"
   },
   {
     "name": "Library",
@@ -474,12 +474,12 @@
     "requires": [],
     "set": "Base",
     "adds": {
-      "draw": 1,
+      "draw": 0,
       "action": 0,
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ak"
   },
   {
     "name": "Market",
@@ -504,7 +504,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Al"
   },
   {
     "name": "Mine",
@@ -526,7 +526,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Am"
   },
   {
     "name": "Witch",
@@ -552,7 +552,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "An"
   },
   {
     "name": "Adventurer",
@@ -574,7 +574,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ao"
   },
   {
     "name": "Courtyard",
@@ -597,7 +597,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ap"
   },
   {
     "name": "Pawn",
@@ -620,7 +620,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Aq"
   },
   {
     "name": "Secret Chamber",
@@ -645,7 +645,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Ar"
   },
   {
     "name": "Great Hall",
@@ -670,7 +670,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "As"
   },
   {
     "name": "Masquerade",
@@ -693,7 +693,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "At"
   },
   {
     "name": "Shanty Town",
@@ -716,7 +716,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Au"
   },
   {
     "name": "Steward",
@@ -738,7 +738,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Av"
   },
   {
     "name": "Swindler",
@@ -762,7 +762,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Aw"
   },
   {
     "name": "Wishing Well",
@@ -786,7 +786,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ax"
   },
   {
     "name": "Baron",
@@ -809,7 +809,7 @@
       "coin": 4,
       "buy": 1
     },
-    "show": true
+    "id": "Ay"
   },
   {
     "name": "Bridge",
@@ -833,7 +833,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Az"
   },
   {
     "name": "Conspirator",
@@ -856,7 +856,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B0"
   },
   {
     "name": "Coppersmith",
@@ -878,7 +878,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B1"
   },
   {
     "name": "Ironworks",
@@ -904,7 +904,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "B2"
   },
   {
     "name": "Mining Village",
@@ -928,7 +928,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B3"
   },
   {
     "name": "Scout",
@@ -951,7 +951,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B4"
   },
   {
     "name": "Duke",
@@ -973,7 +973,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B5"
   },
   {
     "name": "Minion",
@@ -997,7 +997,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B6"
   },
   {
     "name": "Saboteur",
@@ -1020,7 +1020,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B7"
   },
   {
     "name": "Torturer",
@@ -1046,7 +1046,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B8"
   },
   {
     "name": "Trading Post",
@@ -1068,7 +1068,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B9"
   },
   {
     "name": "Tribute",
@@ -1093,7 +1093,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Ba"
   },
   {
     "name": "Upgrade",
@@ -1117,7 +1117,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bb"
   },
   {
     "name": "Harem",
@@ -1141,7 +1141,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bc"
   },
   {
     "name": "Nobles",
@@ -1165,7 +1165,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bd"
   },
   {
     "name": "Embargo",
@@ -1191,7 +1191,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Be"
   },
   {
     "name": "Haven",
@@ -1216,7 +1216,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bf"
   },
   {
     "name": "Lighthouse",
@@ -1242,7 +1242,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bg"
   },
   {
     "name": "Native Village",
@@ -1266,7 +1266,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bh"
   },
   {
     "name": "Pearl Diver",
@@ -1290,7 +1290,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bi"
   },
   {
     "name": "Ambassador",
@@ -1313,7 +1313,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bj"
   },
   {
     "name": "Fishing Village",
@@ -1340,7 +1340,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bk"
   },
   {
     "name": "Lookout",
@@ -1363,7 +1363,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bl"
   },
   {
     "name": "Smugglers",
@@ -1385,7 +1385,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bm"
   },
   {
     "name": "Warehouse",
@@ -1409,7 +1409,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bn"
   },
   {
     "name": "Caravan",
@@ -1434,7 +1434,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bo"
   },
   {
     "name": "Cutpurse",
@@ -1458,7 +1458,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bp"
   },
   {
     "name": "Island",
@@ -1482,7 +1482,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bq"
   },
   {
     "name": "Navigator",
@@ -1505,7 +1505,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Br"
   },
   {
     "name": "Pirate Ship",
@@ -1528,7 +1528,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bs"
   },
   {
     "name": "Salvager",
@@ -1551,7 +1551,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Bt"
   },
   {
     "name": "Sea Hag",
@@ -1576,7 +1576,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bu"
   },
   {
     "name": "Treasure Map",
@@ -1598,7 +1598,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bv"
   },
   {
     "name": "Bazaar",
@@ -1622,7 +1622,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bw"
   },
   {
     "name": "Explorer",
@@ -1644,7 +1644,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bx"
   },
   {
     "name": "Ghost Ship",
@@ -1668,7 +1668,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "By"
   },
   {
     "name": "Merchant Ship",
@@ -1692,7 +1692,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bz"
   },
   {
     "name": "Outpost",
@@ -1715,7 +1715,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C0"
   },
   {
     "name": "Tactician",
@@ -1739,7 +1739,7 @@
       "coin": 0,
       "buy": 5
     },
-    "show": true
+    "id": "C1"
   },
   {
     "name": "Treasury",
@@ -1764,7 +1764,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "C2"
   },
   {
     "name": "Wharf",
@@ -1789,7 +1789,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "C3"
   },
   {
     "name": "Herbalist",
@@ -1813,7 +1813,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "C4"
   },
   {
     "name": "Apprentice",
@@ -1838,7 +1838,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "C5"
   },
   {
     "name": "Transmute",
@@ -1867,7 +1867,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C6"
   },
   {
     "name": "Vineyard",
@@ -1891,7 +1891,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C7"
   },
   {
     "name": "Apothecary",
@@ -1918,7 +1918,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C8"
   },
   {
     "name": "Scrying Pool",
@@ -1945,7 +1945,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C9"
   },
   {
     "name": "University",
@@ -1971,7 +1971,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ca"
   },
   {
     "name": "Alchemist",
@@ -1998,7 +1998,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cb"
   },
   {
     "name": "Familiar",
@@ -2027,7 +2027,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cc"
   },
   {
     "name": "Philosopher's Stone",
@@ -2052,7 +2052,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cd"
   },
   {
     "name": "Golem",
@@ -2077,7 +2077,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ce"
   },
   {
     "name": "Possession",
@@ -2102,7 +2102,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cf"
   },
   {
     "name": "Loan",
@@ -2125,7 +2125,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cg"
   },
   {
     "name": "Trade Route",
@@ -2150,7 +2150,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Ch"
   },
   {
     "name": "Watchtower",
@@ -2170,12 +2170,12 @@
     "requires": [],
     "set": "Prosperity",
     "adds": {
-      "draw": 1,
+      "draw": 0,
       "action": 0,
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ci"
   },
   {
     "name": "Bishop",
@@ -2198,7 +2198,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Cj"
   },
   {
     "name": "Monument",
@@ -2221,7 +2221,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Ck"
   },
   {
     "name": "Quarry",
@@ -2244,7 +2244,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cl"
   },
   {
     "name": "Talisman",
@@ -2268,7 +2268,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cm"
   },
   {
     "name": "Worker's Village",
@@ -2292,7 +2292,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Cn"
   },
   {
     "name": "City",
@@ -2316,7 +2316,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Co"
   },
   {
     "name": "Contraband",
@@ -2340,7 +2340,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Cp"
   },
   {
     "name": "Counting House",
@@ -2362,7 +2362,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cq"
   },
   {
     "name": "Mint",
@@ -2386,7 +2386,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cr"
   },
   {
     "name": "Mountebank",
@@ -2412,7 +2412,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Cs"
   },
   {
     "name": "Rabble",
@@ -2436,7 +2436,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ct"
   },
   {
     "name": "Royal Seal",
@@ -2460,7 +2460,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cu"
   },
   {
     "name": "Vault",
@@ -2483,7 +2483,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Cv"
   },
   {
     "name": "Venture",
@@ -2506,7 +2506,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cw"
   },
   {
     "name": "Goons",
@@ -2532,7 +2532,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Cx"
   },
   {
     "name": "Grand Market",
@@ -2558,7 +2558,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Cy"
   },
   {
     "name": "Hoard",
@@ -2582,7 +2582,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cz"
   },
   {
     "name": "Bank",
@@ -2604,7 +2604,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D0"
   },
   {
     "name": "Expand",
@@ -2626,7 +2626,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D1"
   },
   {
     "name": "Forge",
@@ -2648,7 +2648,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D2"
   },
   {
     "name": "King's Court",
@@ -2670,7 +2670,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D3"
   },
   {
     "name": "Peddler",
@@ -2682,7 +2682,7 @@
       "During your Buy phase, this costs 2 Coins less per Action card you have in play, but not less than 0 Coins."
     ],
     "cost": {
-      "coin": "8plus"
+      "coin": "8star"
     },
     "types": [
       "Action"
@@ -2695,7 +2695,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "D4"
   },
   {
     "name": "Hamlet",
@@ -2720,7 +2720,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "D5"
   },
   {
     "name": "Fortune Teller",
@@ -2746,7 +2746,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "D6"
   },
   {
     "name": "Menagerie",
@@ -2769,7 +2769,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D7"
   },
   {
     "name": "Farming Village",
@@ -2792,7 +2792,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D8"
   },
   {
     "name": "Horse Traders",
@@ -2818,7 +2818,7 @@
       "coin": 3,
       "buy": 1
     },
-    "show": true
+    "id": "D9"
   },
   {
     "name": "Remake",
@@ -2840,7 +2840,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Da"
   },
   {
     "name": "Tournament",
@@ -2869,7 +2869,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Db"
   },
   {
     "name": "Young Witch",
@@ -2896,7 +2896,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dc"
   },
   {
     "name": "Harvest",
@@ -2918,7 +2918,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dd"
   },
   {
     "name": "Horn of Plenty",
@@ -2941,7 +2941,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "De"
   },
   {
     "name": "Hunting Party",
@@ -2965,7 +2965,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Df"
   },
   {
     "name": "Jester",
@@ -2991,7 +2991,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dg"
   },
   {
     "name": "Fairgrounds",
@@ -3011,7 +3011,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dh"
   },
   {
     "name": "Crossroads",
@@ -3033,7 +3033,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Di"
   },
   {
     "name": "Duchess",
@@ -3057,7 +3057,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dj"
   },
   {
     "name": "Fool's Gold",
@@ -3081,7 +3081,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dk"
   },
   {
     "name": "Develop",
@@ -3103,7 +3103,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dl"
   },
   {
     "name": "Oasis",
@@ -3128,7 +3128,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dm"
   },
   {
     "name": "Oracle",
@@ -3152,7 +3152,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dn"
   },
   {
     "name": "Scheme",
@@ -3176,7 +3176,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Do"
   },
   {
     "name": "Tunnel",
@@ -3200,7 +3200,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dp"
   },
   {
     "name": "Jack of all Trades",
@@ -3220,12 +3220,12 @@
     "requires": [],
     "set": "Hinterlands",
     "adds": {
-      "draw": 1,
+      "draw": 0,
       "action": 0,
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dq"
   },
   {
     "name": "Noble Brigand",
@@ -3249,7 +3249,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dr"
   },
   {
     "name": "Nomad Camp",
@@ -3273,7 +3273,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Ds"
   },
   {
     "name": "Silk Road",
@@ -3295,7 +3295,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dt"
   },
   {
     "name": "Spice Merchant",
@@ -3317,7 +3317,7 @@
       "coin": 2,
       "buy": 2
     },
-    "show": true
+    "id": "Du"
   },
   {
     "name": "Trader",
@@ -3341,7 +3341,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dv"
   },
   {
     "name": "Cache",
@@ -3364,7 +3364,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dw"
   },
   {
     "name": "Cartographer",
@@ -3388,7 +3388,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dx"
   },
   {
     "name": "Embassy",
@@ -3413,7 +3413,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dy"
   },
   {
     "name": "Haggler",
@@ -3437,7 +3437,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dz"
   },
   {
     "name": "Highway",
@@ -3462,7 +3462,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E0"
   },
   {
     "name": "Ill-Gotten Gains",
@@ -3489,7 +3489,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E1"
   },
   {
     "name": "Inn",
@@ -3515,7 +3515,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E2"
   },
   {
     "name": "Mandarin",
@@ -3539,7 +3539,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "E3"
   },
   {
     "name": "Margrave",
@@ -3564,7 +3564,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "E4"
   },
   {
     "name": "Stables",
@@ -3586,7 +3586,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E5"
   },
   {
     "name": "Border Village",
@@ -3611,7 +3611,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E6"
   },
   {
     "name": "Farmland",
@@ -3633,7 +3633,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E7"
   },
   {
     "name": "Poor House",
@@ -3656,7 +3656,7 @@
       "coin": 4,
       "buy": 0
     },
-    "show": true
+    "id": "E8"
   },
   {
     "name": "Beggar",
@@ -3680,7 +3680,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E9"
   },
   {
     "name": "Squire",
@@ -3704,7 +3704,7 @@
       "coin": 1,
       "buy": 2
     },
-    "show": true
+    "id": "Ea"
   },
   {
     "name": "Vagrant",
@@ -3730,7 +3730,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eb"
   },
   {
     "name": "Forager",
@@ -3754,7 +3754,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Ec"
   },
   {
     "name": "Hermit",
@@ -3780,7 +3780,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ed"
   },
   {
     "name": "Market Square",
@@ -3806,7 +3806,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ee"
   },
   {
     "name": "Sage",
@@ -3829,7 +3829,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ef"
   },
   {
     "name": "Storeroom",
@@ -3853,7 +3853,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Eg"
   },
   {
     "name": "Urchin",
@@ -3881,7 +3881,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eh"
   },
   {
     "name": "Armory",
@@ -3903,7 +3903,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ei"
   },
   {
     "name": "Death Cart",
@@ -3934,7 +3934,7 @@
       "coin": 5,
       "buy": 0
     },
-    "show": true
+    "id": "Ej"
   },
   {
     "name": "Feodum",
@@ -3957,7 +3957,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ek"
   },
   {
     "name": "Fortress",
@@ -3981,7 +3981,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "El"
   },
   {
     "name": "Ironmonger",
@@ -4009,7 +4009,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Em"
   },
   {
     "name": "Marauder",
@@ -4040,7 +4040,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "En"
   },
   {
     "name": "Procession",
@@ -4062,7 +4062,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eo"
   },
   {
     "name": "Rats",
@@ -4087,7 +4087,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ep"
   },
   {
     "name": "Scavenger",
@@ -4110,7 +4110,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Eq"
   },
   {
     "name": "Wandering Minstrel",
@@ -4134,7 +4134,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Er"
   },
   {
     "name": "Band of Misfits",
@@ -4157,7 +4157,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Es"
   },
   {
     "name": "Bandit Camp",
@@ -4183,7 +4183,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Et"
   },
   {
     "name": "Catacombs",
@@ -4206,7 +4206,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eu"
   },
   {
     "name": "Count",
@@ -4229,7 +4229,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "Ev"
   },
   {
     "name": "Counterfeit",
@@ -4253,7 +4253,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ew"
   },
   {
     "name": "Cultist",
@@ -4285,7 +4285,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ex"
   },
   {
     "name": "Graverobber",
@@ -4307,7 +4307,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ey"
   },
   {
     "name": "Junk Dealer",
@@ -4332,7 +4332,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Ez"
   },
   {
     "name": "Knights",
@@ -4355,7 +4355,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F0"
   },
   {
     "name": "Mystic",
@@ -4379,7 +4379,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "F1"
   },
   {
     "name": "Pillage",
@@ -4405,7 +4405,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F2"
   },
   {
     "name": "Rebuild",
@@ -4428,7 +4428,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F3"
   },
   {
     "name": "Rogue",
@@ -4452,7 +4452,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "F4"
   },
   {
     "name": "Altar",
@@ -4475,7 +4475,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F5"
   },
   {
     "name": "Hunting Grounds",
@@ -4498,7 +4498,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F6"
   },
   {
     "name": "Candlestick Maker",
@@ -4522,7 +4522,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "F7"
   },
   {
     "name": "Stonemason",
@@ -4545,7 +4545,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F8"
   },
   {
     "name": "Doctor",
@@ -4568,7 +4568,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F9"
   },
   {
     "name": "Masterpiece",
@@ -4591,7 +4591,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fa"
   },
   {
     "name": "Advisor",
@@ -4614,7 +4614,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fb"
   },
   {
     "name": "Plaza",
@@ -4638,7 +4638,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fc"
   },
   {
     "name": "Taxman",
@@ -4661,7 +4661,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fd"
   },
   {
     "name": "Herald",
@@ -4686,7 +4686,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fe"
   },
   {
     "name": "Baker",
@@ -4711,7 +4711,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ff"
   },
   {
     "name": "Butcher",
@@ -4733,7 +4733,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fg"
   },
   {
     "name": "Journeyman",
@@ -4755,7 +4755,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fh"
   },
   {
     "name": "Merchant Guild",
@@ -4779,7 +4779,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Fi"
   },
   {
     "name": "Soothsayer",
@@ -4804,6 +4804,6 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fj"
   }
 ]

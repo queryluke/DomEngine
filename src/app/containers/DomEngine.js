@@ -6,6 +6,7 @@ class DomEngineController {
     this._ds = DomEngineService;
     this.$storage = $localStorage;
     this.$state = $state;
+    console.log($state);
   }
 
   $onInit() {
@@ -25,6 +26,15 @@ class DomEngineController {
       this.supplyCards = response[2];
       this.inventory = response[1].concat(response[2]);
       this.cardTypes = this.getTypes(this.inventory);
+
+      if (this.$state.params.p) {
+        this.playset = {
+          cards: this.parsePlayset(this.$state.params.p)
+        };
+        this.setRequiredCards();
+      }
+      this.$storage.playset = this.playset;
+
     });
 
     if (this.$storage.config === undefined) {
@@ -94,9 +104,16 @@ class DomEngineController {
       });
     }
 
+    // create the playset string
+    let cardString = '';
+    for (const card of this.playset.cards) {
+      cardString = cardString.concat(card.id);
+    }
+    this.playset.id = cardString;
+
     console.log(this.$storage.playset);
 
-    this.$state.transitionTo('playset');
+    this.$state.transitionTo('playset', {p: this.playset.id});
   }
 
   getPlayset(useCards, config) {
@@ -493,6 +510,13 @@ class DomEngineController {
       newConfig.expansions = response;
       this.$storage.config = newConfig;
     });
+  }
+
+  parsePlayset(cardString) {
+    const cardIds = cardString.split(/(?=[A-Z])/);
+    let playsetCards = JSON.parse(JSON.stringify(this.cards));
+    playsetCards = playsetCards.filter(card => cardIds.indexOf(card.id) > -1);
+    return playsetCards;
   }
 }
 

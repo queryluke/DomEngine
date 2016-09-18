@@ -19,7 +19,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       template: '<advanced-options config="$ctrl.$storage.config" on-build="$ctrl.onBuild()" reset-options="$ctrl.resetOptions()"></advanced-options>'
     })
     .state('playset', {
-      url: '/playset',
+      url: '/playset?p',
       template: '<playset playset="$ctrl.$storage.playset" on-build="$ctrl.onBuild()" errors="$ctrl.errors" warning="$ctrl.warning"></playset>'
     })
     .state('about', {
