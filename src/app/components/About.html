@@ -43,18 +43,39 @@
                 <ul>
                     <li>Adventures, Empires, and Promos</li>
                     <li><s>Mobile Friendlier</s></li>
-                    <li>Clean up the code</li>
+                    <li><s>Clean up the code (round 1)</s></li>
                     <li>Swap playset card</li>
                     <li>Share playset</li>
                     <li>PreDefined Option Sets</li>
                     <li>Guide / Better Tutorial</li>
-                    <li>Standardize Page Transitions</li>
+                    <li><s>Standardize Page Transitions</s></li>
                     <li>Card Enter Animations</li>
                     <li>Better balance logic</li>
                     <li>Toggle OR/AND logic for inventory</li>
                 </ul>
+            </div>
+            <div class="col-xs-12 changelog">
                 <h3>Changelog</h3>
-                <p>...</p>
+                <div class="change">
+                    <h4>Sep 18, 2016</h4>
+                    <p>Playsets have unique ids. First step towards sharing!</p>
+                </div>
+                <div class="change">
+                    <h4>Oct 14, 2016</h4>
+                    <ul>
+                        <li>Changed <em>Playset</em> view to <em>Playmat</em></li>
+                        <li>Moved hefty amount of logic from main controller (<em>DomEngine.js</em>) to new model <em>Playset.js</em></li>
+                        <li>
+                            New Playset Model allows:
+                            <ul>
+                                <li>Adding & Removing cards</li>
+                                <li>Calculate playset totals (total card types & card additions</li>
+                                <li>Import playset from ID string</li>
+                                <li>Find required cards</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

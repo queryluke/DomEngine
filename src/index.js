@@ -14,7 +14,7 @@ import {CardList} from './app/components/CardList';
 import {ExpansionList} from './app/components/ExpansionList';
 import {Inventory} from './app/components/Inventory';
 import {Nav} from './app/components/Nav';
-import {Playset} from './app/components/Playset';
+import {Playmat} from './app/components/Playmat';
 import {SearchForm} from './app/components/SearchForm';
 import {Welcome} from './app/components/Welcome';
 
@@ -44,7 +44,7 @@ angular
   .component('dominionCard', Card)
   .component('expansionList', ExpansionList)
   .component('inventory', Inventory)
-  .component('playset', Playset)
+  .component('playmat', Playmat)
   .component('searchForm', SearchForm)
   .component('welcome', Welcome)
   .directive('checkLoaded', CheckLoaded)

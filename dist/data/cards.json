@@ -3,7 +3,7 @@
     "name": "Cellar",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/1c/Cellar.jpg/200px-Cellar.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Discard any number of cards.",
       "+1 Card per card discarded."
     ],
@@ -11,7 +11,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -21,7 +21,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A0"
   },
   {
     "name": "Chapel",
@@ -33,7 +33,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -43,21 +43,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A1"
   },
   {
     "name": "Moat",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/fe/Moat.jpg/200px-Moat.jpg",
     "text": [
       "+2 Cards",
-      "When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack."
+      "When another player plays an attack card, you may reveal this from your hand. If you do, you are unaffected by that attack."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Base",
@@ -67,7 +67,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A2"
   },
   {
     "name": "Chancellor",
@@ -80,7 +80,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -90,20 +90,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "A3"
   },
   {
     "name": "Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/5a/Village.jpg/200px-Village.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions"
+      "+2 actions"
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -113,7 +113,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A4"
   },
   {
     "name": "Woodcutter",
@@ -126,7 +126,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -136,7 +136,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "A5"
   },
   {
     "name": "Workshop",
@@ -148,7 +148,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -158,20 +158,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A6"
   },
   {
     "name": "Bureaucrat",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/4d/Bureaucrat.jpg/200px-Bureaucrat.jpg",
     "text": [
-      "Gain a Silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards)."
+      "Gain a Silver card; put it on top of your deck. Each other player reveals a victory card from his hand and puts it on his deck (or reveals a hand with no victory cards)."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Base",
@@ -181,7 +181,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A7"
   },
   {
     "name": "Feast",
@@ -194,7 +194,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -204,7 +204,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A8"
   },
   {
     "name": "Gardens",
@@ -216,7 +216,7 @@
       "coin": "4"
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Base",
@@ -226,7 +226,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "A9"
   },
   {
     "name": "Militia",
@@ -239,8 +239,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Base",
@@ -250,7 +250,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Aa"
   },
   {
     "name": "Moneylender",
@@ -262,7 +262,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -272,7 +272,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "Ab"
   },
   {
     "name": "Remodel",
@@ -284,7 +284,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -294,7 +294,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ac"
   },
   {
     "name": "Smithy",
@@ -306,7 +306,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -316,22 +316,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ad"
   },
   {
     "name": "Spy",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/cb/Spy.jpg/200px-Spy.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Base",
@@ -341,20 +341,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ae"
   },
   {
     "name": "Thief",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f5/Thief.jpg/200px-Thief.jpg",
     "text": [
-      "Each other player reveals the top 2 cards of his deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards."
+      "Each other player reveals the top 2 cards of his deck. If they revealed any treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Base",
@@ -364,19 +364,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Af"
   },
   {
     "name": "Throne Room",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/d1/Throne_Room.jpg/200px-Throne_Room.jpg",
     "text": [
-      "Choose an Action card in your hand. Play it twice."
+      "Choose an action card in your hand. Play it twice."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -386,7 +386,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ag"
   },
   {
     "name": "Council Room",
@@ -400,7 +400,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -410,13 +410,13 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ah"
   },
   {
     "name": "Festival",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/ec/Festival.jpg/200px-Festival.jpg",
     "text": [
-      "+2 Actions",
+      "+2 actions",
       "+1 Buy",
       "+2 Coins"
     ],
@@ -424,7 +424,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -434,20 +434,20 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Ai"
   },
   {
     "name": "Laboratory",
     "image": "http://wiki.dominionstrategy.com/images/thumb/0/0c/Laboratory.jpg/200px-Laboratory.jpg",
     "text": [
       "+2 Cards",
-      "+1 Action"
+      "+1 action"
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -457,66 +457,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Aj"
   },
   {
     "name": "Library",
     "image": "http://wiki.dominionstrategy.com/images/thumb/9/98/Library.jpg/200px-Library.jpg",
     "text": [
-      "Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing."
+      "Draw until you have 7 cards in hand. You may set aside any action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
-    ],
-    "requires": [],
-    "set": "Base",
-    "adds": {
-      "draw": 1,
-      "action": 0,
-      "coin": 0,
-      "buy": 0
-    },
-    "show": true
-  },
-  {
-    "name": "Market",
-    "image": "http://wiki.dominionstrategy.com/images/thumb/7/7e/Market.jpg/200px-Market.jpg",
-    "text": [
-      "+1 Card",
-      "+1 Action",
-      "+1 Buy",
-      "+1 Coin"
-    ],
-    "cost": {
-      "coin": "5"
-    },
-    "types": [
-      "Action"
-    ],
-    "requires": [],
-    "set": "Base",
-    "adds": {
-      "draw": 1,
-      "action": 1,
-      "coin": 1,
-      "buy": 1
-    },
-    "show": true
-  },
-  {
-    "name": "Mine",
-    "image": "http://wiki.dominionstrategy.com/images/thumb/8/8e/Mine.jpg/200px-Mine.jpg",
-    "text": [
-      "Trash a Treasure card from your hand. Gain a Treasure card costing up to 3 Coins more; put it into your hand."
-    ],
-    "cost": {
-      "coin": "5"
-    },
-    "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -526,7 +479,54 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ak"
+  },
+  {
+    "name": "Market",
+    "image": "http://wiki.dominionstrategy.com/images/thumb/7/7e/Market.jpg/200px-Market.jpg",
+    "text": [
+      "+1 Card",
+      "+1 action",
+      "+1 Buy",
+      "+1 Coin"
+    ],
+    "cost": {
+      "coin": "5"
+    },
+    "types": [
+      "action"
+    ],
+    "requires": [],
+    "set": "Base",
+    "adds": {
+      "draw": 1,
+      "action": 1,
+      "coin": 1,
+      "buy": 1
+    },
+    "id": "Al"
+  },
+  {
+    "name": "Mine",
+    "image": "http://wiki.dominionstrategy.com/images/thumb/8/8e/Mine.jpg/200px-Mine.jpg",
+    "text": [
+      "Trash a treasure card from your hand. Gain a treasure card costing up to 3 Coins more; put it into your hand."
+    ],
+    "cost": {
+      "coin": "5"
+    },
+    "types": [
+      "action"
+    ],
+    "requires": [],
+    "set": "Base",
+    "adds": {
+      "draw": 0,
+      "action": 0,
+      "coin": 0,
+      "buy": 0
+    },
+    "id": "Am"
   },
   {
     "name": "Witch",
@@ -539,8 +539,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -552,19 +552,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "An"
   },
   {
     "name": "Adventurer",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/71/Adventurer.jpg/200px-Adventurer.jpg",
     "text": [
-      "Reveal cards from your deck until you reveal 2 Treasure cards. Put those Treasure cards into your hand and discard the other revealed cards."
+      "Reveal cards from your deck until you reveal 2 treasure cards. Put those treasure cards into your hand and discard the other revealed cards."
     ],
     "cost": {
       "coin": "6"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Base",
@@ -574,7 +574,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ao"
   },
   {
     "name": "Courtyard",
@@ -587,7 +587,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -597,20 +597,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ap"
   },
   {
     "name": "Pawn",
     "image": "http://wiki.dominionstrategy.com/images/thumb/0/0f/Pawn.jpg/200px-Pawn.jpg",
     "text": [
-      "Choose two: +1 Card; +1 Action; +1 Buy; +1 Coin.",
+      "Choose two: +1 Card; +1 action; +1 Buy; +1 Coin.",
       "(The choices must be different.)"
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -620,7 +620,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Aq"
   },
   {
     "name": "Secret Chamber",
@@ -628,14 +628,14 @@
     "text": [
       "Discard any number of cards. +1 Coin per card discarded.",
       "",
-      "When another player plays an Attack card, you may reveal this from your hand. If you do, +2 Cards, then put 2 cards from your hand on top of your deck."
+      "When another player plays an attack card, you may reveal this from your hand. If you do, +2 Cards, then put 2 cards from your hand on top of your deck."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -645,22 +645,22 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Ar"
   },
   {
     "name": "Great Hall",
     "image": "http://wiki.dominionstrategy.com/images/thumb/9/95/Great_Hall.jpg/200px-Great_Hall.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "1VP"
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Victory"
+      "action",
+      "victory"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -670,7 +670,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "As"
   },
   {
     "name": "Masquerade",
@@ -683,7 +683,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -693,20 +693,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "At"
   },
   {
     "name": "Shanty Town",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/8e/Shanty_Town.jpg/200px-Shanty_Town.jpg",
     "text": [
-      "+2 Actions",
-      "Reveal your hand.  If you have no Action cards in hand, +2 Cards."
+      "+2 actions",
+      "Reveal your hand.  If you have no action cards in hand, +2 Cards."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -716,7 +716,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Au"
   },
   {
     "name": "Steward",
@@ -728,7 +728,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -738,7 +738,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Av"
   },
   {
     "name": "Swindler",
@@ -751,8 +751,8 @@
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -762,21 +762,21 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Aw"
   },
   {
     "name": "Wishing Well",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f7/Wishing_Well.jpg/200px-Wishing_Well.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Name a card, then reveal the top card of your deck. If it's the named card, put it into your hand."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -786,7 +786,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ax"
   },
   {
     "name": "Baron",
@@ -799,7 +799,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -809,7 +809,7 @@
       "coin": 4,
       "buy": 1
     },
-    "show": true
+    "id": "Ay"
   },
   {
     "name": "Bridge",
@@ -823,7 +823,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -833,20 +833,20 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Az"
   },
   {
     "name": "Conspirator",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/42/Conspirator.jpg/200px-Conspirator.jpg",
     "text": [
       "+2 Coins",
-      "If you've played 3 or more Actions this turn (counting this): +1 Card, +1 Action."
+      "If you've played 3 or more actions this turn (counting this): +1 Card, +1 action."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -856,7 +856,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B0"
   },
   {
     "name": "Coppersmith",
@@ -868,7 +868,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -878,7 +878,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B1"
   },
   {
     "name": "Ironworks",
@@ -886,15 +886,15 @@
     "text": [
       "Gain a card costing up to 4 Coins.",
       "If it is an...",
-      "Action card, +1 Action",
-      "Treasure card, +1 Coin",
-      "Victory card, +1 Card"
+      "action card, +1 action",
+      "treasure card, +1 Coin",
+      "victory card, +1 Card"
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -904,21 +904,21 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "B2"
   },
   {
     "name": "Mining Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/7f/Mining_Village.jpg/200px-Mining_Village.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "You may trash this card immediately. If you do, +2 Coins."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -928,20 +928,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B3"
   },
   {
     "name": "Scout",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/46/Scout.jpg/200px-Scout.jpg",
     "text": [
-      "+1 Action",
-      "Reveal the top 4 cards of your deck. Put the revealed Victory cards into your hand. Put the other cards on top of your deck in any order."
+      "+1 action",
+      "Reveal the top 4 cards of your deck. Put the revealed victory cards into your hand. Put the other cards on top of your deck in any order."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -951,7 +951,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B4"
   },
   {
     "name": "Duke",
@@ -963,7 +963,7 @@
       "coin": "5"
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -973,21 +973,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B5"
   },
   {
     "name": "Minion",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/47/Minion.jpg/200px-Minion.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Choose one: +2 Coins; or discard your hand, +4 Cards, and each other player with at least 5 cards in hand discards his hand and draws 4 cards."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -997,7 +997,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "B6"
   },
   {
     "name": "Saboteur",
@@ -1009,8 +1009,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1020,7 +1020,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B7"
   },
   {
     "name": "Torturer",
@@ -1033,8 +1033,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -1046,7 +1046,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B8"
   },
   {
     "name": "Trading Post",
@@ -1058,7 +1058,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1068,22 +1068,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "B9"
   },
   {
     "name": "Tribute",
     "image": "http://wiki.dominionstrategy.com/images/thumb/0/00/Tribute.jpg/200px-Tribute.jpg",
     "text": [
       "The player to your left reveals then discards the top 2 cards of his deck. For each differently named card revealed, if it is an...",
-      "Action Card, +2 Actions",
-      "Treasure Card, +2 Coins",
-      "Victory Card, +2 Cards"
+      "action Card, +2 actions",
+      "treasure Card, +2 Coins",
+      "victory Card, +2 Cards"
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1093,21 +1093,21 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Ba"
   },
   {
     "name": "Upgrade",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/d3/Upgrade.jpg/200px-Upgrade.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Trash a card from your hand. Gain a card costing exactly 1 Coin more than it."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1117,7 +1117,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bb"
   },
   {
     "name": "Harem",
@@ -1130,8 +1130,8 @@
       "coin": "6"
     },
     "types": [
-      "Treasure",
-      "Victory"
+      "treasure",
+      "victory"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1141,21 +1141,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bc"
   },
   {
     "name": "Nobles",
     "image": "http://wiki.dominionstrategy.com/images/thumb/b/b6/Nobles.jpg/200px-Nobles.jpg",
     "text": [
-      "Choose one: +3 Cards; or +2 Actions.",
+      "Choose one: +3 Cards; or +2 actions.",
       "2VP"
     ],
     "cost": {
       "coin": "6"
     },
     "types": [
-      "Action",
-      "Victory"
+      "action",
+      "victory"
     ],
     "requires": [],
     "set": "Intrigue",
@@ -1165,7 +1165,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bd"
   },
   {
     "name": "Embargo",
@@ -1179,7 +1179,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Curse"
@@ -1191,22 +1191,22 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Be"
   },
   {
     "name": "Haven",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c9/Haven.jpg/200px-Haven.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Set aside a card from your hand face down. At the start of your next turn, put it into your hand."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1216,23 +1216,23 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bf"
   },
   {
     "name": "Lighthouse",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/4f/Lighthouse.jpg/200px-Lighthouse.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Now and at the start of your next turn:",
       "+1 Coin.",
-      "While this is in play, when another player plays an Attack card, it doesn't affect you."
+      "While this is in play, when another player plays an attack card, it doesn't affect you."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1242,13 +1242,13 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bg"
   },
   {
     "name": "Native Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/67/Native_Village.jpg/200px-Native_Village.jpg",
     "text": [
-      "+2 Actions",
+      "+2 actions",
       "Choose one: Set aside the top card of your deck face down on your Native Village mat; or put all the cards from your mat into your hand.",
       "You may look at the cards on your mat at any time; return them to your deck at the end of the game."
     ],
@@ -1256,7 +1256,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1266,21 +1266,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bh"
   },
   {
     "name": "Pearl Diver",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/56/Pearl_Diver.jpg/200px-Pearl_Diver.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Look at the bottom card of your deck. You may put it on top."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1290,7 +1290,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bi"
   },
   {
     "name": "Ambassador",
@@ -1302,8 +1302,8 @@
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1313,24 +1313,24 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bj"
   },
   {
     "name": "Fishing Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/3b/Fishing_Village.jpg/200px-Fishing_Village.jpg",
     "text": [
-      "+2 Actions",
+      "+2 actions",
       "+1 Coin",
       "At the start of your next turn:",
-      "+1 Action",
+      "+1 action",
       "+1 Coin"
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1340,20 +1340,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bk"
   },
   {
     "name": "Lookout",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c6/Lookout.jpg/200px-Lookout.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Look at the top 3 cards of your deck. Trash one of them. Discard one of them. Put the other one on top of your deck."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1363,7 +1363,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bl"
   },
   {
     "name": "Smugglers",
@@ -1375,7 +1375,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1385,21 +1385,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bm"
   },
   {
     "name": "Warehouse",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/6d/Warehouse.jpg/200px-Warehouse.jpg",
     "text": [
       "+3 Cards",
-      "+1 Action",
+      "+1 action",
       "Discard 3 cards."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1409,22 +1409,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bn"
   },
   {
     "name": "Caravan",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c8/Caravan.jpg/200px-Caravan.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "At the start of your next turn, +1 Card."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1434,7 +1434,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bo"
   },
   {
     "name": "Cutpurse",
@@ -1447,8 +1447,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1458,7 +1458,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bp"
   },
   {
     "name": "Island",
@@ -1471,8 +1471,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Victory"
+      "action",
+      "victory"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1482,7 +1482,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bq"
   },
   {
     "name": "Navigator",
@@ -1495,7 +1495,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1505,20 +1505,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Br"
   },
   {
     "name": "Pirate Ship",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/42/Pirate_Ship.jpg/200px-Pirate_Ship.jpg",
     "text": [
-      "Choose one: Each other player reveals the top 2 cards of his deck, trashes a revealed Treasure that you choose, discards the rest, and if anyone trashed a Treasure you take a Coin token; or, +1 Coin per Coin token you've taken with Pirate Ships this game."
+      "Choose one: Each other player reveals the top 2 cards of his deck, trashes a revealed treasure that you choose, discards the rest, and if anyone trashed a treasure you take a Coin token; or, +1 Coin per Coin token you've taken with Pirate Ships this game."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1528,7 +1528,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bs"
   },
   {
     "name": "Salvager",
@@ -1541,7 +1541,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1551,7 +1551,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Bt"
   },
   {
     "name": "Sea Hag",
@@ -1563,8 +1563,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -1576,19 +1576,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bu"
   },
   {
-    "name": "Treasure Map",
-    "image": "http://wiki.dominionstrategy.com/images/thumb/6/61/Treasure_Map.jpg/200px-Treasure_Map.jpg",
+    "name": "treasure Map",
+    "image": "http://wiki.dominionstrategy.com/images/thumb/6/61/treasure_Map.jpg/200px-treasure_Map.jpg",
     "text": [
-      "Trash this and another copy of Treasure Map from your hand. If you do trash two Treasure Maps, gain 4 Gold cards, putting them on top of your deck."
+      "Trash this and another copy of treasure Map from your hand. If you do trash two treasure Maps, gain 4 Gold cards, putting them on top of your deck."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1598,21 +1598,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bv"
   },
   {
     "name": "Bazaar",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f7/Bazaar.jpg/200px-Bazaar.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "+1 Coin"
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1622,7 +1622,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Bw"
   },
   {
     "name": "Explorer",
@@ -1634,7 +1634,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1644,7 +1644,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Bx"
   },
   {
     "name": "Ghost Ship",
@@ -1657,8 +1657,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1668,7 +1668,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "By"
   },
   {
     "name": "Merchant Ship",
@@ -1681,8 +1681,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1692,7 +1692,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Bz"
   },
   {
     "name": "Outpost",
@@ -1704,8 +1704,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1715,21 +1715,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C0"
   },
   {
     "name": "Tactician",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/ed/Tactician.jpg/200px-Tactician.jpg",
     "text": [
       "Discard your hand.",
-      "If you discarded any cards this way, then at the start of your next turn, +5 Cards, +1 Buy, and +1 Action."
+      "If you discarded any cards this way, then at the start of your next turn, +5 Cards, +1 Buy, and +1 action."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1739,22 +1739,22 @@
       "coin": 0,
       "buy": 5
     },
-    "show": true
+    "id": "C1"
   },
   {
     "name": "Treasury",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/fd/Treasury.jpg/200px-Treasury.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Coin",
-      "When you discard this from play, if you didn't buy a Victory card this turn, you may put this on top of your deck."
+      "When you discard this from play, if you didn't buy a victory card this turn, you may put this on top of your deck."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1764,7 +1764,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "C2"
   },
   {
     "name": "Wharf",
@@ -1778,8 +1778,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Duration"
+      "action",
+      "duration"
     ],
     "requires": [],
     "set": "Seaside",
@@ -1789,7 +1789,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "C3"
   },
   {
     "name": "Herbalist",
@@ -1797,13 +1797,13 @@
     "text": [
       "+1 Buy",
       "+1 Coin",
-      "When you discard this from play, you may put one of your Treasures from play on top of your deck."
+      "When you discard this from play, you may put one of your treasures from play on top of your deck."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Alchemy",
@@ -1813,13 +1813,13 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "C4"
   },
   {
     "name": "Apprentice",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/20/Apprentice.jpg/200px-Apprentice.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Trash a card from your hand.",
       "+1 Card per  Coins it costs.",
       "+2 Cards if it has Pot in its cost."
@@ -1828,7 +1828,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Alchemy",
@@ -1838,7 +1838,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "C5"
   },
   {
     "name": "Transmute",
@@ -1846,16 +1846,16 @@
     "text": [
       "Trash a card from your hand.",
       "If it is an...",
-      "Action card, gain a Duchy",
-      "Treasure card, gain a Transmute",
-      "Victory card, gain a Gold",
+      "action card, gain a Duchy",
+      "treasure card, gain a Transmute",
+      "victory card, gain a Gold",
       ""
     ],
     "cost": {
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -1867,19 +1867,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C6"
   },
   {
     "name": "Vineyard",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c8/Vineyard.jpg/200px-Vineyard.jpg",
     "text": [
-      "Worth 1 VP for every 3 Action cards in your deck (rounded down)."
+      "Worth 1 VP for every 3 action cards in your deck (rounded down)."
     ],
     "cost": {
       "potion": 1
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [
       "Potion"
@@ -1891,14 +1891,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C7"
   },
   {
     "name": "Apothecary",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/69/Apothecary.jpg/200px-Apothecary.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Reveal the top 4 cards of your deck. Put the revealed Coppers and Potions into your hand. Put the other cards back on top in any order."
     ],
     "cost": {
@@ -1906,7 +1906,7 @@
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -1918,22 +1918,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C8"
   },
   {
     "name": "Scrying Pool",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/79/Scrying_Pool.jpg/200px-Scrying_Pool.jpg",
     "text": [
-      "+1 Action",
-      "Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice. Then reveal cards from the top of your deck until you reveal one that is not an Action.  Put all of your revealed cards into your hand."
+      "+1 action",
+      "Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice. Then reveal cards from the top of your deck until you reveal one that is not an action.  Put all of your revealed cards into your hand."
     ],
     "cost": {
       "coin": "2",
       "potion": 1
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Potion"
@@ -1945,21 +1945,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "C9"
   },
   {
     "name": "University",
     "image": "http://wiki.dominionstrategy.com/images/thumb/9/9b/University.jpg/200px-University.jpg",
     "text": [
-      "+2 Actions",
-      "You may gain an Action card costing up to 5 Coins."
+      "+2 actions",
+      "You may gain an action card costing up to 5 Coins."
     ],
     "cost": {
       "coin": "2",
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -1971,14 +1971,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ca"
   },
   {
     "name": "Alchemist",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/22/Alchemist.jpg/200px-Alchemist.jpg",
     "text": [
       "+2 Cards",
-      "+1 Action",
+      "+1 action",
       "When you discard this from play, you may put this on top of your deck if you have a Potion in play."
     ],
     "cost": {
@@ -1986,7 +1986,7 @@
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -1998,14 +1998,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cb"
   },
   {
     "name": "Familiar",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/48/Familiar.jpg/200px-Familiar.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Each other player gains a Curse."
     ],
     "cost": {
@@ -2013,8 +2013,8 @@
       "potion": 1
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Potion",
@@ -2027,7 +2027,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cc"
   },
   {
     "name": "Philosopher's Stone",
@@ -2040,7 +2040,7 @@
       "potion": 1
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [
       "Potion"
@@ -2052,20 +2052,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cd"
   },
   {
     "name": "Golem",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/dc/Golem.jpg/200px-Golem.jpg",
     "text": [
-      "Reveal cards from your deck until you reveal 2 Action cards other than Golem Cards. Discard the other cards, then play the Action cards in either order."
+      "Reveal cards from your deck until you reveal 2 action cards other than Golem Cards. Discard the other cards, then play the action cards in either order."
     ],
     "cost": {
       "coin": "4",
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -2077,7 +2077,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ce"
   },
   {
     "name": "Possession",
@@ -2090,7 +2090,7 @@
       "potion": 1
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Potion"
@@ -2102,20 +2102,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cf"
   },
   {
     "name": "Loan",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/11/Loan.jpg/200px-Loan.jpg",
     "text": [
       "1 Coin",
-      "When you play this, reveal cards from your deck until you reveal a Treasure. Discard it or trash it. Discard the other cards."
+      "When you play this, reveal cards from your deck until you reveal a treasure. Discard it or trash it. Discard the other cards."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2125,7 +2125,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cg"
   },
   {
     "name": "Trade Route",
@@ -2134,13 +2134,13 @@
       "+1 Buy",
       "+1 Coin per token on the Trade Route mat.",
       "Trash a card from your hand.",
-      "Setup: Put a token on each Victory card Supply pile. When a card is gained from that pile, move the token to the Trade Route mat."
+      "Setup: Put a token on each victory card Supply pile. When a card is gained from that pile, move the token to the Trade Route mat."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2150,7 +2150,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Ch"
   },
   {
     "name": "Watchtower",
@@ -2164,18 +2164,18 @@
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Prosperity",
     "adds": {
-      "draw": 1,
+      "draw": 0,
       "action": 0,
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ci"
   },
   {
     "name": "Bishop",
@@ -2188,7 +2188,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2198,7 +2198,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Cj"
   },
   {
     "name": "Monument",
@@ -2211,7 +2211,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2221,20 +2221,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Ck"
   },
   {
     "name": "Quarry",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/65/Quarry.jpg/200px-Quarry.jpg",
     "text": [
       "1 Coin",
-      "While this is in play, Action cards cost 2 Coins less, but not less than 0 Coins."
+      "While this is in play, action cards cost 2 Coins less, but not less than 0 Coins."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2244,7 +2244,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cl"
   },
   {
     "name": "Talisman",
@@ -2252,13 +2252,13 @@
     "text": [
       "1 Coin",
       "",
-      "While this is in play, when you buy a card costing 4 Coins or less that is not a Victory card, gain a copy of it."
+      "While this is in play, when you buy a card costing 4 Coins or less that is not a victory card, gain a copy of it."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2268,21 +2268,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cm"
   },
   {
     "name": "Worker's Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/12/Worker%27s_Village.jpg/200px-Worker%27s_Village.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "+1 Buy"
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2292,21 +2292,21 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Cn"
   },
   {
     "name": "City",
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/30/City.jpg/200px-City.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "If there are one or more empty Supply piles, +1 Card. If there are two or more, +1 Coin and +1 Buy."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2316,7 +2316,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Co"
   },
   {
     "name": "Contraband",
@@ -2330,7 +2330,7 @@
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2340,7 +2340,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Cp"
   },
   {
     "name": "Counting House",
@@ -2352,7 +2352,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2362,21 +2362,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cq"
   },
   {
     "name": "Mint",
     "image": "http://wiki.dominionstrategy.com/images/thumb/b/bc/Mint.jpg/200px-Mint.jpg",
     "text": [
-      "You may reveal a Treasure card from your hand. Gain a copy of it.",
+      "You may reveal a treasure card from your hand. Gain a copy of it.",
       "",
-      "When you buy this, trash all Treasures you have in play."
+      "When you buy this, trash all treasures you have in play."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2386,7 +2386,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cr"
   },
   {
     "name": "Mountebank",
@@ -2399,8 +2399,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -2412,21 +2412,21 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Cs"
   },
   {
     "name": "Rabble",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f1/Rabble.jpg/200px-Rabble.jpg",
     "text": [
       "+3 Cards",
-      "Each other player reveals the top 3 cards of his deck, discards the revealed Actions and Treasures, and puts the rest back on top in any order he chooses."
+      "Each other player reveals the top 3 cards of his deck, discards the revealed actions and treasures, and puts the rest back on top in any order he chooses."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2436,7 +2436,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ct"
   },
   {
     "name": "Royal Seal",
@@ -2450,7 +2450,7 @@
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2460,7 +2460,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cu"
   },
   {
     "name": "Vault",
@@ -2473,7 +2473,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2483,20 +2483,20 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Cv"
   },
   {
     "name": "Venture",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/ef/Venture.jpg/200px-Venture.jpg",
     "text": [
       "1 Coin",
-      "When you play this, reveal cards from your deck until you reveal a Treasure. Discard the other cards. Play that Treasure."
+      "When you play this, reveal cards from your deck until you reveal a treasure. Discard the other cards. Play that treasure."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2506,7 +2506,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cw"
   },
   {
     "name": "Goons",
@@ -2521,8 +2521,8 @@
       "coin": "6"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2532,14 +2532,14 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Cx"
   },
   {
     "name": "Grand Market",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/81/Grand_Market.jpg/200px-Grand_Market.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Buy",
       "+2 Coins",
       "You can't buy this if you have any Copper in play."
@@ -2548,7 +2548,7 @@
       "coin": "6"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2558,7 +2558,7 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Cy"
   },
   {
     "name": "Hoard",
@@ -2566,13 +2566,13 @@
     "text": [
       "2 Coins",
       "",
-      "While this is in play, when you buy a Victory card, gain a Gold."
+      "While this is in play, when you buy a victory card, gain a Gold."
     ],
     "cost": {
       "coin": "6"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2582,19 +2582,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Cz"
   },
   {
     "name": "Bank",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/78/Bank.jpg/200px-Bank.jpg",
     "text": [
-      "When you play this, it's worth 1 Coin per Treasure card you have in play (counting this)."
+      "When you play this, it's worth 1 Coin per treasure card you have in play (counting this)."
     ],
     "cost": {
       "coin": "7"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2604,7 +2604,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D0"
   },
   {
     "name": "Expand",
@@ -2616,7 +2616,7 @@
       "coin": "7"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2626,7 +2626,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D1"
   },
   {
     "name": "Forge",
@@ -2638,7 +2638,7 @@
       "coin": "7"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2648,19 +2648,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D2"
   },
   {
     "name": "King's Court",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/8d/King%27s_Court.jpg/200px-King%27s_Court.jpg",
     "text": [
-      "You may choose an Action card in your hand. Play it three times."
+      "You may choose an action card in your hand. Play it three times."
     ],
     "cost": {
       "coin": "7"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2670,22 +2670,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D3"
   },
   {
     "name": "Peddler",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/6f/Peddler.jpg/200px-Peddler.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Coin",
-      "During your Buy phase, this costs 2 Coins less per Action card you have in play, but not less than 0 Coins."
+      "During your Buy phase, this costs 2 Coins less per action card you have in play, but not less than 0 Coins."
     ],
     "cost": {
-      "coin": "8plus"
+      "coin": "8star"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Prosperity",
@@ -2695,22 +2695,22 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "D4"
   },
   {
     "name": "Hamlet",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/df/Hamlet.jpg/200px-Hamlet.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
-      "You may discard a card; if you do, +1 Action.",
+      "+1 action",
+      "You may discard a card; if you do, +1 action.",
       "You may discard a card; if you do, +1 Buy."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2720,21 +2720,21 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "D5"
   },
   {
     "name": "Fortune Teller",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/55/Fortune_Teller.jpg/200px-Fortune_Teller.jpg",
     "text": [
       "+2 Coins",
-      "Each other player reveals cards from the top of his deck until he reveals a Victory or Curse card. He puts it on top and discards the other revealed cards."
+      "Each other player reveals cards from the top of his deck until he reveals a victory or Curse card. He puts it on top and discards the other revealed cards."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -2746,20 +2746,20 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "D6"
   },
   {
     "name": "Menagerie",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/71/Menagerie.jpg/200px-Menagerie.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Reveal your hand. If there are no duplicate cards in it, +3 Cards. Otherwise, +1 Card."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2769,20 +2769,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D7"
   },
   {
     "name": "Farming Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/51/Farming_Village.jpg/200px-Farming_Village.jpg",
     "text": [
-      "+2 Actions",
-      "Reveal cards from the top of your deck until you reveal an Action or Treasure card. Put that card into your hand and discard the other cards."
+      "+2 actions",
+      "Reveal cards from the top of your deck until you reveal an action or treasure card. Put that card into your hand and discard the other cards."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2792,7 +2792,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "D8"
   },
   {
     "name": "Horse Traders",
@@ -2801,14 +2801,14 @@
       "+1 Buy",
       "+3 Coins",
       "Discard 2 cards.",
-      "When another player plays an Attack card, you may set this aside from your hand. If you do, then at the start of your next turn, +1 Card and return this to your hand."
+      "When another player plays an attack card, you may set this aside from your hand. If you do, then at the start of your next turn, +1 Card and return this to your hand."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2818,7 +2818,7 @@
       "coin": 3,
       "buy": 1
     },
-    "show": true
+    "id": "D9"
   },
   {
     "name": "Remake",
@@ -2830,7 +2830,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2840,20 +2840,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Da"
   },
   {
     "name": "Tournament",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c4/Tournament.jpg/200px-Tournament.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Each player may reveal a [[Province]] from his hand. If you do, discard it and gain a Prize (from the Prize pile) or a Duchy, putting it on top of your deck. If no-one else does, +1 Card, +1 Coin."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Bag of Gold",
@@ -2869,7 +2869,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Db"
   },
   {
     "name": "Young Witch",
@@ -2883,8 +2883,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -2896,7 +2896,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dc"
   },
   {
     "name": "Harvest",
@@ -2908,7 +2908,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2918,20 +2918,20 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dd"
   },
   {
     "name": "Horn of Plenty",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/20/Horn_of_Plenty.jpg/200px-Horn_of_Plenty.jpg",
     "text": [
       "0 Coins",
-      "When you play this, gain a card costing up to 1 Coin per differently named card you have in play, counting this. If it's a Victory card, trash this."
+      "When you play this, gain a card costing up to 1 Coin per differently named card you have in play, counting this. If it's a victory card, trash this."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2941,21 +2941,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "De"
   },
   {
     "name": "Hunting Party",
     "image": "http://wiki.dominionstrategy.com/images/thumb/a/ab/Hunting_Party.jpg/200px-Hunting_Party.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Reveal your hand. Reveal cards from your deck until you reveal a card that isn't a duplicate of one in your hand. Put it into your hand and discard the rest."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -2965,21 +2965,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Df"
   },
   {
     "name": "Jester",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/1b/Jester.jpg/200px-Jester.jpg",
     "text": [
       "+2 Coins",
-      "Each other player discards the top card of his deck. If it's a Victory card he gains a Curse. Otherwise either he gains a copy of the discarded card or you do, your choice."
+      "Each other player discards the top card of his deck. If it's a victory card he gains a Curse. Otherwise either he gains a copy of the discarded card or you do, your choice."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -2991,7 +2991,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dg"
   },
   {
     "name": "Fairgrounds",
@@ -3001,7 +3001,7 @@
     ],
     "cost": [],
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Cornucopia",
@@ -3011,19 +3011,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dh"
   },
   {
     "name": "Crossroads",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/cd/Crossroads.jpg/200px-Crossroads.jpg",
     "text": [
-      "Reveal your hand. +1 Card per Victory card revealed. If this is the first time you played a Crossroads this turn, +3 Actions."
+      "Reveal your hand. +1 Card per victory card revealed. If this is the first time you played a Crossroads this turn, +3 actions."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3033,7 +3033,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Di"
   },
   {
     "name": "Duchess",
@@ -3047,7 +3047,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3057,7 +3057,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dj"
   },
   {
     "name": "Fool's Gold",
@@ -3070,8 +3070,8 @@
       "coin": "2"
     },
     "types": [
-      "Treasure",
-      "Reaction"
+      "treasure",
+      "reaction"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3081,7 +3081,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dk"
   },
   {
     "name": "Develop",
@@ -3093,7 +3093,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3103,14 +3103,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dl"
   },
   {
     "name": "Oasis",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/fc/Oasis.jpg/200px-Oasis.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Coin",
       "Discard a card."
     ],
@@ -3118,7 +3118,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3128,7 +3128,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dm"
   },
   {
     "name": "Oracle",
@@ -3141,8 +3141,8 @@
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3152,21 +3152,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dn"
   },
   {
     "name": "Scheme",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/8d/Scheme.jpg/200px-Scheme.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
-      "At the start of Clean-up this turn, you may choose an Action card you have in play. If you discard it from play this turn, put it on your deck."
+      "+1 action",
+      "At the start of Clean-up this turn, you may choose an action card you have in play. If you discard it from play this turn, put it on your deck."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3176,7 +3176,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Do"
   },
   {
     "name": "Tunnel",
@@ -3189,8 +3189,8 @@
       "coin": "3"
     },
     "types": [
-      "Victory",
-      "Reaction"
+      "victory",
+      "reaction"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3200,7 +3200,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dp"
   },
   {
     "name": "Jack of all Trades",
@@ -3209,37 +3209,37 @@
       "Gain a Silver.",
       "Look at the top card of your deck; discard it or put it back.",
       "Draw until you have 5 cards in your hand.",
-      "You may trash a card from your hand that is not a Treasure."
+      "You may trash a card from your hand that is not a treasure."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
     "adds": {
-      "draw": 1,
+      "draw": 0,
       "action": 0,
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dq"
   },
   {
     "name": "Noble Brigand",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/63/Noble_Brigand.jpg/200px-Noble_Brigand.jpg",
     "text": [
       "+1 Coin",
-      "When you buy this or play it, each other player reveals the top 2 cards of his deck, trashes a revealed Silver or Gold you choose, and discards the rest. If he didn't reveal a Treasure, he gains a Copper. You gain the trashed cards."
+      "When you buy this or play it, each other player reveals the top 2 cards of his deck, trashes a revealed Silver or Gold you choose, and discards the rest. If he didn't reveal a treasure, he gains a Copper. You gain the trashed cards."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3249,7 +3249,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Dr"
   },
   {
     "name": "Nomad Camp",
@@ -3263,7 +3263,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3273,19 +3273,19 @@
       "coin": 2,
       "buy": 1
     },
-    "show": true
+    "id": "Ds"
   },
   {
     "name": "Silk Road",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f6/Silk_Road.jpg/200px-Silk_Road.jpg",
     "text": [
-      "Worth 1 VP for every 4 Victory cards in your deck (round down)."
+      "Worth 1 VP for every 4 victory cards in your deck (round down)."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3295,19 +3295,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dt"
   },
   {
     "name": "Spice Merchant",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/e2/Spice_Merchant.jpg/200px-Spice_Merchant.jpg",
     "text": [
-      "You may trash a Treasure from your hand. If you do, choose one: +2 Cards and +1 Action; or +2 Coins and +1 Buy."
+      "You may trash a treasure from your hand. If you do, choose one: +2 Cards and +1 action; or +2 Coins and +1 Buy."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3317,7 +3317,7 @@
       "coin": 2,
       "buy": 2
     },
-    "show": true
+    "id": "Du"
   },
   {
     "name": "Trader",
@@ -3330,8 +3330,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3341,7 +3341,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dv"
   },
   {
     "name": "Cache",
@@ -3354,7 +3354,7 @@
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3364,21 +3364,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dw"
   },
   {
     "name": "Cartographer",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/d6/Cartographer.jpg/200px-Cartographer.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Look at the top 4 cards of your deck. Discard any number of them. Put the rest back on top in any order."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3388,7 +3388,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dx"
   },
   {
     "name": "Embassy",
@@ -3403,7 +3403,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3413,7 +3413,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Dy"
   },
   {
     "name": "Haggler",
@@ -3421,13 +3421,13 @@
     "text": [
       "+2 Coins",
       "",
-      "While this is in play, when you buy a card, gain a card costing less than it that is not a Victory card."
+      "While this is in play, when you buy a card, gain a card costing less than it that is not a victory card."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3437,14 +3437,14 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Dz"
   },
   {
     "name": "Highway",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/29/Highway.jpg/200px-Highway.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "",
       "While this is in play, cards cost 1 Coin less, but not less than 0 Coins."
     ],
@@ -3452,7 +3452,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3462,7 +3462,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E0"
   },
   {
     "name": "Ill-Gotten Gains",
@@ -3477,7 +3477,7 @@
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [
       "Curse"
@@ -3489,23 +3489,23 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E1"
   },
   {
     "name": "Inn",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/1f/Inn.jpg/200px-Inn.jpg",
     "text": [
       "+2 Cards",
-      "+2 Actions",
+      "+2 actions",
       "Discard 2 cards.",
       "",
-      "When you gain this, look through your discard pile (including this), reveal any number of Action cards from it, and shuffle them into your deck."
+      "When you gain this, look through your discard pile (including this), reveal any number of action cards from it, and shuffle them into your deck."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3515,7 +3515,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E2"
   },
   {
     "name": "Mandarin",
@@ -3523,13 +3523,13 @@
     "text": [
       "+3 Coins",
       "Put a card from your hand on top of your deck.",
-      "When you gain this, put all Treasures you have in play on top of your deck in any order."
+      "When you gain this, put all treasures you have in play on top of your deck in any order."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3539,7 +3539,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "E3"
   },
   {
     "name": "Margrave",
@@ -3553,8 +3553,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3564,19 +3564,19 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "E4"
   },
   {
     "name": "Stables",
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/35/Stables.jpg/200px-Stables.jpg",
     "text": [
-      "You may discard a Treasure. If you do, +3 Cards and +1 Action."
+      "You may discard a treasure. If you do, +3 Cards and +1 action."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3586,14 +3586,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E5"
   },
   {
     "name": "Border Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/dd/Border_Village.jpg/200px-Border_Village.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "",
       "When you gain this, gain a card costing less than this."
     ],
@@ -3601,7 +3601,7 @@
       "coin": "6"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3611,7 +3611,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E6"
   },
   {
     "name": "Farmland",
@@ -3623,7 +3623,7 @@
       "coin": "6"
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Hinterlands",
@@ -3633,20 +3633,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E7"
   },
   {
     "name": "Poor House",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/d6/Poor_House.jpg/200px-Poor_House.jpg",
     "text": [
       "+4 Coins",
-      "Reveal your hand. -1 Coin per Treasure card in your hand, to a minimum of 0 Coins."
+      "Reveal your hand. -1 Coin per treasure card in your hand, to a minimum of 0 Coins."
     ],
     "cost": {
       "coin": "1"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3656,21 +3656,21 @@
       "coin": 4,
       "buy": 0
     },
-    "show": true
+    "id": "E8"
   },
   {
     "name": "Beggar",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/2f/Beggar.jpg/200px-Beggar.jpg",
     "text": [
       "Gain 3 Coppers, putting them into your hand.",
-      "When another player plays an Attack card, you may discard this. If you do, gain two Silvers, putting one on top of your deck."
+      "When another player plays an attack card, you may discard this. If you do, gain two Silvers, putting one on top of your deck."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3680,21 +3680,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "E9"
   },
   {
     "name": "Squire",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/79/Squire.jpg/200px-Squire.jpg",
     "text": [
       "+1 Coin",
-      "Choose one: +2 Actions; or +2 Buys; or gain a Silver.",
-      "When you trash this, gain an Attack card."
+      "Choose one: +2 actions; or +2 Buys; or gain a Silver.",
+      "When you trash this, gain an attack card."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3704,21 +3704,21 @@
       "coin": 1,
       "buy": 2
     },
-    "show": true
+    "id": "Ea"
   },
   {
     "name": "Vagrant",
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/3f/Vagrant.jpg/200px-Vagrant.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
-      "Reveal the top card of your deck. If it's a Curse, Ruins, Shelter, or Victory card, put it into your hand."
+      "+1 action",
+      "Reveal the top card of your deck. If it's a Curse, Ruins, Shelter, or victory card, put it into your hand."
     ],
     "cost": {
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Curse"
@@ -3730,21 +3730,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eb"
   },
   {
     "name": "Forager",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/e6/Forager.jpg/200px-Forager.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "+1 Buy",
-      "Trash a card from your hand. +1 Coin per differently named Treasure in the trash."
+      "Trash a card from your hand. +1 Coin per differently named treasure in the trash."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3754,13 +3754,13 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Ec"
   },
   {
     "name": "Hermit",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/8e/Hermit.jpg/200px-Hermit.jpg",
     "text": [
-      "Look through your discard pile. You may trash a card from your discard pile or hand that is not a Treasure.",
+      "Look through your discard pile. You may trash a card from your discard pile or hand that is not a treasure.",
       "Gain a card costing up to 3 Coins.",
       "When you discard this from play, if you did not buy any cards this turn, trash this and gain a Madman from the Madman pile."
     ],
@@ -3768,7 +3768,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Madman"
@@ -3780,14 +3780,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ed"
   },
   {
     "name": "Market Square",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f1/Market_Square.jpg/200px-Market_Square.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Buy",
       "When one of your cards is trashed, you may discard this from your hand. If you do, gain a Gold."
     ],
@@ -3795,8 +3795,8 @@
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Reaction"
+      "action",
+      "reaction"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3806,20 +3806,20 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ee"
   },
   {
     "name": "Sage",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/70/Sage.jpg/200px-Sage.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Reveal cards from the top of your deck until you reveal one costing 3 Coins or more. Put that card into your hand and discard the rest."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3829,7 +3829,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ef"
   },
   {
     "name": "Storeroom",
@@ -3843,7 +3843,7 @@
       "coin": "3"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3853,23 +3853,23 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Eg"
   },
   {
     "name": "Urchin",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/74/Urchin.jpg/200px-Urchin.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Each other player discards down to 4 cards in hand.",
-      "When you play another Attack card with this in play, you may trash this. If you do, gain a Mercenary from the Mercenary pile."
+      "When you play another attack card with this in play, you may trash this. If you do, gain a Mercenary from the Mercenary pile."
     ],
     "cost": {
       "coin": "3"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Mercenary"
@@ -3881,7 +3881,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eh"
   },
   {
     "name": "Armory",
@@ -3893,7 +3893,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3903,21 +3903,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ei"
   },
   {
     "name": "Death Cart",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/50/Death_Cart.jpg/200px-Death_Cart.jpg",
     "text": [
       "+5 Coins",
-      "You may trash an Action card from your hand. If you don't, trash this.",
+      "You may trash an action card from your hand. If you don't, trash this.",
       "When you gain this, gain two Ruins."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
+      "action",
       "Looter"
     ],
     "requires": [
@@ -3934,7 +3934,7 @@
       "coin": 5,
       "buy": 0
     },
-    "show": true
+    "id": "Ej"
   },
   {
     "name": "Feodum",
@@ -3947,7 +3947,7 @@
       "coin": "4"
     },
     "types": [
-      "Victory"
+      "victory"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3957,21 +3957,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ek"
   },
   {
     "name": "Fortress",
     "image": "http://wiki.dominionstrategy.com/images/thumb/8/8a/Fortress.jpg/200px-Fortress.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "When you trash this, put it into your hand."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -3981,25 +3981,25 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "El"
   },
   {
     "name": "Ironmonger",
     "image": "http://wiki.dominionstrategy.com/images/thumb/9/93/Ironmonger.jpg/200px-Ironmonger.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Reveal the top card of your deck; you may discard it.",
       "Either way, if it is an...",
-      "Action card, +1 Action",
-      "Treasure card, +1 Coin",
-      "Victory card, +1 Card."
+      "action card, +1 action",
+      "treasure card, +1 Coin",
+      "victory card, +1 Card."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4009,7 +4009,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Em"
   },
   {
     "name": "Marauder",
@@ -4022,8 +4022,8 @@
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack",
+      "action",
+      "attack",
       "Looter"
     ],
     "requires": [
@@ -4040,19 +4040,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "En"
   },
   {
     "name": "Procession",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/7a/Procession.jpg/200px-Procession.jpg",
     "text": [
-      "You may play an action card from your hand twice. Trash it. Gain an Action card costing exactly 1 Coin more than it."
+      "You may play an action card from your hand twice. Trash it. Gain an action card costing exactly 1 Coin more than it."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4062,14 +4062,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eo"
   },
   {
     "name": "Rats",
     "image": "http://wiki.dominionstrategy.com/images/thumb/7/70/Rats.jpg/200px-Rats.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Gain a Rats. Trash a card from your hand other than a Rats (or reveal a hand of all Rats).",
       "When you trash this, +1 Card."
     ],
@@ -4077,7 +4077,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4087,7 +4087,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ep"
   },
   {
     "name": "Scavenger",
@@ -4100,7 +4100,7 @@
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4110,21 +4110,21 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "Eq"
   },
   {
     "name": "Wandering Minstrel",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f9/Wandering_Minstrel.jpg/200px-Wandering_Minstrel.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
-      "Reveal the top 3 cards of your deck. Put the Actions back on top in any order and discard the rest."
+      "+2 actions",
+      "Reveal the top 3 cards of your deck. Put the actions back on top in any order and discard the rest."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4134,20 +4134,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Er"
   },
   {
     "name": "Band of Misfits",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/51/Band_of_Misfits.jpg/200px-Band_of_Misfits.jpg",
     "text": [
-      "Play this as if it were an Action card in the Supply costing less than it that you choose.",
+      "Play this as if it were an action card in the Supply costing less than it that you choose.",
       "This is that card until it leaves play."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4157,21 +4157,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Es"
   },
   {
     "name": "Bandit Camp",
     "image": "http://wiki.dominionstrategy.com/images/thumb/4/43/Bandit_Camp.jpg/200px-Bandit_Camp.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
+      "+2 actions",
       "Gain a Spoils from the Spoils pile."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [
       "Spoils"
@@ -4183,7 +4183,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Et"
   },
   {
     "name": "Catacombs",
@@ -4196,7 +4196,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4206,7 +4206,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Eu"
   },
   {
     "name": "Count",
@@ -4219,7 +4219,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4229,7 +4229,7 @@
       "coin": 3,
       "buy": 0
     },
-    "show": true
+    "id": "Ev"
   },
   {
     "name": "Counterfeit",
@@ -4237,13 +4237,13 @@
     "text": [
       "1 Coin",
       "+1 Buy",
-      "When you play this, you may play a treasure from your hand twice. If you do, trash that Treasure."
+      "When you play this, you may play a treasure from your hand twice. If you do, trash that treasure."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4253,7 +4253,7 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "Ew"
   },
   {
     "name": "Cultist",
@@ -4267,8 +4267,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack",
+      "action",
+      "attack",
       "Looter"
     ],
     "requires": [
@@ -4285,19 +4285,19 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ex"
   },
   {
     "name": "Graverobber",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/13/Graverobber.jpg/200px-Graverobber.jpg",
     "text": [
-      "Choose one: Gain a card from the trash costing from 3 Coins to 6 Coins, putting it on top of your deck; or trash an Action card from your hand and gain a card costing up to 3 Coins more than it."
+      "Choose one: Gain a card from the trash costing from 3 Coins to 6 Coins, putting it on top of your deck; or trash an action card from your hand and gain a card costing up to 3 Coins more than it."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4307,14 +4307,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ey"
   },
   {
     "name": "Junk Dealer",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c2/Junk_Dealer.jpg/200px-Junk_Dealer.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "+1 Coin",
       "Trash a card from your hand."
     ],
@@ -4322,7 +4322,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4332,7 +4332,7 @@
       "coin": 1,
       "buy": 0
     },
-    "show": true
+    "id": "Ez"
   },
   {
     "name": "Knights",
@@ -4344,8 +4344,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4355,13 +4355,13 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F0"
   },
   {
     "name": "Mystic",
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/37/Mystic.jpg/200px-Mystic.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "+2 Coins",
       "Name a card. Reveal the top card of your deck. If it's the named card, put it into your hand."
     ],
@@ -4369,7 +4369,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4379,7 +4379,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "F1"
   },
   {
     "name": "Pillage",
@@ -4392,8 +4392,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Spoils"
@@ -4405,20 +4405,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F2"
   },
   {
     "name": "Rebuild",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f8/Rebuild.jpg/200px-Rebuild.jpg",
     "text": [
-      "+1 Action",
-      "Name a card. Reveal cards from the top of your deck until you reveal a Victory card that is not the named card. Discard the other cards. Trash the Victory card and gain a Victory card costing up to 3 Coins more than it."
+      "+1 action",
+      "Name a card. Reveal cards from the top of your deck until you reveal a victory card that is not the named card. Discard the other cards. Trash the victory card and gain a victory card costing up to 3 Coins more than it."
     ],
     "cost": {
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4428,7 +4428,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F3"
   },
   {
     "name": "Rogue",
@@ -4441,8 +4441,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4452,7 +4452,7 @@
       "coin": 2,
       "buy": 0
     },
-    "show": true
+    "id": "F4"
   },
   {
     "name": "Altar",
@@ -4465,7 +4465,7 @@
       "coin": "6"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4475,7 +4475,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F5"
   },
   {
     "name": "Hunting Grounds",
@@ -4488,7 +4488,7 @@
       "coin": "6"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Dark Ages",
@@ -4498,13 +4498,13 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F6"
   },
   {
     "name": "Candlestick Maker",
     "image": "http://wiki.dominionstrategy.com/images/thumb/2/2c/Candlestick_Maker.jpg/200px-Candlestick_Maker.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "+1 Buy",
       "Take a Coin token."
     ],
@@ -4512,7 +4512,7 @@
       "coin": "2"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4522,20 +4522,20 @@
       "coin": 0,
       "buy": 1
     },
-    "show": true
+    "id": "F7"
   },
   {
     "name": "Stonemason",
     "image": "http://wiki.dominionstrategy.com/images/thumb/d/d2/Stonemason.jpg/200px-Stonemason.jpg",
     "text": [
       "Trash a card from your hand.  Gain 2 cards each costing less than it.",
-      "When you buy this, you may overpay for it.  If you do, gain 2 Actions each costing the amount you overpaid."
+      "When you buy this, you may overpay for it.  If you do, gain 2 actions each costing the amount you overpaid."
     ],
     "cost": {
       "coin": "2plus"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4545,7 +4545,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F8"
   },
   {
     "name": "Doctor",
@@ -4558,7 +4558,7 @@
       "coin": "3plus"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4568,7 +4568,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "F9"
   },
   {
     "name": "Masterpiece",
@@ -4581,7 +4581,7 @@
       "coin": "3plus"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4591,20 +4591,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fa"
   },
   {
     "name": "Advisor",
     "image": "http://wiki.dominionstrategy.com/images/thumb/5/5e/Advisor.jpg/200px-Advisor.jpg",
     "text": [
-      "+1 Action",
+      "+1 action",
       "Reveal the top 3 cards of your deck.  The player to your left chooses one of them.  Discard that card.  Put the other cards into your hand."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4614,21 +4614,21 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fb"
   },
   {
     "name": "Plaza",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/fc/Plaza.jpg/200px-Plaza.jpg",
     "text": [
       "+1 Card",
-      "+2 Actions",
-      "You may discard a Treasure card.  If you do, take a Coin token."
+      "+2 actions",
+      "You may discard a treasure card.  If you do, take a Coin token."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4638,20 +4638,20 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fc"
   },
   {
     "name": "Taxman",
     "image": "http://wiki.dominionstrategy.com/images/thumb/e/e0/Taxman.jpg/200px-Taxman.jpg",
     "text": [
-      "You may trash a Treasure from your hand.  Each other player with 5 or more cards in hand discards a copy of it (or reveals a hand without it).  Gain a Treasure card costing up to 3 Coins more than the trashed card, putting it on top of your deck."
+      "You may trash a treasure from your hand.  Each other player with 5 or more cards in hand discards a copy of it (or reveals a hand without it).  Gain a treasure card costing up to 3 Coins more than the trashed card, putting it on top of your deck."
     ],
     "cost": {
       "coin": "4"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4661,22 +4661,22 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fd"
   },
   {
     "name": "Herald",
     "image": "http://wiki.dominionstrategy.com/images/thumb/c/c1/Herald.jpg/200px-Herald.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
-      "Reveal the top card of your deck.  If it is an Action, play it.",
+      "+1 action",
+      "Reveal the top card of your deck.  If it is an action, play it.",
       "When you buy this, you may overpay for it.  For each 1 Coin you overpaid, look through your discard pile and put a card from it on top of your deck."
     ],
     "cost": {
       "coin": "4plus"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4686,14 +4686,14 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fe"
   },
   {
     "name": "Baker",
     "image": "http://wiki.dominionstrategy.com/images/thumb/b/b9/Baker.jpg/200px-Baker.jpg",
     "text": [
       "+1 Card",
-      "+1 Action",
+      "+1 action",
       "Take a Coin token.",
       "Setup: Each player takes a Coin token."
     ],
@@ -4701,7 +4701,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4711,7 +4711,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Ff"
   },
   {
     "name": "Butcher",
@@ -4723,7 +4723,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4733,7 +4733,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fg"
   },
   {
     "name": "Journeyman",
@@ -4745,7 +4745,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4755,7 +4755,7 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fh"
   },
   {
     "name": "Merchant Guild",
@@ -4769,7 +4769,7 @@
       "coin": "5"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "requires": [],
     "set": "Guilds",
@@ -4779,7 +4779,7 @@
       "coin": 1,
       "buy": 1
     },
-    "show": true
+    "id": "Fi"
   },
   {
     "name": "Soothsayer",
@@ -4791,8 +4791,8 @@
       "coin": "5"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "requires": [
       "Curse"
@@ -4804,6 +4804,6 @@
       "coin": 0,
       "buy": 0
     },
-    "show": true
+    "id": "Fj"
   }
 ]
