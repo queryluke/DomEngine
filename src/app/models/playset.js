@@ -120,7 +120,7 @@ class Playset {
     for (const cardName of supplyCards) {
       const card = cardInventory.filter(card => cardName === card.name);
       if (card[0]) {
-        if (card[0].types.includes('Supply')) {
+        if (card[0].types.includes('supply')) {
           supply.add(card[0]);
         } else {
           other.add(card[0]);
