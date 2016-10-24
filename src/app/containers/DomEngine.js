@@ -41,14 +41,28 @@ class DomEngineController {
   }
 
   getTypes(cards) {
+    const typeSet = new Set();
     const types = {};
 
     for (const card of cards) {
       for (const type of card.types) {
-        if (!(type in types)) {
-          types[type] = false;
-        }
+        typeSet.add(type);
       }
+    }
+
+    const typeArray = [...typeSet];
+    typeArray.sort((a, b) => {
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+      return 0;
+    });
+
+    for (const type of typeArray) {
+      types[type] = false;
     }
 
     return types;

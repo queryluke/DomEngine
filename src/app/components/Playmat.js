@@ -15,9 +15,9 @@ class PlaymatController {
   }
 
   setSupplyCards() {
-    this.treasure = this.filterByType(this.playset.requiredCards.supply, 'Treasure');
-    this.victory = this.filterByType(this.playset.requiredCards.supply, 'Victory');
-    this.ruins = this.filterByType(this.playset.requiredCards.supply, 'Ruins');
+    this.treasure = this.filterByType(this.playset.requiredCards.supply, 'treasure');
+    this.victory = this.filterByType(this.playset.requiredCards.supply, 'victory');
+    this.ruins = this.filterByType(this.playset.requiredCards.supply, 'ruins');
   }
 
   filterByType(cards, type) {

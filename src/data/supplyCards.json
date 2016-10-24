@@ -9,7 +9,7 @@
       "coin": "0"
     },
     "types": [
-      "Curse"
+      "curse"
     ],
     "show": true,
     "set": "Base"
@@ -24,8 +24,8 @@
       "coin": "0"
     },
     "types": [
-      "Treasure",
-      "Supply"
+      "treasure",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -40,8 +40,8 @@
       "coin": "2"
     },
     "types": [
-      "Victory",
-      "Supply"
+      "victory",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -56,8 +56,8 @@
       "coin": "3"
     },
     "types": [
-      "Treasure",
-      "Supply"
+      "treasure",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -72,8 +72,8 @@
       "coin": "5"
     },
     "types": [
-      "Victory",
-      "Supply"
+      "victory",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -88,8 +88,8 @@
       "coin": "6"
     },
     "types": [
-      "Treasure",
-      "Supply"
+      "treasure",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -104,8 +104,8 @@
       "coin": "8"
     },
     "types": [
-      "Victory",
-      "Supply"
+      "victory",
+      "supply"
     ],
     "show": true,
     "set": "Base"
@@ -120,8 +120,8 @@
       "coin": "4"
     },
     "types": [
-      "Treasure",
-      "Supply"
+      "treasure",
+      "supply"
     ],
     "show": true,
     "set": "Alchemy"
@@ -136,8 +136,8 @@
       "coin": "11"
     },
     "types": [
-      "Victory",
-      "Supply"
+      "victory",
+      "supply"
     ],
     "show": true,
     "set": "Prosperity"
@@ -152,8 +152,8 @@
       "coin": "9"
     },
     "types": [
-      "Treasure",
-      "Supply"
+      "treasure",
+      "supply"
     ],
     "show": true,
     "set": "Prosperity"
@@ -162,16 +162,16 @@
   "name": "Bag of Gold",
   "image": "http://wiki.dominionstrategy.com/images/thumb/b/b4/Bag_of_Gold.jpg/200px-Bag_of_Gold.jpg",
   "text": [
-    "+1 Action",
+    "+1 action",
     "Gain a Gold, putting it on top of your deck.",
-    "(This is not in the Supply.)"
+    "(This is not in the supply.)"
   ],
   "cost": {
     "coin": "0plus"
   },
   "types": [
-    "Action",
-    "Prize"
+    "action",
+    "prize"
   ],
   "show": true,
     "set": "Cornucopia"
@@ -181,15 +181,15 @@
     "image": "http://wiki.dominionstrategy.com/images/thumb/3/35/Diadem.jpg/200px-Diadem.jpg",
     "text": [
       "+2 Coin",
-      "When you play this, +1 Coin per unused Action you have (Action, not Action card).",
-      "(This is not in the Supply.)"
+      "When you play this, +1 Coin per unused action you have (action, not action card).",
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Treasure",
-      "Prize"
+      "treasure",
+      "prize"
     ],
     "show": true,
     "set": "Cornucopia"
@@ -200,15 +200,15 @@
     "text": [
       "+2 Cards",
       "Gain an Estate. Each other player gains a Curse and discards down to 3 cards in hand.",
-      "(This is not in the Supply.)"
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Action",
-      "Attack",
-      "Prize"
+      "action",
+      "attack",
+      "prize"
     ],
     "show": true,
     "set": "Cornucopia"
@@ -219,14 +219,14 @@
     "text": [
       "+1 Buy",
       "While this is in play, cards cost 2 Coin less, but not less than 0 Coins",
-      "(This is not in the Supply.)"
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Action",
-      "Prize"
+      "action",
+      "prize"
     ],
     "show": true,
     "set": "Cornucopia"
@@ -235,15 +235,15 @@
     "name": "Trusty Steed",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/12/Trusty_Steed.jpg/200px-Trusty_Steed.jpg",
     "text": [
-      "Choose two: +2 Cards; or +2 Actions; or +2 Coin; or gain 4 Silvers and put your deck into your discard pile. (The choices must be different.)",
-      "(This is not in the Supply.)"
+      "Choose two: +2 Cards; or +2 actions; or +2 Coin; or gain 4 Silvers and put your deck into your discard pile. (The choices must be different.)",
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Action",
-      "Prize"
+      "action",
+      "prize"
     ],
     "show": true,
     "set": "Cornucopia"
@@ -252,15 +252,15 @@
     "name": "Hovel",
     "image": "http://wiki.dominionstrategy.com/images/thumb/f/f0/Hovel.jpg/200px-Hovel.jpg",
     "text": [
-      "When you buy a Victory card, you may trash this from your hand."
+      "When you buy a victory card, you may trash this from your hand."
     ],
     "cost": {
       "coin": "1"
     },
     "types": [
-      "Reaction",
-      "Shelter",
-      "Supply"
+      "reaction",
+      "shelter",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -269,15 +269,15 @@
     "name": "Necropolis",
     "image": "http://wiki.dominionstrategy.com/images/thumb/6/69/Necropolis.jpg/200px-Necropolis.jpg",
     "text": [
-      "+2 Actions"
+      "+2 actions"
     ],
     "cost": {
       "coin": "1"
     },
     "types": [
-      "Action",
-      "Shelter",
-      "Supply"
+      "action",
+      "shelter",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -293,9 +293,9 @@
       "coin": "1"
     },
     "types": [
-      "Victory",
-      "Shelter",
-      "Supply"
+      "victory",
+      "shelter",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -304,15 +304,15 @@
     "name": "Madman",
     "image": "http://wiki.dominionstrategy.com/images/thumb/1/19/Madman.jpg/200px-Madman.jpg",
     "text": [
-      "+2 Actions",
+      "+2 actions",
       "Return this to the Madman pile. If you do, +1 Card per card in your hand.",
-      "(This is not in the Supply.)"
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Action"
+      "action"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -323,14 +323,14 @@
     "text": [
       "You may trash 2 cards from your hand.",
       "If you do, +2 Cards, +2 Coin, and each other player discards down to 3 cards in hand.",
-      "(This is not in the Supply.)"
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Action",
-      "Attack"
+      "action",
+      "attack"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -341,13 +341,13 @@
     "text": [
       "+3 Coin",
       "When you play this, return it to the Spoils pile.",
-      "(This is not in the Supply.)"
+      "(This is not in the supply.)"
     ],
     "cost": {
       "coin": "0plus"
     },
     "types": [
-      "Treasure"
+      "treasure"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -362,9 +362,9 @@
       "coin": "0"
     },
     "types": [
-      "Action",
-      "Ruins",
-      "Supply"
+      "action",
+      "ruins",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -379,9 +379,9 @@
       "coin": "0"
     },
     "types": [
-      "Action",
-      "Ruins",
-      "Supply"
+      "action",
+      "ruins",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -396,9 +396,9 @@
       "coin": "0"
     },
     "types": [
-      "Action",
-      "Ruins",
-      "Supply"
+      "action",
+      "ruins",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -407,15 +407,15 @@
     "name": "Ruined Village",
     "image": "http://wiki.dominionstrategy.com/images/thumb/a/ae/Ruined_Village.jpg/200px-Ruined_Village.jpg",
     "text": [
-      "+1 Action"
+      "+1 action"
     ],
     "cost": {
       "coin": "0"
     },
     "types": [
-      "Action",
-      "Ruins",
-      "Supply"
+      "action",
+      "ruins",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"
@@ -430,9 +430,9 @@
       "coin": "0"
     },
     "types": [
-      "Action",
-      "Ruins",
-      "Supply"
+      "action",
+      "ruins",
+      "supply"
     ],
     "show": true,
     "set": "Dark Ages"

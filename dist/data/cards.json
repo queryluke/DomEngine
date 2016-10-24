@@ -3918,7 +3918,7 @@
     },
     "types": [
       "action",
-      "Looter"
+      "looter"
     ],
     "requires": [
       "Abandoned Mine",
@@ -4024,7 +4024,7 @@
     "types": [
       "action",
       "attack",
-      "Looter"
+      "looter"
     ],
     "requires": [
       "Abandoned Mine",
@@ -4269,7 +4269,7 @@
     "types": [
       "action",
       "attack",
-      "Looter"
+      "looter"
     ],
     "requires": [
       "Abandoned Mine",

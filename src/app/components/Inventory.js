@@ -9,13 +9,14 @@ class InventoryController {
       costG: 8,
       expansions: this.expansions,
       adds: {
-        buy: false,
         action: false,
+        buy: false,
         coin: false,
         draw: false
       }
     };
     this.results = [];
+    console.log(this.searchParams.types);
   }
 
   $onInit() {

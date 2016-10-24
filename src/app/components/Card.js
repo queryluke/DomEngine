@@ -9,7 +9,7 @@ class CardController {
   }
 
   getCardTypes() {
-    const cardTypes = this.card.types.filter(type => type !== 'Supply');
+    const cardTypes = this.card.types.filter(type => type !== 'supply');
     return cardTypes.join(' - ');
   }
 
