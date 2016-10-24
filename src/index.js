@@ -16,6 +16,7 @@ import {Inventory} from './app/components/Inventory';
 import {Nav} from './app/components/Nav';
 import {Playmat} from './app/components/Playmat';
 import {SearchForm} from './app/components/SearchForm';
+import {Share} from './app/components/Share';
 import {Welcome} from './app/components/Welcome';
 
 // Directives
@@ -26,6 +27,8 @@ import 'angular-ui-router';
 import 'angular-animate';
 import 'ngstorage';
 import 'angularjs-slider';
+import 'angular-socialshare';
+import 'angular-clipboard';
 import routesConfig from './routes';
 import runConfig from './run';
 
@@ -33,7 +36,7 @@ import runConfig from './run';
 import './scss/index.scss';
 
 angular
-  .module('app', ['ui.router', 'ngAnimate', 'ngStorage', 'rzModule'])
+  .module('app', ['ui.router', 'ngAnimate', 'ngStorage', 'rzModule', '720kb.socialshare', 'angular-clipboard'])
   .config(routesConfig)
   .service('DomEngineService', DomEngineService)
   .component('about', About)
@@ -46,6 +49,7 @@ angular
   .component('inventory', Inventory)
   .component('playmat', Playmat)
   .component('searchForm', SearchForm)
+  .component('share', Share)
   .component('welcome', Welcome)
   .directive('checkLoaded', CheckLoaded)
   .run(runConfig);

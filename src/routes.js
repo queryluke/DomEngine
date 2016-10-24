@@ -20,7 +20,8 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('playset', {
       url: '/playset?p',
-      template: '<playmat playset="$ctrl.$storage.playset" on-build="$ctrl.onBuild()" errors="$ctrl.errors" warning="$ctrl.warning"></playmat>'
+      template: '<playmat playset="$ctrl.$storage.playset" on-build="$ctrl.onBuild()" errors="$ctrl.errors" ' +
+                          'warning="$ctrl.warning" toggle-share="$ctrl.toggleShare()" share-open="$ctrl.shareOpen"></playmat>'
     })
     .state('about', {
       url: '/about',

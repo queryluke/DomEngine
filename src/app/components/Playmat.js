@@ -32,6 +32,8 @@ export const Playmat = {
     playset: '<',
     onBuild: '&',
     errors: '<',
-    warning: '<'
+    warning: '<',
+    toggleShare: '&',
+    shareOpen: '<'
   }
 };

@@ -20,6 +20,7 @@ class Playset {
       supply: {},
       other: {}
     };
+    this.id = '';
   }
 
   importPlayset(cardString, cardInventory) {
@@ -68,7 +69,7 @@ class Playset {
         this.types[type] += 1;
       }
     }
-    // Inc Adds
+    // Increment Adds
     for (const add in this.adds) {
       if ({}.hasOwnProperty.call(this.adds, add)) {
         this.adds[add] += parseInt(card.adds[add], 10);
@@ -89,7 +90,7 @@ class Playset {
         this.types[type] -= 1;
       }
     }
-    // Inc Adds
+    // Decrement Adds
     for (const add in this.adds) {
       if ({}.hasOwnProperty.call(this.adds, add)) {
         this.adds[add] -= parseInt(card.adds[add], 10);
@@ -157,6 +158,7 @@ class Playset {
     for (const card of this.cards) {
       playsetId = playsetId.concat(card.id);
     }
+    this.id = playsetId;
     return playsetId;
   }
 }

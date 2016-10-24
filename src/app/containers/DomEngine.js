@@ -18,6 +18,7 @@ class DomEngineController {
     this.expansions = [];
     this.cardTypes = {};
     this.inventory = [];
+    this.shareOpen = false;
 
     this._ds.bootstrapDomEngine().then(response => {
       this.baseConfig.expansions = response[0];
@@ -110,19 +111,13 @@ class DomEngineController {
 
     // minimum attribute cards
     this.getMinimumNeededCards(useCards, config);
+    this.$log.debug(`--------> MINIMUM REQUIRED CARDS COMPLETE, PLAYSET HAS ${this.playset.cards.length} CARDS`);
     if (this.errors.length > 0) {
       return;
     }
 
     // all other cards
-    let attempts = 0;
-    while (this.playset.cards.length < 10) {
-      attempts += 1;
-      this.addPlaysetCard(useCards, config);
-      if (attempts > 11 && this.playset.cards.length < 10) {
-        this.addPlaysetCard(useCards, config, true);
-      }
-    }
+    this.getRemainingCards(useCards, config);
     if (this.errors.length > 0) {
       return;
     }
@@ -131,32 +126,53 @@ class DomEngineController {
     this.$log.debug(this.playset);
   }
 
-  addPlaysetCard(useCards, config, infBound = false) {
-    const bound = infBound ? 100 : config.cost;
-    const cardSet = Object.assign([], useCards);
-    let i = 0;
+  getRemainingCards(useCards, config) {
+    let attempts = 1;
+    while (attempts < 6) {
+      this.$log.debug(`ATTEMPT #${attempts} FOR REMAINING CARDS`);
+      // reset the added array
+      const addedSet = [];
+      // reset the match card subset
+      const cardSet = Object.assign([], useCards);
 
-    while (i < 1) {
-      // console.log(`length of card set: ${cardSet.length}`);
-      if (cardSet.length === 0) {
-        this.errors.push('Cannot meet the option requirements');
-        break;
-      } else {
-        const num = this.randomNumber(cardSet.length);
-        // console.log(`random number: ${num}`);
-        const card = cardSet.splice(num, 1)[0];
-        // console.log(`trying ${card.name}`);
-
-        if (this.checkValidCard(card, config, bound)) {
-          // console.log(`adding ${card.name}`);
-          this.playset.addCard(card);
-          // Remove card from use cards
-          useCards.splice(num, 1);
-          i++;
+      while (this.playset.cards.length < 10) {
+        // If we've run out of cards to try
+        if (cardSet.length === 0) {
+          this.$log.debug(`ATTEMPT #${attempts} FAILED`);
+          // remove the cards that have been added to start again
+          for (const card of addedSet) {
+            this.playset.removeCard(card);
+          }
+          break;
         } else {
-          // console.log(`not adding ${card.name}`);
+          const num = this.randomNumber(cardSet.length);
+          const card = cardSet.splice(num, 1)[0];
+          this.$log.debug(`trying ${card.name}`);
+
+          if (this.checkValidCard(card, config)) {
+            addedSet.push(card);
+            this.playset.addCard(card);
+            this.$log.debug(`PLAYSET LENGTH IS NOW ${this.playset.cards.length}. NEED ${10 - this.playset.cards.length} MORE CARDS`);
+          }
         }
       }
+
+      if (this.playset.cards.length < 10) {
+        attempts++;
+        // If this is the final attempt, make the cost infinite
+        // this could be expanded to check where the build is failing and remedy
+        if (attempts === 5) {
+          config.cost = 100;
+          this.warning.push(`Increased Max Cost`);
+        }
+      } else {
+        attempts = 10;
+      }
+    }
+
+    // If the build hits this point and the playset is not full, the entire build has failed
+    if (this.playset.cards.length < 10) {
+      this.errors.push('could not complete the playset with these options');
     }
   }
 
@@ -164,24 +180,21 @@ class DomEngineController {
     for (const req in config.adds) {
       if (config.adds[req].min !== 0 && config.adds[req].max !== 0) {
         let attempts = 1;
-        const playsetAttrCounter = this.playset.adds[req];
+        this.$log.debug(`${req.toUpperCase()} - Minimum:${config.adds[req].min} | Current:${this.playset.adds[req]}`);
 
-        this.$log.debug(`${req.toUpperCase()} - Minimum:${config.adds[req].min} | Current:${this.playset[req]}`);
         while (attempts < 6) {
-          this.$log.debug(`attempt #${attempts} for ${req}`);
-
+          this.$log.debug(`ATTEMPT #${attempts} FOR ${req.toUpperCase()}`);
           // reset the added array
           const addedSet = [];
-          // reset the playset counter
-          this.playset.adds[req] = playsetAttrCounter;
           // reset the match card subset
           const subset = cards.filter(card => card.adds[req] > 0);
 
           while (this.playset.adds[req] < config.adds[req].min) {
-            this.$log.debug(`length of the ${req} subset: ${subset.length}`);
+            this.$log.debug(`LENGTH OF THE ${req.toUpperCase()} SUBSET: ${subset.length}`);
 
+            // If we've run out of cards to try to add OR the playset has more than 10 cards, reset and try again
             if (subset.length === 0 || this.playset.length > 10) {
-              this.$log.debug(`cannot find set for ${req} on attempt ${attempts}`);
+              this.$log.debug(`CANNOT FIND SET FOR ${req.toUpperCase()} ON ATTEMPT ${attempts}`);
               // remove the cards that have been added to start again
               for (const card of addedSet) {
                 this.playset.removeCard(card);
@@ -189,18 +202,16 @@ class DomEngineController {
               break;
             } else {
               const random = this.randomNumber(subset.length);
-              this.$log.debug(`random number: ${random}`);
 
               const neededCard = subset.splice(random, 1)[0];
               this.$log.debug(`trying ${neededCard.name}`);
 
-              if (this.checkValidCard(neededCard, config, config.cost)) {
+              if (this.checkValidCard(neededCard, config)) {
                 addedSet.push(neededCard);
                 this.playset.addCard(neededCard);
               }
 
-              this.$log.debug(`total playset ${req} is ${this.playset[req]}, need ${config.adds[req].min - this.playset[req]} more ${req}s`);
-              this.$log.debug(`not adding ${neededCard.name}`);
+              this.$log.debug(`TOTAL ${req.toUpperCase()} IS NOW ${this.playset.adds[req]}. NEED ${config.adds[req].min - this.playset.adds[req]} MORE ${req.toUpperCase()}s`);
             }
           }
 
@@ -212,10 +223,10 @@ class DomEngineController {
         }
 
         if (attempts === 10) {
-          this.$log.debug(`FINISHED - ${req.toUpperCase()} Total ${req} is ${this.playset[req]}, required was ${config.adds[req].min}`);
+          this.$log.debug(`!!!! FINISHED - ${req.toUpperCase()}: Total ${req} is ${this.playset.adds[req]}, required was ${config.adds[req].min} !!!!`);
           // this.playset.cards = this.playset.cards.concat(requiredSet);
         } else {
-          this.$log.debug(`Too many attempts to match the ${req} requirement`);
+          this.$log.debug(`!!!! TOO MANY ATTEMPTS FOR ${req.toUpperCase()} requirement`);
           this.errors.push(`Too many attempts to match the ${req} requirement`);
           return;
         }
@@ -229,10 +240,10 @@ class DomEngineController {
       }
     }
 
-    this.$log.debug(`FINISHED - ATTRMIN - Current playset cards is ${this.playset.cards.length}`);
+    this.$log.debug(`!!!! FINISHED - ATTRMIN - Current playset cards is ${this.playset.cards.length} !!!!`);
   }
 
-  checkValidCard(card, config, bound) {
+  checkValidCard(card, config) {
     // Adds
     const max = {};
     max.buy = config.adds.buy.max === 0 ? 100 : config.adds.buy.max;
@@ -240,48 +251,42 @@ class DomEngineController {
     max.action = config.adds.action.max === 0 ? 100 : config.adds.action.max;
     max.coin = config.adds.coin.max === 0 ? 100 : config.adds.coin.max;
 
-    let debug = '';
-
     // In Set
     if (this.playset.cards.indexOf(card) === -1) {
-      debug = `${card.name} NOT in the playset`;
+      this.$log.debug(`${card.name} NOT in the playset`);
     } else {
-      debug = `${card.name} IN the playset`;
+      this.$log.debug(`${card.name} IN the playset`);
       return false;
     }
-    this.$log.debug(debug);
 
     // Cost
     const cost = card.cost.coin ? parseInt(card.cost.coin.replace(/[\D]/gi, ''), 10) : 1;
-    if (this.playset.cost + cost <= bound) {
-      debug = `Add ${card.name}: cost -> ${cost} + ${this.playset.cost} < ${bound}`;
+    if (this.playset.cost + cost <= config.cost) {
+      this.$log.debug(`Add ${card.name}: cost -> ${cost} + ${this.playset.cost} < ${config.cost}`);
     } else {
-      debug = `Skip ${card.name}: cost -> ${cost}, + ${this.playset.cost} > ${bound}`;
+      this.$log.debug(`Skip ${card.name}: cost -> ${cost}, + ${this.playset.cost} > ${config.cost}`);
       return false;
     }
-    this.$log.debug(debug);
 
     // Curse
     const curse = card.requires.includes('Curse') ? 1 : 0;
     if (this.playset.curse + curse <= config.limits.curse) {
-      debug = `Add ${card.name}: curse -> ${curse} + ${this.playset.curse} < ${config.limits.curse}`;
+      this.$log.debug(`Add ${card.name}: curse -> ${curse} + ${this.playset.curse} < ${config.limits.curse}`);
     } else {
-      debug = `Skip ${card.name}: curse -> ${curse}, + ${this.playset.curse} > ${config.limits.curse}`;
+      this.$log.debug(`Skip ${card.name}: curse -> ${curse}, + ${this.playset.curse} > ${config.limits.curse}`);
       return false;
     }
-    this.$log.debug(debug);
 
     // Types
     for (const type in this.playset.types) {
       if ({}.hasOwnProperty.call(this.playset.types, type)) {
         const typeTest = card.types.includes(type) ? 1 : 0;
         if (this.playset.types[type] + typeTest <= config.limits[type]) {
-          debug = `Add ${card.name}: ${type} -> ${typeTest} + ${this.playset.types[type]} < ${config.limits[type]}`;
+          this.$log.debug(`Add ${card.name}: ${type} -> ${typeTest} + ${this.playset.types[type]} < ${config.limits[type]}`);
         } else {
-          debug = `Skip ${card.name}: ${type} -> ${typeTest}, + ${this.playset.types[type]} > ${config.limits[type]}`;
+          this.$log.debug(`Skip ${card.name}: ${type} -> ${typeTest}, + ${this.playset.types[type]} > ${config.limits[type]}`);
           return false;
         }
-        this.$log.debug(debug);
       }
     }
 
@@ -290,12 +295,11 @@ class DomEngineController {
       if ({}.hasOwnProperty.call(this.playset.adds, add)) {
         const addTest = card.adds[add];
         if (this.playset.adds[add] + addTest <= max[add]) {
-          debug = `Add ${card.name}: ${add} -> ${addTest} + ${this.playset.adds[add]} < ${max[add]}`;
+          this.$log.debug(`Add ${card.name}: ${add} -> ${addTest} + ${this.playset.adds[add]} < ${max[add]}`);
         } else {
-          debug = `Skip ${card.name}: ${add} -> ${addTest} + ${this.playset.adds[add]} > ${max[add]}`;
+          this.$log.debug(`Skip ${card.name}: ${add} -> ${addTest} + ${this.playset.adds[add]} > ${max[add]}`);
           return false;
         }
-        this.$log.debug(debug);
       }
     }
 
@@ -313,6 +317,10 @@ class DomEngineController {
       newConfig.expansions = response;
       this.$storage.config = newConfig;
     });
+  }
+
+  toggleShare() {
+    this.shareOpen = !this.shareOpen;
   }
 }
 
