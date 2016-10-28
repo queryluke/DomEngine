@@ -1,11 +1,12 @@
 class ShareController {
   /** @ngInject */
-  constructor($state) {
+  constructor($state, $localStorage) {
     this.$state = $state;
+    this.$storage = $localStorage;
   }
 
   getShareUrl() {
-    return this.$state.href('playset', {}, {absolute: true});
+    return `${this.$state.href('welcome', {}, {absolute: true})}?p=${this.$storage.playset.id}`;
   }
 }
 

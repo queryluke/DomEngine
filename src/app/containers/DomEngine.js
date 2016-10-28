@@ -30,8 +30,10 @@ class DomEngineController {
       this.cardTypes = this.getTypes(this.inventory);
 
       if (this.$state.params.p) {
+        console.log('params');
         const playset = new Playset();
         this.$storage.playset = playset.importPlayset(this.$state.params.p, this.inventory);
+        this.$state.transitionTo('playset');
       }
     });
 
@@ -100,7 +102,8 @@ class DomEngineController {
     } else {
       this.playset.setRequiredCards(this.supplyCards);
       this.playset.sortCards();
-      this.$state.transitionTo('playset', {p: this.playset.getPlaysetId()});
+      this.playset.getPlaysetId();
+      this.$state.transitionTo('playset');
       this.$storage.playset = this.playset;
     }
   }
