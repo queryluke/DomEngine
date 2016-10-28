@@ -27,6 +27,7 @@ class Playset {
     this.parseCardString(cardString, cardInventory);
     this.setRequiredCards(cardInventory);
     this.setPlaysetValues();
+    this.getPlaysetId();
     return this;
   }
 
