@@ -1,7 +1,2 @@
-.tmp/
-coverage/
-node_modules/
-jspm_packages/
-bower_components/
 .idea/
-npm-debug.log
+_site/
